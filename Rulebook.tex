@@ -37,6 +37,16 @@
   \addcontentsline{toc}{subsection}{#1}
 }
 
+\usepackage[explicit]{titlesec}
+\usepackage{ulem}
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection.}{2ex}{#1}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection.}{1.5ex}{#1}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsection.}{1ex}{#1}
+\titleformat{\paragraph}[block]{\normalfont\normalsize}{}{0pt}{\uline{\theparagraph\hspace*{1ex}#1}} %
+
+%custom spacing
+%\titlespacing*{\paragraph}{5em}{0pt}{0pt}
+
 % Indent subsubsections
 \newenvironment{indentpar}[1]%
   {\begin{list}{}%
