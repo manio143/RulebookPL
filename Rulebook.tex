@@ -65,10 +65,12 @@
 % }
 
 % Custom subparagraphs
-\newcommand\redcard{\bgroup\color{red}\markoverwith{\textcolor{red}{\rule[-0.5ex]{2pt}{0.4pt}}}\ULon}
-\newcommand\yellowcard{\bgroup\color{yellow}\markoverwith{\textcolor{yellow}{\rule[-0.5ex]{2pt}{0.4pt}}}\ULon}
-\newcommand\bluecard{\bgroup\color{blue}\markoverwith{\textcolor{blue}{\rule[-0.5ex]{2pt}{0.4pt}}}\ULon}
-\newcommand\other{\bgroup\color{green}\markoverwith{\textcolor{green}{\rule[-0.5ex]{2pt}{0.4pt}}}\ULon}
+\definecolor{darkyellow}{RGB}{244,213,9}
+\definecolor{darkgreen}{RGB}{96,221,42}
+\newcommand\redcard[1]{\bgroup\textcolor{red}{\textbf{#1}}}
+\newcommand\yellowcard[1]{\bgroup\textcolor{darkyellow}{\textbf{#1}}}
+\newcommand\bluecard[1]{\bgroup\textcolor{blue}{\textbf{#1}}}
+\newcommand\other[1]{\bgroup\textcolor{darkgreen}{\textbf{#1}}}
 
 
 \setlength{\parindent}{0pt} % brak wcięć
@@ -283,17 +285,17 @@ krótszych bokach, co w sumie tworzy kształt wydłużonego owalu. Chociaż
 granice te wyznaczają pożądany kształt boiska, zawodnicy nie są
 ograniczeni do przebywania wyłącznie na tym obszarze.
 \begin{enumerate}
-	\item{Linie boczne i linie pola bramkowego} - Prostokąt wyznacza
+	\item{Linie boczne i linie pola bramkowego} -- Prostokąt wyznacza
 	      główną część boiska. Jego boczne krawędzie stanowią linie boczne, a
 	      górna i dolna krawędź -- linie pola bramkowego boiska.
 
-	\item{Linie i punkty końcowe} - Linie końcowe boiska to
+	\item{Linie i punkty końcowe} -- Linie końcowe boiska to
 	      półokręgi biegnące od jednego do drugiego końca linii pola bramkowego.
 	      Punkt końcowy to punkt środkowy linii końcowej (punkt się na półokręgu
 	      wyznaczającym linię końcową znajdujący się najdalej względem pola
 	      bramkowego). Na boisku są dwie linie końcowe oraz dwa punkty końcowe.
 
-	\item{Linia środkowa i środek boiska} - Boisko podzielone
+	\item{Linia środkowa i środek boiska} -- Boisko podzielone
 	      jest w poprzek na dwie części linią środkową, dwa punkty środkowe linii
 	      bocznych. Środek boiska zaznaczony jest w połowie linii środkowej.
 \end{enumerate}
@@ -713,7 +715,7 @@ zawodników złamie się miotła, sędzia musi natychmiast zatrzymać grę i
 miotła musi zostać zastąpiona inną przed rozpoczęciem gry przez
 zawodników.
 
-\redcard{Czerwona kartka} - Zawodnik, który świadomie rozpoczyna grę ze
+\redcard{Czerwona kartka} -- Zawodnik, który świadomie rozpoczyna grę ze
 złamaną miotłą musi otrzymać czerwoną kartkę.
 
 \subsubsection{Zapewnienie mioteł}
@@ -808,13 +810,13 @@ musi posiadać:
 	      Ochraniacz na zęby
 \end{enumerate}
 
-\other{Kara} - Nieprawidłowa opaska: Jeżeli, z dowolnego powodu, sędzia
+\other{Kara} -- Nieprawidłowa opaska: Jeżeli, z dowolnego powodu, sędzia
 uważa, że opaska zawodnika jest nieprawidłowa, sędzia powinien
 wypowiedzieć słowa ``nieprawidłowa opaska''. Gra nie zostaje zatrzymana.
 zawodnik musi opuścić boisko i poprawić opaskę lub zostać zastąpiony
 zawodnikiem z prawidłową opaską.
 
-\yellowcard{Żółta kartka} - zawodnik, który ignoruje słowa ``nieprawidłowa
+\yellowcard{Żółta kartka} -- zawodnik, który ignoruje słowa ``nieprawidłowa
 opaska'' skierowane w jego stronę lub wykonuje element gry po otrzymaniu
 tego komunikatu musi otrzymać żółtą kartkę.
 
@@ -885,7 +887,7 @@ używaniu niedozwolonego wyposażenia po rozpoczęciu meczu otrzymuje żółtą
 kartkę. Nie dotyczy to wyposażenia, które został zepsute lub w
 jakikolwiek sposób zmodyfikowane podczas trwania gry.
 
-\redcard{Czerwona kartka} - Zawodnik, który zostanie przyłapany na używaniu
+\redcard{Czerwona kartka} -- Zawodnik, który zostanie przyłapany na używaniu
 niedozwolonego wyposażenia, które zostało zabroniony przez sędziego lub
 organizatora turnieju przed rozpoczęciem meczu, podczas uzgadniania
 zasad specyficznych dla danego turnieju czy w dowolnym momencie podczas
@@ -1099,11 +1101,11 @@ By rozpocząć grę:
 	      \end{enumerate}
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - zawodnik, który zmienia pozycję na linii
+\bluecard{Niebieska kartka} -- zawodnik, który zmienia pozycję na linii
 startowej przed komendą ``Miotły w dół!'' musi otrzymać niebieską
 kartkę.
 
-\bluecard{Niebieska kartka} - Jeżeli zawodnik przekroczy linię startową lub
+\bluecard{Niebieska kartka} -- Jeżeli zawodnik przekroczy linię startową lub
 podniesie miotłę, ale ma możliwość powrócenia na pozycję startową przed
 komendą ``Miotły w górę!'', gra może zostać kontynuowana i sytuacja
 traktowana jest jako nieszkodliwy faul. Jeżeli zawodnikowi nie uda się
@@ -1229,7 +1231,7 @@ Aby przerwać grę:
 	      \end{enumerate}
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - zawodnik, który świadomie kontynuuje ruch lub
+\yellowcard{Żółta kartka} -- zawodnik, który świadomie kontynuuje ruch lub
 odmawia zastosowania się do polecenia powrotu na pozycję wydanego przez
 sędziego w trakcie zatrzymania gry musi otrzymać żółtą kartkę.
 
@@ -1727,7 +1729,7 @@ gestii sędziego, z zastosowaniem poniższych wskazówek:
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Ostrzeżenie} - Jeśli którykolwiek z sędziów uzna, że drużyna
+\other{Ostrzeżenie} -- Jeśli którykolwiek z sędziów uzna, że drużyna
 opóźnia grę, sędzia główny powinien ukarać ją ostrzeżeniem. Drużyna musi
 niezwłocznie zastosować się do ostrzeżenia; w przeciwnym wypadku stosuje
 się kolejne kary.
@@ -1756,7 +1758,7 @@ gola przez pętle przeciwnika, według uznania sędziego.
 	      świadomie uwolnił piłkę aby podjąć próbę wycofania.
 \end{enumerate}
 
-\other{Strata} - Jeżeli zawodnik niepoprawnie wycofuje kafel, gra powinna
+\other{Strata} -- Jeżeli zawodnik niepoprawnie wycofuje kafel, gra powinna
 zostać zatrzymana i kafel przekazany najbliższemu zawodnikowi drużyny
 przeciwnej uprawnionemu do tego w momencie, w którym faulujący zawodnik
 wycofał kafel. Sędzia może zadecydować by gra kontynuowana jeżeli uważa,
@@ -1798,7 +1800,7 @@ zawodników lub trenerów.
 	      jest w posiadaniu kafla we własnym polu bramkowym i ma immunitet.
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Wszelkie nieodpowiednie próby proszenia o przerwę
+\yellowcard{Żółta kartka} -- Wszelkie nieodpowiednie próby proszenia o przerwę
 (w przypadku wykorzystania przysługującej przerwy, po zakończeniu okna
 szukającego, nie w polu bramkowym) skutkują żółtą kartką dla
 wyznaczonego trenera drużyny. Jeżeli trener nie jest grającym
@@ -1876,7 +1878,7 @@ się na boisku musi odbyć karę na ławce kar.
 	      \end{enumerate}
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Każda próba dokonania zmiany w trakcie przerwy
+\yellowcard{Żółta kartka} -- Każda próba dokonania zmiany w trakcie przerwy
 skutkuje żółtą kartką dla zawodnika, który wszedł do gry.
 
 \subsubsection{Wadliwe piłki w czasie trwania gry}
@@ -1990,7 +1992,7 @@ znicz nie może zostać złapany.
 	      mogli ścigać ludzkiego znicza (patrz 7.5 Szukający).
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Jeżeli szukający wejdzie na obszar gry przed
+\bluecard{Niebieska kartka} -- Jeżeli szukający wejdzie na obszar gry przed
 18. minutą gry, musi on otrzymać niebieską kartkę. Czas kary rozpoczyna
 się po uwolnieniu szukających w 18. minucie gry.
 
@@ -2472,13 +2474,13 @@ niezdatna do użycia w rozgrywce.
 	      Zawodnikowi nie wolno celowo uszkodzić pętli.
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Zawodnik, który wielokrotnie, ale niecelowo,
+\bluecard{Niebieska kartka} -- Zawodnik, który wielokrotnie, ale niecelowo,
 uszkodził pętle otrzymuje niebieska kartkę.
 
-\yellowcard{Żółta kartka} - Zawodnik, który lekkomyślnie uszkodził pętlę,
+\yellowcard{Żółta kartka} -- Zawodnik, który lekkomyślnie uszkodził pętlę,
 otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który umyślnie uszkodził
+\redcard{Czerwona kartka} -- Zawodnik, który umyślnie uszkodził
 pętlę, otrzymuje czerwoną kartkę.
 
 \subsection{Wybijanie}
@@ -2538,7 +2540,7 @@ następujące zasady:
 	      tej drużyny.
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Kara za umyślne nieprzepisowe użycie martwego
+\bluecard{Niebieska kartka} -- Kara za umyślne nieprzepisowe użycie martwego
 kafla to niebieska kartka.
 
 \subsubsection{Wznowienie gry przez obrońcę}
@@ -2704,10 +2706,10 @@ to żadne z jego zagrań w tym czasie nie mają mocy.
 \other{Powrót do pętli} -- zawodnik, który zejdzie z miotły podczas gry
 musi powrócić do swoich pętli.
 
-\bluecard{Niebieska kartka} - zawodnik, który kontynuuje grę po zejściu z
+\bluecard{Niebieska kartka} -- zawodnik, który kontynuuje grę po zejściu z
 miotły otrzymuje niebieską kartkę.
 
-\yellowcard{Żółta kartka} - zawodnik, który kontynuuje lub inicjuje kontakt po
+\yellowcard{Żółta kartka} -- zawodnik, który kontynuuje lub inicjuje kontakt po
 zejściu z miotły otrzymuje żółtą kartkę.
 
 \subsection{Zbicie}
@@ -2825,7 +2827,7 @@ Aby zbicie zostało dokonane, dany tłuczek musi być żywy.
 	      tłuczkiem.
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Pałkarz, który celowo dotyka zawodnika
+\bluecard{Niebieska kartka} -- Pałkarz, który celowo dotyka zawodnika
 przeciwników trzymanym przez siebie tłuczkiem tak, aby przeciwnik
 myślał, że został zbity otrzymuje niebieską kartkę.
 
@@ -2867,7 +2869,7 @@ wprawionym w ruch przez przeciwnika.
 	      martwy, pałkarz musi natychmiast rozpocząć procedurę zbicia.
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Pałkarz, który umyślnie zmienia, lub próbuje
+\bluecard{Niebieska kartka} -- Pałkarz, który umyślnie zmienia, lub próbuje
 celowo zmienić, tor lotu tłuczka po początkowym uderzeniu otrzymuje
 niebieską kartkę
 
@@ -2933,7 +2935,7 @@ uderza zawodnika uważa się za celowe odbicie tłuczka.
 	      Szukający nie mogą celowo odbijać tłuczków w żadnym momencie gry
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Ścigający, szukający lub obrońca który celowo
+\bluecard{Niebieska kartka} -- Ścigający, szukający lub obrońca który celowo
 odbija tłuczek w dowolnym momencie gry otrzymuje niebieską kartkę.
 
 \subsubsection{Bratobójczy ogień}
@@ -3018,11 +3020,11 @@ poprzez podjęcie poniższych działań:
 	      ukarani.
 \end{enumerate}
 
-\other{Powrót do pętli} - Jeżeli obaj pałkarze jednej drużyny podniosą
+\other{Powrót do pętli} -- Jeżeli obaj pałkarze jednej drużyny podniosą
 pięści aby uzyskać immunitet i jedendna z nich nie opuści swojej pięści,
 sędzia może wysłać jednego z ich z powrotem do pętli.
 
-\bluecard{Niebieska kartka} - Zawodnik, który zgłasza lub kontynuuje
+\bluecard{Niebieska kartka} -- Zawodnik, który zgłasza lub kontynuuje
 zgłaszanie immunitetu gdy nie ma do tego prawa otrzymuje niebieską
 kartkę, chyba że niezwłocznie przestanie to robić i nie będzie to miało
 wpływu na grę.
@@ -3049,7 +3051,7 @@ tłuczkami tylko o to, aby wymusić immunitet. Przykładami tego są:
 	      zmienił.
 \end{enumerate}
 
-\other{Powrót do pętli} - zawodnik, który, według uznania sędziego,
+\other{Powrót do pętli} -- zawodnik, który, według uznania sędziego,
 podejmuje próbę wymuszenia immunitetu zostaje wysłany z powrotem do
 pętli.
 
@@ -3095,11 +3097,11 @@ zbity, musi postąpić według poniższej procedury aby powrócić do gry:
 na nią przed dotknięciem pętli podczas procedury zbicia, musi powtórzyć
 procedurę poprawnie.
 
-\bluecard{Niebieska kartka} - Zbity zawodnik która wchodzi w interakcję z
+\bluecard{Niebieska kartka} -- Zbity zawodnik która wchodzi w interakcję z
 grą inną niż kontakt fizyczny (patrz 5.3.2.D.i) zanim zakończy procedurę
 zbicia otrzymuje niebieską kartkę.
 
-\yellowcard{Żółta kartka} - zawodnik, który celowo lub wielokrotnie ignoruje
+\yellowcard{Żółta kartka} -- zawodnik, który celowo lub wielokrotnie ignoruje
 dowolną część procedury zbicia otrzymuje żółtą kartkę.
 
 \subsubsection{Zbici zawodnicy}
@@ -3154,13 +3156,13 @@ zawodnik:
 	      Musi odpowiednio dostosować się do decyzji sędziego o zbiciu.
 \end{enumerate}
 
-\other{Strata} - Podawanie lub rzucanie po zbiciu, poza przypadkami
+\other{Strata} -- Podawanie lub rzucanie po zbiciu, poza przypadkami
 naturalnego ruchu, skutkuje startą na rzecz drużyny przeciwnej i
 przywróceniem gry do momentu zbicia. Sędzia może pozwolić na
 kontynuowanie gry jeżeli uważa, że drużyna przeciwna nie znalazła się w
 niekorzystnej sytuacji w konsekwencji nienależytego ruchu piłką.
 
-\yellowcard{Żółta kartka} - zawodnik który inicjuje fizyczny kontakt inny niż
+\yellowcard{Żółta kartka} -- zawodnik który inicjuje fizyczny kontakt inny niż
 przypadkowy kontakt, lub kontakt w ostatniej fazie pojedynczego
 naturalnego ruchu, z zawodnikiem drużyny przeciwnej po tym jak został
 uderzona żywym tłuczkiem otrzymuje żółtą kartkę.
@@ -3184,12 +3186,12 @@ Jeżeli zawodnik nieumyślnie kontynuuje grę po tym, jak został uderzony
 	      \end{enumerate}
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - zawodnik, który nieumyślne kontynuuje grę po
+\bluecard{Niebieska kartka} -- zawodnik, który nieumyślne kontynuuje grę po
 tym jak został zbity i ma to wpływ na grę (wyłączając rzucenie piłki
 (patrz 5.3.4. Naturalny ruch) lub fizycznego kontaktu (patrz 5.3.2.
 Zbici zawodnicy)) otrzymuje niebieską kartkę.
 
-\yellowcard{Żółta kartka} - zawodnik, który umyślnie ignoruje zostanie zbitym
+\yellowcard{Żółta kartka} -- zawodnik, który umyślnie ignoruje zostanie zbitym
 otrzymuje żółtą kartkę.
 
 \subsubsection{Naturalny ruch}
@@ -3239,13 +3241,13 @@ jednolity, naturalny ruch, jeżeli ten ruch nie może zostać zatrzymany.
 	      kaflem, którym nie można zdobywać punktów.
 \end{enumerate}
 
-\other{Strata} - Jeżeli zawodnik nieumyślnie rozpoczyna nowy ruch po
+\other{Strata} -- Jeżeli zawodnik nieumyślnie rozpoczyna nowy ruch po
 zbiciu, piłka którą poruszył zostaje przekazana najbliższemu
 uprawnionemu do tego zawodnikowi w momencie zbicia. Sędzia może pozwolić
 na kontynuowanie gry jeżeli uważa, że drużyna przeciwna nie znalazła się
 w niekorzystnej sytuacji w konsekwencji nienależytego ruchu piłką.
 
-\yellowcard{Żółta kartka} - zawodnik, który świadomie rozpoczyna nowy ruch ze
+\yellowcard{Żółta kartka} -- zawodnik, który świadomie rozpoczyna nowy ruch ze
 świadomością, że został zbity (na przykład po tym, jak został o tym
 poinformowany przez sędziego) otrzymuje żółtą kartkę.
 
@@ -3296,14 +3298,14 @@ zawodach.
 	      uniknąć kary.
 \end{enumerate}
 
-\other{Kara} - Każdego zawodnika, który łamie przepis lub zasadę, dotyczy
+\other{Kara} -- Każdego zawodnika, który łamie przepis lub zasadę, dotyczy
 odpowiednia kara opisana w Zasadach.
 
 \paragraph{Autorytet sędziów}
 Zawodnik musi wykonywać polecenia
 sędziów przydzielonych do danego meczu.
 
-\yellowcard{Żółta kartka} - zawodnik odmawiający wykonania polecenia sędziego
+\yellowcard{Żółta kartka} -- zawodnik odmawiający wykonania polecenia sędziego
 otrzymuje żółtą kartkę.
 
 \subsubsection{Niesportowe zachowanie}
@@ -3316,11 +3318,11 @@ wydarzenia.
 	niegrzeczny lub wrogi sposób względem przeciwników, widzów, sędziów i
 	personelu.}
 
-\yellowcard{Żółta kartka} - zawodnik która kpi lub zachowuje się w niegrzeczny
+\yellowcard{Żółta kartka} -- zawodnik która kpi lub zachowuje się w niegrzeczny
 lub wrogi sposób względem przeciwników, widzów, sędziów i personelu
 otrzymuje żółtą kartkę
 
-\redcard{Czerwona kartka} - zawodnik, który wprost kpi lub grozi kpiną
+\redcard{Czerwona kartka} -- zawodnik, który wprost kpi lub grozi kpiną
 wobec przeciwnika lub zachowuje się szczególnie niekulturalny lub wrogi
 sposób wobec zawodników, widzów, sędziów lub personelu otrzymuje
 czerwoną kartkę i może grozić mu dodatkowa kara.
@@ -3329,25 +3331,25 @@ czerwoną kartkę i może grozić mu dodatkowa kara.
 Niedozwolone jest używanie przekleństw
 oraz wulgarnego czy znieważającego języka i gestów.
 
-\other{Ostrzeżenie} - zawodnik który używa wulgarnego języka lub gestów,
+\other{Ostrzeżenie} -- zawodnik który używa wulgarnego języka lub gestów,
 które nie są skierowane bezpośrednio do konkretnej osoby, otrzymuje
 ostrzeżenie.
 
-\bluecard{Niebieska kartka} - zawodnik, który używa wulgarnego języka lub
+\bluecard{Niebieska kartka} -- zawodnik, który używa wulgarnego języka lub
 gestów, które nie się skierowanie bezpośrednio do konkretnej osoby po
 otrzymaniu ostrzeżenia, otrzymuje niebieską kartkę.
 
-\yellowcard{Żółta kartka} - zawodnik, który używa wulgarnych słów i gestów
+\yellowcard{Żółta kartka} -- zawodnik, który używa wulgarnych słów i gestów
 wobec konkretnej osoby otrzymuje żółta kartkę.
 
-\redcard{Czerwona kartka} - zawodnik, który używa skrajnie wulgarnych słów
+\redcard{Czerwona kartka} -- zawodnik, który używa skrajnie wulgarnych słów
 i gestów wobec konkretnej osoby otrzymuje czerwoną kartkę.
 
 \paragraph{Bójki i groźby}
 Niedozwolony jest udział w bójkach
 oraz grożenie zawodnikom, widzom, sędziom oraz personelowi turnieju.
 
-\redcard{Czerwona kartka} - zawodnik, który bierze udział w bójce lub grozi
+\redcard{Czerwona kartka} -- zawodnik, który bierze udział w bójce lub grozi
 zawodnikom, widzom, sędziom lub personelowi otrzymuje czerwoną kartkę i
 może na niego zostać nałożona dodatkowa kara.
 
@@ -3355,10 +3357,10 @@ może na niego zostać nałożona dodatkowa kara.
 Niedozwolone są poważne faule, na
 przykład wyjątkowo skandaliczne zachowanie lub jawne oszukiwanie.
 
-\redcard{Czerwona kartka} - zawodnik, który popełnia poważny faul otrzymuje
+\redcard{Czerwona kartka} -- zawodnik, który popełnia poważny faul otrzymuje
 czerwoną kartkę
 
-\other{Kara} - Jeżeli drużyna popełnia faul, który nie może zostać
+\other{Kara} -- Jeżeli drużyna popełnia faul, który nie może zostać
 przypisany konkretnemu zawodnikowi, kapitan kontaktowy otrzymuje
 czerwoną kartkę i może otrzymać dodatkową karę.
 
@@ -3366,7 +3368,7 @@ czerwoną kartkę i może otrzymać dodatkową karę.
 Niedozwolone jest udawanie, że
 zostało się sfaulowanym w celu oszukania sędziego.
 
-\yellowcard{Żółta kartka} - zawodnik, który udaje, że został sfaulowana
+\yellowcard{Żółta kartka} -- zawodnik, który udaje, że został sfaulowana
 otrzymuje żółtą kartkę.
 
 \subsection{Zmiany}
@@ -3476,14 +3478,14 @@ zmieniony może w dalszej części rozgrywki zastąpić innego zawodnika, na
 dowolnej pozycji, posługując się procedurą opisaną w 6.2.2. Procedura
 zmiany.
 
-\other{Powtórka} - Jeśli drużyna przeprowadzająca zmianę złamie
+\other{Powtórka} -- Jeśli drużyna przeprowadzająca zmianę złamie
 jakąkolwiek część procedury, sędzia musi dać do zrozumienia zawodnikowi,
 że wszedł na boisko niezgodnie z zasadami, po czym obaj zawodnicy muszą
 powtórzyć pełną procedurę zmiany. Jeśli zawodnik schodzący z boiska nie
 siedział na miotle lub został zbity, musi on dokończyć procedurę zbicia,
 a potem powtórzyć pełną procedurę zmiany (patrz 5.3. Procedura zbicia).
 
-\bluecard{Niebieska kartka} - Jeśli zawodnik, który wszedł na boisko w
+\bluecard{Niebieska kartka} -- Jeśli zawodnik, który wszedł na boisko w
 wyniku nieprawidłowej zmiany, nie zastosuje się do polecenia powtórki
 wydanego przez sędziego, lub wejdzie w kontakt z piłką lub
 przeciwnikiem, zawodnik otrzymuje niebieską kartkę.
@@ -3506,12 +3508,12 @@ przeciwnikiem, zawodnik otrzymuje niebieską kartkę.
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powtórka} - Jeśli zawodnicy zakończyli procedurę nieprawidłowej
+\other{Powtórka} -- Jeśli zawodnicy zakończyli procedurę nieprawidłowej
 zmiany, mogą oni powrócić do swoich pierwotnych pozycji i przeprowadzić
 procedurę zmiany prawidłowo dopóki, dopóty nie weszli w
 tym czasie w żaden kontakt z grą.
 
-\other{Podwójna niebieska kartka} - Jeśli którykolwiek z zawodników
+\other{Podwójna niebieska kartka} -- Jeśli którykolwiek z zawodników
 ingeruje w rozgrywkę po nieprawidłowej zamianie pozycji, obaj zawodnicy
 otrzymują niebieską kartkę.
 
@@ -3560,7 +3562,7 @@ otrzymują niebieską kartkę.
 	      \end{enumerate}
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Zawodnik, który udaje uraz, otrzymuje żółtą
+\yellowcard{Żółta kartka} -- Zawodnik, który udaje uraz, otrzymuje żółtą
 kartkę.
 
 \subsubsection{Strefa rezerwowych}
@@ -3595,7 +3597,7 @@ następującymi wyjątkami:
 	      Czerwona kartka).
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Zawodnik rezerwowy, który umyślnie opuszcza
+\bluecard{Niebieska kartka} -- Zawodnik rezerwowy, który umyślnie opuszcza
 strefę rezerwowych bez pozwolenia sędziego, otrzymuje niebieską kartkę
 
 \subsubsection{Rezerwowi ingerujący w grę}
@@ -3612,11 +3614,11 @@ zasady mają zastosowanie:
 	      wszelkich starań, żeby usunąć się z drogi.
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Zawodnik rezerwowy, który nie dołoży wszelkich
+\bluecard{Niebieska kartka} -- Zawodnik rezerwowy, który nie dołoży wszelkich
 starań, aby usunąć się przez akcją zbliżającą się do niego otrzymuje
 niebieską kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik rezerwowy, który umyślnie ingeruje w
+\redcard{Czerwona kartka} -- Zawodnik rezerwowy, który umyślnie ingeruje w
 rozgrywkę, otrzymuje czerwoną kartkę.
 
 \subsubsection{Zmiany między częściami meczu}
@@ -3626,7 +3628,7 @@ częściami meczu bez stosowania się do pełnej procedury zmiany. W
 momencie, gdy rozpoczyna się kolejna część meczu, pełna procedura znów
 jest wymagana.
 
-\redcard{Czerwona kartka} - Zawodnik, który umyślnie łamie zasady zmiany,
+\redcard{Czerwona kartka} -- Zawodnik, który umyślnie łamie zasady zmiany,
 aby wpłynąć na rozgrywkę, popełnia poważny faul i otrzymuje czerwoną
 kartkę.
 
@@ -3704,16 +3706,16 @@ był to kontakt przypadkowy:
 	      psoób.
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie wchodzi w
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie wchodzi w
 nieprawidłowy kontakt i niezwłocznie poprawia swoją pozycję może zostać
 wysłany z powrotem do pętli, jeżeli, według sędziego, ten kontakt
 fizyczny miał wpływ na rozgrywkę.
 
-\yellowcard{Żółta kartka} - Zawodnik, który wchodzi w nieprawidłowy kontakt
+\yellowcard{Żółta kartka} -- Zawodnik, który wchodzi w nieprawidłowy kontakt
 fizyczny umyślnie lub nie poprawia niezwłocznie swojej pozycji otrzymuje
 żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który powoduje nieprawidłowy kontakt
+\redcard{Czerwona kartka} -- Zawodnik, który powoduje nieprawidłowy kontakt
 w sposób, który sędzia uzna za przemoc, otrzymuje czerwoną kartkę.
 
 \paragraph{Zasady interakcji}
@@ -3764,16 +3766,16 @@ poniższe zasady mają zastosowanie. Zawodnik nie może:
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie powoduje
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie powoduje
 nieprawidłową fizyczną interakcję i niezwłocznie ją poprawia może zostać
 wysłany z powrotem do pętli, jeżeli, według sędziego, interakcja miała
 wpływ na rozgrywkę.
 
-\yellowcard{Żółta kartka} - Zawodnik, który powoduje nieprawidłową fizyczną
+\yellowcard{Żółta kartka} -- Zawodnik, który powoduje nieprawidłową fizyczną
 interakcję, która jest albo umyślna, albo niezwłocznie niepoprawiona,
 otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który powoduje nieprawidłową fizyczną
+\redcard{Czerwona kartka} -- Zawodnik, który powoduje nieprawidłową fizyczną
 interakcję w sposób, który sędzia uzna za przemoc, otrzymuje czerwoną
 kartkę.
 
@@ -3815,7 +3817,7 @@ może:
 	      grze (patrz 6.2.6. Rezerwowi ingerujący w grę).
 \end{enumerate}
 
-\redcard{Czerwona kartka} - Zawodnik, który używa wyjątkowo nadmiernego
+\redcard{Czerwona kartka} -- Zawodnik, który używa wyjątkowo nadmiernego
 nieprawidłowego fizycznego kontaktu, otrzymuje czerwoną kartkę.
 
 \paragraph{Miejsce rozpoczęcia kontaktu}
@@ -3857,17 +3859,17 @@ przeciwnikiem od tyłu.
 	      jest mijany, po czym rozpoczyna kontakt już od tyłu.
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie wchodzi w kontakt w
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie wchodzi w kontakt w
 miejscu poza płaszczyzną i natychmiast poprawia swoją pozycję może
 zostać wysłany z powrotem do pętli, według uznania sędziego na podstawie
 analizy wpływu tego fizycznego kontaktu na rozgrywkę.
 
-\yellowcard{Żółta kartka} - Zawodnik, który podczas wykonywania popchnięcia,
+\yellowcard{Żółta kartka} -- Zawodnik, który podczas wykonywania popchnięcia,
 bloku ciałem, natarcia, przytrzymania, objęcia lub przewrócenia wchodzi
 w kontakt w miejscu poza płaszczyzną i robi to umyślnie lub nie poprawia
 natychmiast swojej pozycji otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który wchodzi w kontakt w miejscu
+\redcard{Czerwona kartka} -- Zawodnik, który wchodzi w kontakt w miejscu
 poza płaszczyzną w sposób, który według sędziego można uznać za
 agresywny lub za nadmierny kontakt otrzymuje czerwoną kartkę.
 
@@ -3920,17 +3922,17 @@ nie może rozpoczynać kontaktu od tyłu przeciwnika.
 	      i w związku z tym kontakt zostaje rozpoczęty od tyłu, jest to faul
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie wchodzi w kontakt w
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie wchodzi w kontakt w
 miejscu poza płaszczyzną i natychmiast poprawia swoją pozycję może
 zostać wysłany z powrotem do pętli, według uznania sędziego na podstawie
 analizy wpływu tego fizycznego kontaktu na rozgrywkę.
 
-\yellowcard{Żółta kartka} - Zawodnik, który podczas wykonywania popchnięcia,
+\yellowcard{Żółta kartka} -- Zawodnik, który podczas wykonywania popchnięcia,
 bloku ciałem, natarcia, przytrzymania, objęcia lub przewrócenia wchodzi
 w kontakt w miejscu poza płaszczyzną i robi to umyślnie lub nie poprawia
 natychmiast swojej pozycji otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który wchodzi w kontakt w miejscu
+\redcard{Czerwona kartka} -- Zawodnik, który wchodzi w kontakt w miejscu
 poza płaszczyzną w sposób, który według sędziego można uznać za
 agresywny lub za nadmierny kontakt otrzymuje czerwoną kartkę.
 
@@ -3956,7 +3958,7 @@ natychmiast puści przeciwnika lub poprawi pozycję ramienia.
 	      poniżej kolan przeciwnika, musi przerwać kontakt.
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Zawodnik, który nie poprawia lub nie przerywa
+\yellowcard{Żółta kartka} -- Zawodnik, który nie poprawia lub nie przerywa
 kontaktu po byciu zmuszonym do ustawienia się w nieprawidłowej pozycji,
 otrzymuje żółtą kartkę.
 
@@ -3994,19 +3996,19 @@ polega na umieszczeniu dłoni na przeciwniku.
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie nieprawidłowo
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie nieprawidłowo
 chwyci i natychmiast poprawi swoją pozycję może zostać odesłany z
 powrotem do pętli, w zależności od tego czy ten kontakt fizyczny miał
 wpływ na rozgrywkę, co pozostaje w gestii sędziego.
 
-\yellowcard{Żółta kartka} - Zawodnik, który nieprawidłowo i umyślnie chwyci,
+\yellowcard{Żółta kartka} -- Zawodnik, który nieprawidłowo i umyślnie chwyci,
 lub nie poprawi natychmiast swojej pozycji, otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który chwyta w sposób, który według
+\redcard{Czerwona kartka} -- Zawodnik, który chwyta w sposób, który według
 sędziego jest agresywny lub stanowi nadmierny kontakt, otrzymuje
 czerwoną kartkę.
 
-\paragraph{Odbieranie} - Odebranie polega na próbie odzyskania
+\paragraph{Odbieranie} -- Odebranie polega na próbie odzyskania
 piłki od przeciwnika poprzez wyciągnięcie lub wybicie mu jej z rąk.
 
 \begin{enumerate}
@@ -4045,17 +4047,17 @@ piłki od przeciwnika poprzez wyciągnięcie lub wybicie mu jej z rąk.
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie wchodzi w
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie wchodzi w
 nieprawidłowy kontakt z przeciwnikiem podczas próby odebrania piłki i
 natychmiast poprawia swoją pozycje może zostać odesłany z powrotem do
 pętli, w zależności od tego czy ten kontakt fizyczny miał wpływ na
 rozgrywkę, co pozostaje w gestii sędziego.
 
-\yellowcard{Żółta kartka} - Zawodnik, który odbiera, lub próbuje odebrać piłkę
+\yellowcard{Żółta kartka} -- Zawodnik, który odbiera, lub próbuje odebrać piłkę
 nieprawidłowo i jest to działanie świadome, lub zawodnik nie poprawia
 natychmiast swojej pozycji, otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który wchodzi w nieprawidłowy kontakt
+\redcard{Czerwona kartka} -- Zawodnik, który wchodzi w nieprawidłowy kontakt
 podczas próby odebrania piłki w sposób, który według sędziego jest
 agresywny lub stanowi nadmierny kontakt, otrzymuje czerwoną kartkę.
 
@@ -4105,20 +4107,20 @@ przyłożenie siły musi nastąpić po niewymuszonym kontakcie z ciałem.
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieprawidłowo wykonuje
+\other{Powrót do pętli} -- Zawodnik, który nieprawidłowo wykonuje
 blokowanie ciałem i natychmiast poprawi swoją pozycje może zostać
 odesłany z powrotem do pętli, w zależności od tego czy ten kontakt
 fizyczny miał wpływ na rozgrywkę, co pozostaje w gestii sędziego.
 
-\yellowcard{Żółta kartka} - Zawodnik, który nieprawidłowo wykonuje blokowanie
+\yellowcard{Żółta kartka} -- Zawodnik, który nieprawidłowo wykonuje blokowanie
 ciałem i jest to działanie świadome, lub zawodnik nie poprawia
 natychmiast swojej pozycji, otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który nieprawidłowo wykonuje
+\redcard{Czerwona kartka} -- Zawodnik, który nieprawidłowo wykonuje
 blokowanie ciałem w sposób, który według sędziego jest agresywny lub
 stanowi nadmierny kontakt, otrzymuje czerwoną kartkę.
 
-\paragraph{Popychanie} - Popchnięcie polega na naparciu na
+\paragraph{Popychanie} -- Popchnięcie polega na naparciu na
 przeciwnika siłą za pomocą wyciągniętego ramienia (wyciągniętego zarówno
 w trakcie jak i przed rozpoczęciem kontaktu).
 
@@ -4156,16 +4158,16 @@ w trakcie jak i przed rozpoczęciem kontaktu).
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie nieprawidłowo
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie nieprawidłowo
 popycha i natychmiast poprawi swoją pozycję może zostać odesłany z
 powrotem do pętli, w zależności od tego czy ten kontakt fizyczny miał
 wpływ na rozgrywkę, co pozostaje w gestii sędziego.
 
-\yellowcard{Żółta kartka} - Zawodnik, który nieprawidłowo wykonuje popchnięcie
+\yellowcard{Żółta kartka} -- Zawodnik, który nieprawidłowo wykonuje popchnięcie
 i jest to działanie świadome, lub zawodnik nie poprawia natychmiast
 swojej pozycji, otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który nieprawidłowo wykonuje
+\redcard{Czerwona kartka} -- Zawodnik, który nieprawidłowo wykonuje
 popchnięcie w sposób, który według sędziego jest agresywny lub stanowi
 nadmierny kontakt, otrzymuje czerwoną kartkę.
 
@@ -4223,16 +4225,16 @@ go na ziemię.
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie nieprawidłowo
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie nieprawidłowo
 wykonuje natarcie i natychmiast poprawi swoją pozycje może zostać
 odesłany z powrotem do pętli, w zależności od tego czy ten kontakt
 fizyczny miał wpływ na rozgrywkę, co pozostaje w gestii sędziego.
 
-\yellowcard{Żółta kartka} - Zawodnik, który nieprawidłowo wykonuje natarcie i
+\yellowcard{Żółta kartka} -- Zawodnik, który nieprawidłowo wykonuje natarcie i
 jest to działanie świadome, lub zawodnik nie poprawia natychmiast swojej
 pozycji, otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który nieprawidłowo wykonuje natarcie
+\redcard{Czerwona kartka} -- Zawodnik, który nieprawidłowo wykonuje natarcie
 w sposób, który według sędziego jest agresywny lub stanowi nadmierny
 kontakt, otrzymuje czerwoną kartkę.
 
@@ -4268,16 +4270,16 @@ przeciwnika zamkniętą dłonią.
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie nieprawidłowo
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie nieprawidłowo
 trzyma i natychmiast poprawi swoją pozycje może zostać odesłany z
 powrotem do pętli, w zależności od tego czy ten kontakt fizyczny miał
 wpływ na rozgrywkę, co pozostaje w gestii sędziego.
 
-\yellowcard{Żółta kartka} - Zawodnik, który nieprawidłowo trzyma i jest to
+\yellowcard{Żółta kartka} -- Zawodnik, który nieprawidłowo trzyma i jest to
 działanie świadome, lub zawodnik nie poprawia natychmiast swojej
 pozycji, otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który nieprawidłowo trzyma w sposób,
+\redcard{Czerwona kartka} -- Zawodnik, który nieprawidłowo trzyma w sposób,
 który według sędziego jest agresywny lub stanowi nadmierny kontakt,
 otrzymuje czerwoną kartkę.
 
@@ -4316,16 +4318,16 @@ innej części ciała przeciwnika ręką lub rękami.
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie nieprawidłowo
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie nieprawidłowo
 obejmuje i natychmiast poprawi swoją pozycje może zostać odesłany z
 powrotem do pętli, w zależności od tego czy ten kontakt fizyczny miał
 wpływ na rozgrywkę, co pozostaje w gestii sędziego.
 
-\yellowcard{Żółta kartka} - Zawodnik, który nieprawidłowo obejmuje i jest to
+\yellowcard{Żółta kartka} -- Zawodnik, który nieprawidłowo obejmuje i jest to
 działanie świadome, lub zawodnik nie poprawia natychmiast swojej
 pozycji, otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który nieprawidłowo obejmuje w
+\redcard{Czerwona kartka} -- Zawodnik, który nieprawidłowo obejmuje w
 sposób, który według sędziego jest agresywny lub stanowi nadmierny
 kontakt, otrzymuje czerwoną kartkę.
 
@@ -4406,16 +4408,16 @@ przewrócenie go na ziemię.
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieumyślnie nieprawidłowo
+\other{Powrót do pętli} -- Zawodnik, który nieumyślnie nieprawidłowo
 wykonuje przewracanie i natychmiast poprawi swoją pozycje może zostać
 odesłany z powrotem do pętli, w zależności od tego czy ten kontakt
 fizyczny miał wpływ na rozgrywkę, co pozostaje w gestii sędziego.
 
-\yellowcard{Żółta kartka} - Zawodnik, który nieprawidłowo wykonuje
+\yellowcard{Żółta kartka} -- Zawodnik, który nieprawidłowo wykonuje
 przewracanie i jest to działanie świadome, lub zawodnik nie poprawia
 natychmiast swojej pozycji, otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który nieprawidłowo wykonuje
+\redcard{Czerwona kartka} -- Zawodnik, który nieprawidłowo wykonuje
 przewracanie w sposób, który według sędziego jest agresywny lub stanowi
 nadmierny kontakt, otrzymuje czerwoną kartkę.
 
@@ -4440,7 +4442,7 @@ popełni faul, który skutkuje powrotem do pętli:
 	      musi wstrzymać grę i wydać mu żółtą kartkę.
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Zawodnik, który ignoruje karę od sędziego za
+\yellowcard{Żółta kartka} -- Zawodnik, który ignoruje karę od sędziego za
 popełnienie wykroczenia, które w innym wypadku nie skutkowałoby
 wstrzymaniem gry, otrzymuje żółtą kartkę.
 
@@ -4747,7 +4749,7 @@ przeprowadzana jest następująca procedura:
 	      Czas dwóch minut kary zostaje rozpoczęty.
 \end{enumerate}
 
-\other{Poddanie meczu} - Jeśli zawodnik wciąż odmawia opuszczenia boiska,
+\other{Poddanie meczu} -- Jeśli zawodnik wciąż odmawia opuszczenia boiska,
 lub stwarza zagrożenie dla sędziów, innych zawodników lub widowni,
 sędzia główny może ogłosić, że gra została poddana przez drużynę
 faulującego zawodnika.
@@ -4945,11 +4947,11 @@ kar
 	      głównego.
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Zawodnik, który opóźnia grę poprzez zwlekanie z
+\yellowcard{Żółta kartka} -- Zawodnik, który opóźnia grę poprzez zwlekanie z
 przejściem na ławkę kar otrzymuje żółtą kartkę, która dodaje się do jego
 obecnej kary.
 
-\yellowcard{Żółta kartka} - Jeżeli drużyna zmienia zawodnika znajdującego się
+\yellowcard{Żółta kartka} -- Jeżeli drużyna zmienia zawodnika znajdującego się
 na ławce kar, kapitan kontaktowy otrzymuje żółtą kartkę
 
 \paragraph{Przepisy dotyczące ławki kar}
@@ -5031,10 +5033,10 @@ Skryba śledzi czasy kar.
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Poddanie meczu} - Jeżeli wszyscy członkowie drużyny znajdują się
+\other{Poddanie meczu} -- Jeżeli wszyscy członkowie drużyny znajdują się
 na ławce kar w momencie, drużyna musi poddać grę.
 
-\other{Poddanie meczu} - Jeżeli obie drużyny znajdą się w takiej sytuacji
+\other{Poddanie meczu} -- Jeżeli obie drużyny znajdą się w takiej sytuacji
 z powodu tego samego zagrania lub incydentu, obie drużyny muszą poddać
 grę.
 
@@ -5106,11 +5108,11 @@ podczas gry.
 	      kontaktowy nie będzie w stanie kontynuować ich wypełniania.
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Kapitan kontaktowy który ingeruje w rozgrywkę lub
+\yellowcard{Żółta kartka} -- Kapitan kontaktowy który ingeruje w rozgrywkę lub
 kontynuuje rozmowę z sędzią po tym, jak sędzia mu tego zabronił,
 otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Jeśli kapitan kontaktowy wykona jakiekolwiek
+\redcard{Czerwona kartka} -- Jeśli kapitan kontaktowy wykona jakiekolwiek
 działanie, które skutkowałoby czerwoną kartką dla zawodnika, włączając w
 to otrzymanie drugiej żółtej kartki, otrzymuje czerwoną kartkę.
 
@@ -5186,7 +5188,7 @@ zawodników na boisku identyfikujących się z tą samą płcią.
 	      na potrzeby zasady czterech.
 \end{enumerate}
 
-\other{Kara specjalna} - Jeżeli w grze znajdzie się zawodnik lub
+\other{Kara specjalna} -- Jeżeli w grze znajdzie się zawodnik lub
 zawodnicy niespełniający zasad kwalifikacji, płci, liczby zawodników lub
 pozycji, sędzie zatrzymuje grę, a drużyna, która popełniła wykroczenie,
 musi poprawić skład. Trener drużyny otrzymuje żółtą kartkę, a posiadanie
@@ -5226,7 +5228,7 @@ przez obręcz, aby próbować dokonać zbicia, podania lub by trafić kafla.
 	      przypisanych do ich pozycji z ludzkim zniczem.
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Zawodnik, który używa piłki aby naśladować
+\yellowcard{Żółta kartka} -- Zawodnik, który używa piłki aby naśladować
 działanie piłki przypisanej do innej pozycji, lub celowo używa
 posiadanej piłki aby doprowadzić do interakcji z ludzkim zniczem
 otrzymuje żółtą kartkę.
@@ -5251,10 +5253,10 @@ otrzymuje żółtą kartkę.
 	      pałkarzowi rzucenia lub pchnięcia tłuczkiem w kafla lub przeciwnika.
 \end{enumerate}
 
-\yellowcard{Żółta kartka}- Zawodnik, który umyślnie korzysta z piłki należącej
+\yellowcard{Żółta kartka} -- Zawodnik, który umyślnie korzysta z piłki należącej
 do zawodnika na innej pozycji otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka}- Zawodnik, który nieodpowiednio i celowo
+\redcard{Czerwona kartka} -- Zawodnik, który nieodpowiednio i celowo
 uniemożliwia zdobycie gola kaflem otrzymuje czerwoną kartkę, z wyjątkiem
 przypadków wybicia jakie opisano w punkcie 4.3.
 
@@ -5266,7 +5268,7 @@ przypadków wybicia jakie opisano w punkcie 4.3.
 	których leży w gestii sędziego, aby nie wchodzić w interakcję z żadną
 	piłką, która jest w grze.}
 
-\yellowcard{Żółta kartka}- Zawodnik rezerwowy lub zbity zawodnik, który nie
+\yellowcard{Żółta kartka} -- Zawodnik rezerwowy lub zbity zawodnik, który nie
 dołożył starań aby uniknąć interakcji z piłką w grze, ocena czego leży w
 gestii sędziego, otrzymuje żółtą kartkę.
 
@@ -5274,7 +5276,7 @@ gestii sędziego, otrzymuje żółtą kartkę.
 
 \paragraph{Cała akcja musi się odbywać w obrębie obszaru gry.}
 
-\bluecard{Niebieska kartka} - Zawodnik, który opuści obszar gry w trakcie
+\bluecard{Niebieska kartka} -- Zawodnik, który opuści obszar gry w trakcie
 akcji otrzymuje niebieską kartkę.
 
 \paragraph{Gra ogranicza się do obszaru boiska}
@@ -5324,7 +5326,7 @@ przypadków:
 	      który znajduje się poza boiskiem.
 \end{enumerate}
 
-\other{Powrót do pętli} - Zawodnik, który nieodpowiednio i celowo opuszcza
+\other{Powrót do pętli} -- Zawodnik, który nieodpowiednio i celowo opuszcza
 boisko lub przedłuża pobyt poza boiskiem, musi powrócić do pętli.
 
 \subsubsection{Granice boiska i piłki}
@@ -5353,16 +5355,16 @@ boisko lub przedłuża pobyt poza boiskiem, musi powrócić do pętli.
 	      bramkowym.
 \end{enumerate}
 
-\other{Powrót do pętli}- Zawodnik, który nieodpowiedni i celowo
+\other{Powrót do pętli} -- Zawodnik, który nieodpowiedni i celowo
 przetrzymuje piłkę poza lub z dala od boiska musi powrócić do pętli.
 
-\other{Powrót do pętli i Strata} - Zawodnik, który wyrzuci piłkę poza
+\other{Powrót do pętli i Strata} -- Zawodnik, który wyrzuci piłkę poza
 granice boiska lub wyrzuci piłkę znajdującą się poza jego granicami
 jeszcze dalej, musi powrócić do pętli i piłka zostaje przekazana
 uprawnionemu zawodnikowi drużyny przeciwnej, który znajdował się
 najbliżej piłki na koniec akcji.
 
-\yellowcard{Żółta kartka} - Zawodnik, który przetrzymuje piłkę poza obszarem
+\yellowcard{Żółta kartka} -- Zawodnik, który przetrzymuje piłkę poza obszarem
 gry lub celowo wyrzuca piłkę z obszaru gry otrzymuje żółtą kartkę.
 
 \subsubsection{Widownia}
@@ -5470,7 +5472,7 @@ gry lub celowo wyrzuca piłkę z obszaru gry otrzymuje żółtą kartkę.
 	      \end{enumerate}
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Zawodnik, który ignoruje polecenia sędziego
+\yellowcard{Żółta kartka} -- Zawodnik, który ignoruje polecenia sędziego
 dotyczące wkraczania na obszar widowni otrzymuje żółtą kartkę.
 
 \subsubsection{Widownia i niebezpieczny teren}
@@ -5505,7 +5507,7 @@ dotyczące wkraczania na obszar widowni otrzymuje żółtą kartkę.
 	      \end{enumerate}
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Zawodnik, który lekkomyślnie zagraża widzowi
+\yellowcard{Żółta kartka} -- Zawodnik, który lekkomyślnie zagraża widzowi
 otrzymuje żółtą kartkę.
 
 \subsubsection{Lekkomyślna gra}
@@ -5513,10 +5515,10 @@ otrzymuje żółtą kartkę.
 Lekkomyślna gra jest zabroniona. Zalicza się do tego granie w sposób,
 który zagraża przeciwnikom lub widzom.
 
-\yellowcard{Żółta kartka} - Zawodnik, który gra lekkomyślnie, ocena czego
+\yellowcard{Żółta kartka} -- Zawodnik, który gra lekkomyślnie, ocena czego
 pozostaje w gestii sędziego, otrzymuje żółtą kartkę.
 
-\redcard{Czerwona kartka} - Zawodnik, który gra w szczególnie lekkomyślny i
+\redcard{Czerwona kartka} -- Zawodnik, który gra w szczególnie lekkomyślny i
 niebezpieczny sposób otrzymuje czerwoną kartkę.
 
 \subsection{Zasady dotyczące gry kaflem}
@@ -5601,14 +5603,14 @@ zdobywać nim gole
 	      Dozwolone jest rzucanie kaflem w żywego tłuczka.
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Zawodnik grający kaflem, który nieprawidłowo
+\bluecard{Niebieska kartka} -- Zawodnik grający kaflem, który nieprawidłowo
 korzysta z kafla otrzymuje niebieską kartkę.
 
-\other{Strata} - Jeżeli zawodnik grający kaflem nieumyślnie zagra w
+\other{Strata} -- Jeżeli zawodnik grający kaflem nieumyślnie zagra w
 sposób, który znacząco zmieni pozycję tłuczka, tłuczek ten zostaje
 przekazany najbliższemu uprawnionemu pałkarzowi drużyny przeciwnej.
 
-\yellowcard{Żółta kartka} - Zawodnik grający kaflem, który umyślnie wchodzi w
+\yellowcard{Żółta kartka} -- Zawodnik grający kaflem, który umyślnie wchodzi w
 nieodpowiednią interakcję z tłuczkiem otrzymuje żółtą kartkę.
 
 \subsubsection{Zasady dotyczące obrońcy}
@@ -5705,7 +5707,7 @@ poprzez ``zbicie'' innych zawodników (patrz 5. Zbijanie).
 	      Pałkarz nie może kopać tłuczka będąc w posiadaniu drugiego tłuczka.
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Pałkarz, który nieodpowiednio kopnie tłuczek
+\bluecard{Niebieska kartka} -- Pałkarz, który nieodpowiednio kopnie tłuczek
 otrzymuje niebieską kartkę.
 
 \paragraph{Łapanie tłuczka:}
@@ -5758,7 +5760,7 @@ otrzymuje niebieską kartkę.
 	      się w posiadaniu przeciwnika.
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Pałkarz, który wchodzi w nieodpowiedni sposób
+\bluecard{Niebieska kartka} -- Pałkarz, który wchodzi w nieodpowiedni sposób
 w interakcję z tłuczkiem otrzymuje niebieską kartkę.
 
 \paragraph{Posiadanie tłuczków i interakcje z kaflem}
@@ -5785,17 +5787,17 @@ w interakcję z tłuczkiem otrzymuje niebieską kartkę.
 	      interakcje, poza rzucaniem tłuczkiem w kafel.
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Pałkarz, który jest w posiadaniu dwóch
+\bluecard{Niebieska kartka} -- Pałkarz, który jest w posiadaniu dwóch
 tłuczków w jednym momencie, gdy nie próbuję on złapać tłuczka, lub który
 natychmiast nie wypuści jednego z tłuczków po wejściu w posiadanie dwóch
 w konsekwencji złapania tłuczka otrzymuje niebieską kartkę.
 
-\other{Strata} - Jeżeli pałkarz nieumyślnie wejdzie w interakcje z kaflem
+\other{Strata} -- Jeżeli pałkarz nieumyślnie wejdzie w interakcje z kaflem
 w sposób, który ma znaczący wpływ na pozycję kafla, kafel zostaje
 przekazany najbliższemu uprawnionemu do tego zawodnikowi drużyny
 przeciwnej.
 
-\yellowcard{Żółta kartka} - Pałkarz, który jest w posiadaniu lub umyślnie
+\yellowcard{Żółta kartka} -- Pałkarz, który jest w posiadaniu lub umyślnie
 wchodzi w nieuprawnioną interakcję z kaflem otrzymuje żółtą kartkę.
 
 \paragraph{Pilnowanie tłuczków}
@@ -5849,7 +5851,7 @@ znaczące utrudnienie przejęcia posiadania tłuczka drużynie przeciwnej.
 	      \end{enumerate}
 \end{enumerate}
 
-\other{Powrót do pętli oraz strata} - Zawodnik który, według uznania
+\other{Powrót do pętli oraz strata} -- Zawodnik który, według uznania
 sędziego, pilnuje wolnego tłuczka gdy jego drużyna jest w posiadaniu
 dwóch tłuczków zostaje wysłany z powrotem do pętli. Tłuczek zostaje
 przekazany drużynie przeciwnej. Jeżeli pilnowanie tłuczka miało wpływ na
@@ -5869,12 +5871,12 @@ podniesienie pięści do góry (patrz 5.2.8. Immunitet od zbicia).
 \paragraph{Pałkarze mogą rzucać lub kopać tłuczek w kierunku
 	kafla.}
 
-\other{Strata} - Nieumyślne wpływanie przez pałkarza na kafel przy pomocy
+\other{Strata} -- Nieumyślne wpływanie przez pałkarza na kafel przy pomocy
 trzymanego tłuczka w sposób, który znacząco zmienia pozycję lub
 trajektorię lotu kafla skutkuje stratą na rzecz najbliższego
 uprawnionego do tego zawodnika drużyny przeciwnej.
 
-\yellowcard{Żółta kartka} - Zawodnik który, według uznania sędziego, celowo
+\yellowcard{Żółta kartka} -- Zawodnik który, według uznania sędziego, celowo
 używa tłuczka w celu zmiany trajektorii lotu kafla otrzymuje żółtą
 kartkę.
 
@@ -5908,12 +5910,12 @@ Patrz 1.2.4. Szukający
 	      Szukający nie mogą używać ani celowo dotykać piłek innych niż znicz.
 \end{enumerate}
 
-\other{Strata} - Jeżeli szukający nieumyślnie wchodzi w interakcję z
+\other{Strata} -- Jeżeli szukający nieumyślnie wchodzi w interakcję z
 tłuczkiem lub kaflem w sposób, który znacząco wpływa na pozycję piłki,
 zostaje ona przekazana najbliższemu, względem miejsca popełnienia faula,
 uprawnionemu do tego zawodnikowi drużyny przeciwnej.
 
-\yellowcard{Żółta kartka} - Szukający, który celowo wchodzi w interakcję z
+\yellowcard{Żółta kartka} -- Szukający, który celowo wchodzi w interakcję z
 tłuczkiem lub kaflem otrzymuje żółtą kartkę.
 
 \paragraph{Interakcje szukającego z innymi szukającymi:}
@@ -5977,7 +5979,7 @@ zniczem. Należy stosować się do poniższych zasad:
 	      \end{enumerate}
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Szukający, który popycha, łapie, trzyma, naciera,
+\yellowcard{Żółta kartka} -- Szukający, który popycha, łapie, trzyma, naciera,
 obejmuje lub przewraca ludzkiego znicza, lub który nie puszcza ubrania
 ludzkiego znicza natychmiast po złapaniu go otrzymuje żółtą kartkę.
 
@@ -6012,11 +6014,11 @@ wszystkich instrukcji na równi z sędzią głównym.
 	      uporczywie kwestionować decyzji sędziów.
 \end{enumerate}
 
-\bluecard{Niebieska/Żółta kartka} - Zawodnik, który okazuje brak szacunku do
+\bluecard{Niebieska/Żółta kartka} -- Zawodnik, który okazuje brak szacunku do
 sędziego lub uporczywie kwestionuje decyzje sędziego podczas rozgrywki,
 otrzymuje niebieską lub żółtą kartkę, według uznania sędziego.
 
-\yellowcard{Żółta kartka} - Zawodnik, który lekceważy instrukcje sędziego
+\yellowcard{Żółta kartka} -- Zawodnik, który lekceważy instrukcje sędziego
 głównego otrzymuje żółtą kartkę. Zawodnik, który lekceważy instrukcje
 pozostałych sędziów otrzymuje żółtą kartkę według uznania sędziego
 głównego
@@ -6087,7 +6089,7 @@ głównego
 	      zawodnikami, pozostałymi sędziami oraz widownią.
 \end{enumerate}
 
-\bluecard{Niebieska kartka} - Zawodnik, który używa ustnych lub wizualnych
+\bluecard{Niebieska kartka} -- Zawodnik, który używa ustnych lub wizualnych
 poleceń sędziego podczas rozgrywki otrzymuje niebieską kartkę.
 
 \subsubsection{Dezyzje sędziego głównego}
@@ -6193,7 +6195,7 @@ po konsultacji z innym sędzią.
 \paragraph{Zawodnicy muszą stosować się do decyzji sędziów
 	pomocniczych.}
 
-\yellowcard{Żółta kartka} - Zawodnik, który nie przestrzega poleceń sędziów
+\yellowcard{Żółta kartka} -- Zawodnik, który nie przestrzega poleceń sędziów
 otrzymuje żółtą kartkę, według uznania sędziego głównego.
 
 \subsubsection{Sędzia zniczowy}
@@ -6235,7 +6237,7 @@ otrzymuje żółtą kartkę, według uznania sędziego głównego.
 \paragraph{Zawodnicy muszą stosować się do decyzji sędziego
 	zniczowego.}
 
-\yellowcard{Żółta kartka} - Zawodnik, który nie przestrzega poleceń sędziów
+\yellowcard{Żółta kartka} -- Zawodnik, który nie przestrzega poleceń sędziów
 otrzymuje żółtą kartkę, według uznania sędziego głównego.
 
 \subsubsection{Sędzia bramkowy}
@@ -6261,7 +6263,7 @@ następujące obowiązki (według uznania sędziego głównego):
 \paragraph{Zawodnicy muszą stosować się do decyzji sędziów
 	bramkowych.}
 
-\yellowcard{Żółta kartka} - Zawodnik, który nie przestrzega poleceń sędziów
+\yellowcard{Żółta kartka} -- Zawodnik, który nie przestrzega poleceń sędziów
 otrzymuje żółtą kartkę, według uznania sędziego głównego.
 
 \subsubsection{Skryba i timekeeper}
@@ -6331,7 +6333,7 @@ otrzymuje żółtą kartkę, według uznania sędziego głównego.
 \paragraph{Zawodnicy muszą stosować się do decyzji skryby i
 	sędziego mierzącego czas.}
 
-\yellowcard{Żółta kartka} - Zawodnik, który nie przestrzega poleceń sędziów
+\yellowcard{Żółta kartka} -- Zawodnik, który nie przestrzega poleceń sędziów
 otrzymuje żółtą kartkę, według uznania sędziego głównego.
 
 \subsubsection{Ludzki znicz jako sędzia}
@@ -6347,7 +6349,7 @@ otrzymuje żółtą kartkę, według uznania sędziego głównego.
 	\item Zawodnicy muszą stosować się do decyzji ludzkiego znicza.
 \end{enumerate}
 
-\yellowcard{Żółta kartka} - Zawodnik, który nie przestrzega poleceń sędziów
+\yellowcard{Żółta kartka} -- Zawodnik, który nie przestrzega poleceń sędziów
 otrzymuje żółtą kartkę, według uznania sędziego głównego.
 
 \subsection{Ludzki znicz}
@@ -6562,7 +6564,7 @@ zawodników, sędziów i widzów.
 	      wznowią pościg za zniczem.
 \end{enumerate}
 
-\other{Powrót do pętli} - Szukający, który rozpoczyna pościg za zniczem,
+\other{Powrót do pętli} -- Szukający, który rozpoczyna pościg za zniczem,
 który został uznany za przewróconego zanim upłyną trzy sekundy startu,
 zostaje odesłany do pętli.
 
