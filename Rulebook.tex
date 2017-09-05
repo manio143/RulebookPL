@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt,a4paper]{article}
 
 \usepackage{polski}
 %\usepackage[none]{hyphenat} %no hyphen breaks
@@ -11,10 +11,12 @@
 \usepackage{color}
 
 %justify - no hyphens
-\tolerance=1
+\tolerance=1000
 \emergencystretch=\maxdimen
-\hyphenpenalty=10000
+\hyphenpenalty=1000
 \hbadness=10000
+
+\usepackage[letterspace=20]{microtype}
 
 \usepackage{enumitem}
 \setenumerate[1]{label=\Alph*.}
@@ -79,6 +81,7 @@
 \title{Zasady gry w~quidditcha}
 
 \begin{document}
+\lsstyle
 
 \maketitle
 
