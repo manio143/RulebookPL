@@ -11,6 +11,8 @@
 
 \usepackage{color}
 
+\usepackage{graphicx}
+
 %justify - no hyphens
 \tolerance=1000
 \emergencystretch=\maxdimen
@@ -73,6 +75,13 @@
 \newcommand\bluecard[1]{\bgroup\textcolor{blue}{\textbf{#1}}}
 \newcommand\other[1]{\bgroup\textcolor{darkgreen}{\textbf{#1}}}
 
+\usepackage{geometry}
+
+\newcommand\image[2]{
+	\newgeometry{left=0cm,top=#2}
+	\includegraphics[width=\paperwidth]{#1}
+	\restoregeometry
+}
 
 \setlength{\parindent}{0pt} % brak wcięć
 \setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
@@ -108,9 +117,7 @@ ogródkach -- coraz częściej gra się na otwartej przestrzeni, przed
 liczną widownią. Niezależnie od okoliczności i~warunków, zasady nie mogą
 pozostawiać wątpliwości co do tego, jak ma wyglądać rozgrywka.
 
-Dziewiąte wydanie \emph{Zasad gry w~quidditcha} obejmuje najistotniejsze
-zmiany w~rozwoju dyscypliny i~gwarantuje większą niż dotąd klarowność i~spójność przepisów. Nigdy nie będą one idealne, ale celem tego wydania
-jest zapewnienie możliwie najbardziej spójnego zestawu zasad gry.
+To wydanie \emph{Zasad gry w~quidditcha} opiera się o dziewiąte wydanie zasad USQ, większość zasad pozostała niezmieniona. Aczkolwiek wprowadzone zostały poprawki biorące pod uwagę grę na arenie międzynarodowej, kładąc nacisk na bezpieczeństwo i integralność rozgrywek.
 
 Tym, którzy dopiero zaczynają swoją przygodę z~quidditchem, proponujemy,
 by najpierw nauczyli się zasad gry od znajomych i~innych zawodników w~drużynie lub zapoznali się z~podstawowymi informacjami zawartymi w~rozdziale 1. Bardziej ambitnych oczywiście zapraszamy do lektury całości
@@ -120,7 +127,7 @@ Polska Liga Quidditcha dziękuje wszystkim zaangażowanym w~stworzenie
 przekładu niniejszych \emph{Zasad} z~języka angielskiego. W
 szczególności chcielibyśmy podziękować Klementynie Dec za nieocenioną
 pomoc merytoryczną. Niemniej, tekst ten nie powstałby bez pracy i~poświecenia pozostałych członków grupy tłumaczeniowej. Serdecznie
-dziękujemy (w kolejności alfabetycznej): Bognie Haponiuk, Paulinie
+dziękujemy (w kolejności alfabetycznej): Agacie Barszczewskiej, Maji Bartnik, Marianowi Dziubiakowi, Bognie Haponiuk, Paulinie
 Rhone, Kindze Robutce, Jagodzie Sadeckiej i~Michałowi Szewczakowi.
 
 \psubsection{Zasada czterech}
@@ -132,6 +139,8 @@ biologiczną. Tę zasadę określa się mianem „zasady czterech''.
 
 PLQ wraz z~IQA akceptują fakt, że nie wszyscy identyfikują się z~binarnym systemem podziału na płeć męską i~żeńską. PLQ i~IQA zapraszają
 do gry wszystkich, niezależnie od ich tożsamości i~płci.
+
+\image{team_poland}{6cm}
 
 \pagebreak
 \section{Podstawy gry}
@@ -156,52 +165,51 @@ Liczba ścigających w~grze na drużynę: trzech \\
 Używana piłka: kafel \\
 Kolor opaski: biały \\
 Cel: rzucać, kopać lub w~inny sposób przerzucić kafel przez pętle
-drużyny przeciwnej, by zdobyć 10 punktów.
+drużyny przeciwnej, by zdobyć 10 punktów
 
 \subsubsection{Obrońcy}
 Liczba obrońców w~grze na drużynę: jeden \\
 Używana piłka: kafel \\
 Kolor opaski: zielony \\
-Cel: uniemożliwić przeciwnikowi przerzucenie kafla przez pętle.
+Cel: uniemożliwić przeciwnikowi rzucenie, kopnięcie lub w jakikolwiek inny sposób przerzucenie kafla przez pętle
 
 \subsubsection{Pałkarze}
 Liczba pałkarzy w~grze na drużynę: dwóch \\
 Używana piłka: tłuczek \\
 Kolor opaski: czarny \\
 Cel: rzucać, kopać lub w~inny sposób za pomocą tłuczka zakłócać grę
-przeciwników, czasowo eliminując ich z~gry (``zbicie'').
+przeciwników, poprzez ,,zbijanie'', czasowo eliminując ich z~gry
 
 \subsubsection{Szukający}
 Liczba szukających w~grze na drużynę: jeden \\
 Używana piłka: znicz \\
 Kolor opaski: żółty \\
 Cel: odebrać znicz ludzkiemu zniczowi, by zdobyć 30 punktów i~zakończyć
-część rozgrywki.
+część rozgrywki
 
 \subsection{Rozgrywka}
 
 \subsubsection{Zawodnicy grający kaflem}
 \begin{enumerate}
 	\item Ścigający i~obrońcy, zwani również zawodnikami grającymi kaflem,
-	      usiłują zdobyć gola, i~powstrzymują przeciwną drużynę od zdobycia
-	      punktów, za pomocą kafla. Gole dają drużynie 10 punktów.
+	      usiłują zdobyć gola, i~powstrzymują przeciwną drużynę przed zdobyciem
+	      punktów za pomocą kafla. Gol daje drużynie 10 punktów.
 
 	\item Zawodnicy grający kaflem przemieszczają piłkę po boisku biegając z~nią, podając ją do współzawodników lub kopiąc.
 
-	\item Zawodnicy grający kaflem bronią przez ustawienie się lub inicjowanie
+	\item Zawodnicy grający kaflem bronią pętli poprzez odpowiednie ustawienie się lub inicjowanie
 	      różnych form dozwolonego kontaktu fizycznego z~innymi zawodnikami.
 
 	\item Obrońca w~swoim polu bramkowym jest odporny na zbicie i~posiada kilka
 	      innych specjalnych uprawnień (patrz 7.3.3.2. Przywileje obrońcy).
-	      Obrońca przebywający w~swoim polu bramkowym uznawany jest za chronionego
-	      obrońce. Pomijając tę różnicę, pozycja obrońcy nie różni się niczym od
+	      W tym czasie obrońca uznawany jest za chronionego obrońcę. Pomijając tę różnicę, pozycja obrońcy nie różni się niczym od
 	      ścigającego.
 \end{enumerate}
 
 \subsubsection{Pałkarze}
 \begin{enumerate}
 	\item Pałkarze używają piłek zwanych tłuczkami do zakłócania przebiegu gry
-	      poprzez tymczasowe wyeliminowanie (``zbicie'') tych zawodników drużyny
+	      poprzez tymczasowe wyeliminowanie (,,zbicie'') tych zawodników drużyny
 	      przeciwnej, którzy w~danym momencie gry nie są odporni na zbicie (patrz
 	      5.2.8. Odporność na zbicie).
 
@@ -216,60 +224,49 @@ część rozgrywki.
 	      ludzkiemu zniczowi, aby zdobyć 30 punktów i~zakończyć część rozgrywki.
 
 	\item Znicz jest piłką przymocowaną z~tyłu paska spodenek ludzkiego znicza
-	      -- neutralnego zawodnika lub zawodniczki i~sędziego ubranego na żółto,
-	      którego zadaniem jest nie dać się złapać przez jak najdłuższy czas
+	      -- neutralnego zawodnika i~sędziego ubranego na żółto,
+	      którego zadaniem jest nie dać się złapać przez jak najdłuższy czas,
 	      jednocześnie pozostając sprawiedliwym dla obu drużyn.
 
 	\item Złapanie znicza jest warte 30 punktów, a~jego zdobycie kończy część
 	      rozgrywki. Mecz quidditcha składa się z~trzech części: „podstawowego
-	      czasu gry'', „dogrywki'' i~„drugiej dogrywka''. Jeżeli w~danej części
+	      czasu gry'', „dogrywki'' i~„drugiej dogrywki''. Jeżeli w~danej części
 	      rozgrywki po złapaniu znicza nastąpił remis, rozpoczyna się kolejna
 	      część rozgrywki.
 \end{enumerate}
 
 \subsection{Faule}
-Od momentu, w~którym zawodnik wchodzi na obszar gry aby wziąć udział w~rozgrywce do momentu zakończenia rozgrywki, niektóre zachowania
-zawodników podczas gry skutkują faulami. Zawodnicy, którzy je popełnią
-zostają ukarani odpowiednio do powagi wykroczenia.
+Od wejścia na obszar gry, aby wziąć udział w rozgrywce, aż do chwili jej zakończenia, zawodnicy nie mogą wykonywać niedozwolonych akcji zwanych faulami. Ci, którzy je popełnią, zostają ukarani adekwatnie do wagi wykroczenia: 
 
 \subsubsection{Powrót do pętli}
 Powrót do pętli oznacza, że
-zawodnik musi zaprzestać innej aktywności i~powrócić do pętli - tak jak
+zawodnik musi zaprzestać każdej innej aktywności i~powrócić do pętli - tak jak
 w przypadku zbicia (patrz 5.3. Procedura zbicia).
 
 \subsubsection{Niebieska kartka}
 Niebieska kartka oznacza, że
-zawodnik musi spędzić minutę (1) na ławce kar a~jego drużyna musi grać
-osłabiona o~jednego zawodnika przez tę minutę. Jeżeli drużyna przeciwna
-strzeli gola przed upływem tej minuty, zawodnik zostaje uwolniony z~ławki kar wcześnej i~może kontynuuować grę. Niebieskie kartki nie
-``kumulują'' się do wyższych kar.
+zawodnik musi spędzić jedną (1) minutę na ławce kar, a jego drużyna gra w tym czasie w osłabionym składzie. Jeżeli drużyna przeciwna zdobędzie punkty przed upływem tej minuty, zawodnik zostaje uwolniony z ławki kar wcześniej i może kontynuować grę. Niebieskie kartki nie „kumulują się” do wyższych kar. 
 
 \subsubsection{Żółta kartka}
-Żółta kartka oznacza, że
-zawodnik musi spędzić minutę (1) na ławce kar, a~jego drużyna musi grać
-osłabiona o~jednego zawodnika przez tę minutę. Jeżeli drużyna przeciwna
-strzeli gola przed upływem tej minuty, zawodnik zostaje uwolniony z~ławki kar wcześnej i~może kontynuuować grę. zawodnik która popełni dwa
-faule karane żółtą kartką w~jednym meczu ukarany zostaje czerwoną
-kartką.
+Żółta kartka oznacza, że zawodnik musi spędzić jedną minutę (1) na ławce kar, a jego drużyna gra w tym czasie w osłabionym składzie. Jeżeli drużyna przeciwna zdobędzie punkty przed upływem tej minuty, zawodnik zostaje uwolniony z ławki kar wcześniej i może kontynuować grę. Żółte kartki „kumulują się” do wyższych kar – zawodnik który zostanie dwukrotnie ukarany żółtą kartką w jednym meczu, zostaje ukarany czerwoną.
 
 \subsubsection{Czerwona kartka}
-Czerwona kartka oznacza, że
-zawodnik zostaje wycofany z~gry w~danym meczu, a~jego drużyna musi grać
-w osłabieniu przed dwie pełne minuty czasu gry.
+Czerwona kartka oznacza, że zawodnik zostaje wycofany z gry w danym meczu, a jego drużyna musi grać w osłabionym składzie przez dwie (2) pełne minuty czasu gry.
 
 \subsubsection{Usunięcie}
 Sędzia może usunąć zawodnika z~gry za
 szczególnie poważne wykroczenie przeciwko zasadom gry.
 
 \subsection{Zasada czterech}
-W czasie rozgrywki w~każdej drużynie quidditcha mogą być najwyżej cztery
-osoby deklarujące tę samą płeć, włączając w~to szukającego po jego
-wejściu na boisko. Płeć deklarowana przez zawodnika może, ale nie musi,
-być tożsama z~jego płcią biologiczną. Tę zasadę określa się mianem
-„zasady czterech''.
+W czasie rozgrywki w każdej drużynie quidditcha mogą być co najwyżej cztery osoby identyfikujące się z tą samą płcią, włączając w to szukającego po jego wejściu na boisko. Płeć, z którą identyfikuje się zawodnik jest uznawana za płeć tego zawodnika i może, ale nie musi, być tożsama z jego płcią biologiczną. Tę zasadę określa się mianem „zasady czterech”.
 
-IQA wraz z~PLQ akceptują fakt, że nie wszyscy identyfikują się z~binarnym systemem podziału na płeć męską i~żeńską. IQA i~PLQ zapraszają
-do gry wszystkich, niezależnie od ich tożsamości i~płci.
+IQA wraz z PLQ akceptuje wszystkich, którzy nie identyfikują się z binarnym podziałem płci i rozumie, że nie wszyscy zawodnicy identyfikują się jako mężczyzna lub kobieta. IQA wraz z PLQ zapraszają do gry wszystkich, niezależnie od ich tożsamości i płci.
+
+%\pagebreak
+\thispagestyle{empty}
+\newgeometry{left=2cm,top=2cm}
+\includegraphics[width=0.8\paperwidth]{quidditch_pitch}
+\restoregeometry
 
 \pagebreak
 \section{Wyposażenie i~wymiary boiska}
@@ -287,13 +284,10 @@ ograniczeni do przebywania wyłącznie na tym obszarze.
 
 	\item{Linie i~punkty końcowe} -- Linie końcowe boiska to
 	      półokręgi biegnące od jednego do drugiego końca linii pola bramkowego.
-	      Punkt końcowy to punkt środkowy linii końcowej (punkt się na półokręgu
-	      wyznaczającym linię końcową znajdujący się najdalej względem pola
-	      bramkowego). Na boisku są dwie linie końcowe oraz dwa punkty końcowe.
+	      Środek tej linii wyznacza najdalszy punkt pola bramkowego czyli punkt końcowy. Na boisku są dwie linie końcowe oraz dwa punkty końcowe.
 
 	\item{Linia środkowa i~środek boiska} -- Boisko podzielone
-	      jest w~poprzek na dwie części linią środkową, dwa punkty środkowe linii
-	      bocznych. Środek boiska zaznaczony jest w~połowie linii środkowej.
+	      jest w~poprzek na pół linią środkową przechodzącą przez dwa punkty środkowe linii bocznych. Środek boiska zaznaczony jest w~połowie linii środkowej.
 \end{enumerate}
 
 \subsubsection{Wymiary boiska}
@@ -330,11 +324,7 @@ muszą być zaznaczone, łączące linie boczne boiska, równoległe do linii
 boiska oraz 11 m od linii środkowej.
 
 \paragraph{Zasięg pola bramkowego}
-Choć linie pola bramkowego
-zaznaczone są tylko w~obręgie głównej części boiska, rozciągają się one
-aż do granicy widowni po obu stronach boiska. Obydwa pola bramkowe
-ciągną się od linii pola w~kierunku punktu końcowego boiska i~dalej, aż
-do granicy widowni.
+Chociaż linie pola bramkowego zaznaczone są tylko w obrębie głównej części boiska, rozciągają się one aż do granicy widowni po obu jego stronach. Obydwa pola bramkowe ciągną się od linii pola bramkowego w kierunku punktu końcowego boiska i dalej, aż do granicy widowni.
 
 \paragraph{Pole bramkowe własne i~drużyny przeciwnej}
 Własne pole bramkowe drużyny zawiera jej pętle. Pole bramkowe drużyny
@@ -352,13 +342,8 @@ na ławkę kar. Obszar ten musi:
 	\item Znajdować się po tej samej stronie linii środkowej boiska, co ławka
 	      drużyny.
 
-	\item Ławka kar znajduje się w~obszarze gry, poza granicą boiska. Ławka kar
-	      każdej z~drużyn jest kwadratem o~wymiarach 5,5 m na 5,5 m,
-	      rozpoczynającym się przy linii środkowej boiska i~rozciągającym się
-	      wzdłuż linii bocznej boiska w~kierunku ławki drużyny.
+	\item Znajdować się w obszarze gry, ale poza granicą boiska. Ławka kar każdej z drużyn jest kwadratem o wymiarach 5,5 m na 5,5 m, rozpoczynającym się przy linii środkowej boiska i rozciągającym się wzdłuż linii bocznej boiska w kierunku ławki drużyny.
 \end{enumerate}
-
-\textit{Diagram poniżej prezentuje standardowe umieszczenie ławek kar.}
 
 \paragraph{Rozmiar obszarów ławki kar i~ich rozmieszczenie można
 	modyfikować w~zależności od wymagań skryby.}
@@ -393,7 +378,7 @@ musi być częścią obszaru gry i~pozostawać poza granicami boiska.
 
 \paragraph{Ławki drużyn}
 Ławka drużyny to obszar wewnątrz strefy
-rezerwowych,wewnątrz którego powinni przez większość czasu gry
+rezerwowych, wewnątrz którego powinni przez większość czasu gry
 pozostawać wszyscy zawodnicy i~personel drużyny, poza kapitanem
 kontaktowym, którzy nie są aktywni w~grze lub nie mają zamiaru wkrótce
 dołączyć do gry.
@@ -408,7 +393,7 @@ dołączyć do gry.
 		      \item Personel drużyny oraz trenerzy, wyłączając kapitana odpowiedzialnego
 		            za komunikację.
 		      \item Wszelkie dodatkowe wyposażenie należące do drużyny, wyłączając
-		            dodatkowe miotły, które to nie mogą znajdować się w~obszarze gry i~muszą być przechowywane przy stole skryby.
+		            dodatkowe miotły, które nie mogą się znajdować w~obszarze gry i~muszą być przechowywane przy stole skryby.
 	      \end{enumerate}
 
 	\item Ławka drużyny powinna być prostokątem o~wymiarach 12 m na 2 m,
@@ -440,10 +425,8 @@ linii środkowej boiska.
 	      od punktu środka linii, w~połowie odległości między punktem środkowym a~linią boczną.
 
 	\item Pozycje te mogą być oznaczone czterema małymi liniami, które
-	      przecinają linię środkową boiska, nazywane `oznaczeniami piłek'.
+	      przecinają linię środkową boiska, nazywanymi ,,oznaczeniami piłek''.
 \end{enumerate}
-
-\textit{obrazek}
 
 \subsubsection{Dodatkowe linie boiska}
 
@@ -511,9 +494,7 @@ W czasie gry zawodnikom nie wolno przebywać na widowni, za wyjątkiem
 poniższych przypadków (Patrz 7.2.5. Widownia):
 
 \begin{enumerate}
-	\item Zawodnicy odzyskujący piłkę, za wyraźnym pozwoleniem jednego z~sędziów
-	      lub w~przypadku gdy są najbliższymi zawodnikami którzy mają prawo
-	      odzyskać tłuczek, jeśli nie zostaną zatrzymani przez sędziego.
+	\item Zawodnicy odzyskujący piłkę, za wyraźnym pozwoleniem jednego z sędziów lub gdy nie zostaną zatrzymani przez sędziego, a są najbliższymi zawodnikami, którzy mają prawo odzyskać tłuczek.
 
 	\item Zawodnicy mający od dowolnego sędziego wyraźne pozwolenie na wejście
 	      na widownię w~innymi celu.
@@ -529,8 +510,6 @@ Różne części boiska i~obszaru je otaczającego powinny zostać wyraźnie
 oznaczone. Zazwyczaj do wykonania tych oznaczeń używa się pachołków lub
 linii).
 
-\textbf{[trzeba sprawdzić poniższe!]}
-
 \begin{enumerate}
 	\item
 	      KONIECZNIE należy oznaczyć:
@@ -539,19 +518,12 @@ linii).
 		      \item Obszar gry opisany w~2.1.8.1.
 		      \item Kształt boiska opisany w~2.1.1.1.
 		      \item Linie pola bramkowego opisane w~2.1.3.1.
-		      \item Rozmieszczenie pętli opisane w~2.2.1.3.
-		      \item Linię środkową opisaną w~2.1.1.1.C.
-		      \item Punkty końcowe boiska opisane w~2.1.1.1.B.
-	      \end{enumerate}
-
-	\item Poniższe oznaczenia są dobrowolne, chociaż zalecane:
-	      \begin{enumerate}
-		      \item Linie bramkowe opisane w~2.1.7.1.
-		      \item Linie startowe opisane w~2.1.7.2.
-		      \item Ławka kar opisana w~2.1.3.1.
-		      \item Oznaczenia piłek opisane w~2.1.6.1.
-		      \item Punkt środkowy opisany w~2.1.1.C.
-		      \item Ławki drużyn opisane w~2.1.5.2.
+			\item Linie bramkowe opisane w~2.1.7.1.
+			\item Linie startowe opisane w~2.1.7.2.
+			\item Ławki kar opisana w~2.1.3.1.
+			\item Oznaczenia piłek opisane w~2.1.6.1.
+			\item Punkt środkowy opisany w~2.1.1.C.
+			\item Ławki drużyn opisane w~2.1.5.2.
 	      \end{enumerate}
 \end{enumerate}
 
@@ -620,7 +592,7 @@ Przepisy dotyczące kafla -- kafel powinien być:
 	\item Kulistą piłką złożoną z~dętki pokrytej powłoką z~12 lub więcej pasów
 	      rozciągliwej, gładkiej skóry lub materiału skóropodobnego (jak np. w~piłce do siatkówki).
 
-	\item Obwód piłki wynosi 65-67 cm.
+	\item Mieć nie więcej niż 67 cm i nie mniej niż 65 cm w obwodzie.
 
 	\item Kafel powinien zachowywać swój kulisty kształt i~nie powinien być ani
 	      całkowicie napompowany, ani niedopompowany, tak, by zawodnik mógł
@@ -637,7 +609,7 @@ Przepisy dotyczące tłuczków -- trzy tłuczki powinny być:
 	\item Kulistymi piłkami o~powłoce z~rozciągliwego, gumopodobnego materiału
 	      (jak np. w~grze w~dwa ognie).
 
-	\item Średnica piłki wynosi 21,6 cm, a~obwód 67,8 cm.
+	\item Mieć 21,6 cm średnicy i 67,8 cm obwodu.
 
 	\item Tłuczek powinien zachowywać swój kulisty kształt -- nie powinien być
 	      ani całkowicie napompowany, ani niedopompowany, tak, by zawodnik mógł
@@ -653,7 +625,7 @@ Przepisy dotyczące znicza -- znicz powinien być:
 \begin{enumerate}
 	\item Kulistą piłką o~jednolitej powierzchni pokrytej tkaniną (jak np. w~piłce tenisowej).
 
-	\item Obwód piłki wynosi 21 cm.
+	\item Mieć 21 cm w obwodzie.
 
 	\item Znicz jest umieszczony w~skarpecie.
 	      \begin{enumerate}
@@ -683,8 +655,7 @@ Miotła:
 		            kukurydzianego, drewna bądź innego materiału. Tylna cześć miotły
 		            musi być zwrócona ku plecom zawodnika.
 		      \item
-		            Długość tyczki(nie uwzględniając witek) to min. 81 cm a~nie może
-		            przekroczyć 106 cm.
+				Długość tyczki (nie uwzględniając witek) musi mieć minimum 81 cm i maksimum 106 cm.
 	      \end{enumerate}
 	\item
 	      Całkowita długość (z witkami włącznie) nie może przekroczyć 122 cm.
@@ -705,10 +676,8 @@ złamaną miotłą musi otrzymać czerwoną kartkę.
 \subsubsection{Zapewnienie mioteł}
 Organizator turnieju jest odpowiedzialny za zapewnienie zawodnikom obu
 drużyn bezpiecznych mioteł o~jednakowej długości i~ciężarze. Drużyny
-mogą zdecydować się na własne miotły, o~ile nie jest to zabronione przez
-zasady zawodów ustalone wcześniej przez ich organizatora. Organizator
-turnieju jest odpowiedzialny za zapewnienie bezpiecznych mioteł dla obu
-drużyn w~tej samej ilości oraz o~tej samej długości i~wadze.
+mogą zdecydować się na własne miotły, o~ile nie jest to zabronione 
+przez zasady zawodów ustalone wcześniej przez ich organizatora.
 
 \subsection{Wyposażenie zawodnika}
 
@@ -739,9 +708,7 @@ musi posiadać:
 		      \item
 		            Kolor opaski musi odróżniać się na tyle by bez problemu poznać
 		            pozycje zawodnika.
-		      \item
-		            Opaska musi być szeroka na tyle by być wyraźnie widoczna z~pewnej
-		            odległości i~odróżniać się od włosów i~innego wyposażenia zawodnika.
+		            Opaska musi być szeroka na tyle by być wyraźnie widoczna z pewnej odległości i odróżniać się od włosów i innego wyposażenia zawodnika.
 		      \item
 		            Czapki i~inne nakrycia nie głowy nie mogą zastąpić opaski i~z tego
 		            powodu nie są objęte ograniczeniami co do koloru. Opaska oznaczająca
@@ -767,7 +734,7 @@ musi posiadać:
 			                  może używać jednego z~zapisów: 7 lub 07 lub 007, jednak nie
 			                  wszystkich na raz).
 			            \item
-			                  Symbol pi ($\Pi$), nieskończoność ($\inf$) czy symbol (\#).
+			                  Symbol pi ($\Pi$), nieskończoność ($\infty$) czy symbol (\#).
 			            \item
 			                  Jedną z~następujących pojedynczych dużych liter A, G, H, J, K, M,
 			                  N, P, R, T, W, X, \item
@@ -788,7 +755,7 @@ musi posiadać:
 		      \item
 		            Wystające części podeszwy nie mogą być uszkodzone lub poszarpane,
 		            aby nie były ostre lub w~inny sposób niebezpieczne, według uznania
-		            sędziego głównego. Spikes and blades nie są dozwolone
+		            sędziego głównego. Kolce i ostrza nie są dozwolone.
 	      \end{enumerate}
 	\item
 	      Ochraniacz na zęby
@@ -796,11 +763,11 @@ musi posiadać:
 
 \other{Kara} -- Nieprawidłowa opaska: Jeżeli, z~dowolnego powodu, sędzia
 uważa, że opaska zawodnika jest nieprawidłowa, sędzia powinien
-wypowiedzieć słowa ``nieprawidłowa opaska''. Gra nie zostaje zatrzymana.
+wypowiedzieć słowa ,,nieprawidłowa opaska''. Gra nie zostaje zatrzymana.
 zawodnik musi opuścić boisko i~poprawić opaskę lub zostać zastąpiony
 zawodnikiem z~prawidłową opaską.
 
-\yellowcard{Żółta kartka} -- Zawodnik, który ignoruje słowa ``nieprawidłowa
+\yellowcard{Żółta kartka} -- Zawodnik, który ignoruje słowa ,,nieprawidłowa
 opaska'' skierowane w~jego stronę lub wykonuje element gry po otrzymaniu
 tego komunikatu musi otrzymać żółtą kartkę.
 
@@ -814,7 +781,7 @@ tego komunikatu musi otrzymać żółtą kartkę.
 		      \item
 		            Mieć 2,54 cm (cal) lub mniej grubości.
 		      \item
-		            Przejść ``test stuknięcia'', to znaczy - gdy sędzia stuknie w~nie
+		            Przejść ,,test stuknięcia'', to znaczy - gdy sędzia stuknie w~nie
 		            kłykciem, nie powinny one wydawać dźwięku.
 	      \end{enumerate}
 	\item
@@ -826,7 +793,7 @@ tego komunikatu musi otrzymać żółtą kartkę.
 		      \item
 		            Twarde ochraniacze mogę mieć twarde elementy. Jednakże, twardy
 		            plastik lub metal musi być zakryty przez cały czas trwania gry i,
-		            już po zakryciu, przejść ``test stuknięcia''.
+		            już po zakryciu, przejść ,,test stuknięcia''.
 		      \item
 		            Jeżeli twardy plastik lub metal zostanie odkryty, zawodnik musi
 		            opuścić boisko i~zaradzić temu problemowi (patrz 2.5.4. Przypadkowe
@@ -839,9 +806,9 @@ tego komunikatu musi otrzymać żółtą kartkę.
 	      Ochraniacze na pachwinę - sportowe ochraniacze na krocze
 	      (suspensory) używane do ochraniania pachwiny są dozwolone.
 	\item
-	      Ochraniacze na łydki - Plastikowe lub gąbkowe ochraniacze na
-	      łydki, które nie sięgają powyżej kolan są dozwolone, ale muszą przejść
-	      ``test stuknięcia''.
+	      Ochraniacze na piszczele - Plastikowe lub gąbkowe ochraniacze na
+	      piszczele, które nie sięgają powyżej kolan są dozwolone, ale muszą przejść
+	      ,,test stuknięcia''.
 	\item
 	      Okulary - zawodnik może mieć na sobie okulary lub inne
 	      akcesoria, takie jak gogle.
@@ -857,10 +824,10 @@ tego komunikatu musi otrzymać żółtą kartkę.
 	      Rękawiczki.
 	\item
 	      Wyposażenie specjalne - Osoby niepełnosprawne lub w~trakcie
-	      rehabilitacji po urazach mogą wymagać innego, specjalnego wyposażenia,
-	      które musi zostać zatwierdzone przez PLQ.
+		rehabilitacji po urazach mogą wymagać innego, specjalnego wyposażenia, 
+		które jednak musi zostać zatwierdzone wcześniej przez IQA (lub PLQ).
 	\item
-	      Dodatkowe wyposażenie musi zostać zatwierdzony przez sędziego
+	      Dodatkowe wyposażenie musi zostać zatwierdzone przez sędziego
 	      głównego przed meczem. Jeżeli sędzia zadecyduje, że dane wyposażenie
 	      jest niebezpieczne bądź daje niesprawiedliwą korzyść dla którejkolwiek
 	      z~drużyn, to musi ono zostać usunięte.
@@ -868,10 +835,10 @@ tego komunikatu musi otrzymać żółtą kartkę.
 
 \bluecard{Niebieska kartka} -- Zawodnik, który zostanie przyłapany na
 używaniu niedozwolonego wyposażenia po rozpoczęciu meczu otrzymuje żółtą
-kartkę. Nie dotyczy to wyposażenia, które został zepsute lub w~jakikolwiek sposób zmodyfikowane podczas trwania gry.
+kartkę. Nie dotyczy to wyposażenia, które zostało zepsute lub w~jakikolwiek sposób zmodyfikowane podczas trwania gry.
 
 \redcard{Czerwona kartka} -- Zawodnik, który zostanie przyłapany na używaniu
-niedozwolonego wyposażenia, które zostało zabroniony przez sędziego lub
+niedozwolonego wyposażenia, które zostało zabronione przez sędziego lub
 organizatora turnieju przed rozpoczęciem meczu, podczas uzgadniania
 zasad specyficznych dla danego turnieju czy w~dowolnym momencie podczas
 trwania gry, otrzymuje czerwoną kartkę.
@@ -949,7 +916,7 @@ gry.
 	      \end{enumerate}
 	\item
 	      Sędzia główny i~ludzki znicz powinni poświęcić ten czas na upewnienie
-	      się, że drużyny znają lub przekazały:
+	      się, że drużyny znają:
 
 	      \begin{enumerate}
 		      \item
@@ -963,14 +930,14 @@ gry.
 		            Wszelkie informacje dotyczące zasady czterech (patrz 7.1.3. Zasada
 		            czterech).
 		      \item
-		            Pozostałe pytania i~zastrzeżenie uczestniczących stron dotyczące
+		            Pozostałe pytania i~zastrzeżenia uczestniczących stron dotyczące
 		            gry.
 	      \end{enumerate}
 \end{enumerate}
 
 \subsubsection{Rzut monetą}
-Drużyny mogą zdecydować aby to rzut
-monetą zadecydował która drużyna będzie atakować który zestaw pętli
+Drużyny mogą zdecydować, że to rzut
+monetą zadecyduje, która drużyna będzie atakować który zestaw pętli.
 
 \begin{enumerate}
 	\item
@@ -996,14 +963,14 @@ By rozpocząć grę:
 
 \begin{enumerate}
 	\item
-	      6 osób z~każdej drużyny musi ustawić się na boisku za linią startową
+	      Sześć osób z~każdej drużyny musi ustawić się na boisku za linią startową.
 
 	      \begin{enumerate}
 		      \item
-		            Każda drużyna musi rozpocząć grę z~trzema ścigającymi, jedynym
+		            Każda drużyna musi rozpocząć grę z~trzema ścigającymi, jednym
 		            obrońcą i~dwoma pałkarzami.
 		      \item
-		            Kolejność ustawienia nie jest ważna.
+				Kolejność ustawienia za linią startową jest dowolna.
 		      \item
 		            Wszyscy zawodnicy muszą pozostać za linią startową (patrz 2.1.7.2.
 		            Linie startowe).
@@ -1016,11 +983,11 @@ By rozpocząć grę:
 
 	      \begin{enumerate}
 		      \item
-		            Kafel musi zostać umieszczony na jednej z~nich pozycji najbliższych
+		            Kafel musi zostać umieszczony na jednej z~pozycji najbliższych
 		            środkowemu punktowi boiska.
 		      \item
-		            Za wyjątkiem znicza, każda piłka która, z~jakiegokolwiek powodu,
-		            przesunie się przed okrzykiem ``miotły w~górę!'' musi ponownie
+				Każda piłka, za wyjątkiem znicza, która, z~jakiegokolwiek powodu,
+		            przesunie się przed okrzykiem ,,miotły w~górę!'' musi ponownie
 		            zostać umieszczona na właściwym miejscu.
 	      \end{enumerate}
 	\item
@@ -1032,7 +999,7 @@ By rozpocząć grę:
 		            Ludzki znicz musi opuścić obszar gry.
 		      \item
 		            Ludzi znicz musi powrócić do skryby przed 17 minutą gry, tak aby
-		            skryba mógł go wypuścić przed wypuszczeniem ścigających w~18 minucie
+		            skryba mógł go wypuścić przed wypuszczeniem szukających w~18 minucie
 		            gry (patrz 3.4.1.2. Okno szukającego).
 	      \end{enumerate}
 	\item
@@ -1051,42 +1018,42 @@ By rozpocząć grę:
 
 		            \begin{enumerate}
 			            \item
-			                  Miotła musi leżeć płasko na ziemi do czasu komendy ``Miotły w~górę!'''.
+			                  Miotła musi leżeć płasko na ziemi do czasu komendy ,,Miotły w~górę!'''.
 		            \end{enumerate}
 	      \end{enumerate}
 	\item
-	      Sędzia główny woła ``Gotowi!''
+	      Sędzia główny woła ,,Gotowi!''
 
 	      \begin{enumerate}
 		      \item
-		            Zawodnicy muszą przybrać pozycje startowe na komendę ``Gotowi'', ale
+		            Zawodnicy muszą przybrać pozycje startowe na komendę ,,Gotowi'', ale
 		            miotły muszą pozostać wtedy płasko na ziemi.
 	      \end{enumerate}
 	\item
-	      Kilka sekund po komendzie ``Gotowi!'' sędzie woła ``Miotły w~górę!''.
+	      Kilka sekund po komendzie ,,Gotowi!'' sędzie woła ,,Miotły w~górę!''.
 
 	      \begin{enumerate}
 		      \item
-		            Przy wybrzmieniu dźwięku ``M'' w~``Miotły w~górę!'' wszyscy
+		            Przy wybrzmieniu dźwięku ,,M'' w~,,Miotły w~górę!'' wszyscy
 		            zawodnicy muszą wejść na miotły i~rozpocząć grę.
 		      \item
-		            Jeżeli komenda ``Miotły w~górę!'' będzie przedwczesna, sędzia główny
+		            Jeżeli komenda ,,Miotły w~górę!'' będzie przedwczesna, sędzia główny
 		            każe zawodnikom ponownie ustawić się w~pozycjach startowych i~powtarza procedurę opisaną w~3.2.1.
 		      \item
-		            W przypadku nałożenia kary przed komendą ``Miotły w~górę!'' sędzia
+		            W przypadku nałożenia kary przed komendą ,,Miotły w~górę!'' sędzia
 		            wymierza karę i~następnie każe zawodnikom ponownie ustawić się w~pozycjach startowych i~powtarza procedurę opisaną w~3.2.1.
 	      \end{enumerate}
 \end{enumerate}
 
 \bluecard{Niebieska kartka} -- Zawodnik, który zmienia pozycję na linii
-startowej przed komendą ``Miotły w~dół!'' musi otrzymać niebieską
+startowej przed komendą ,,Miotły w~dół!'' musi otrzymać niebieską
 kartkę.
 
 \bluecard{Niebieska kartka} -- Jeżeli zawodnik przekroczy linię startową lub
 podniesie miotłę, ale ma możliwość powrócenia na pozycję startową przed
-komendą ``Miotły w~górę!'', gra może zostać kontynuowana i~sytuacja
+komendą ,,Miotły w~górę!'', gra może zostać kontynuowana i~sytuacja
 traktowana jest jako nieszkodliwy faul. Jeżeli zawodnikowi nie uda się
-powrócić na pozycję startową przed wybrzmieniem dźwięku ``M'' w~``Miotły
+powrócić na pozycję startową przed wybrzmieniem dźwięku ,,M'' w~,,Miotły
 w górę!'', ten zawodnik musi otrzymać niebieską kartkę, a~sędzia musi
 ponownie ustawić zawodników w~pozycjach startowych i~powtórzyć procedurę
 opisaną w~3.2.1.
@@ -1139,12 +1106,12 @@ Aby przerwać grę:
 		      \item
 		            Zawodnicy, którzy popełnili faule karane niebieską kartką lub
 		            pierwsze wykroczenie skutkujące żółtą kartką trafiają na ławkę kar,
-		            po zapewnieniu, że każda drużyna ma w~grze obrońcę (patrz 6.4.1.3.
+		            po upewnieniu się, że każda drużyna ma w~grze obrońcę (patrz 6.4.1.3.
 		            Niebieska kartka oraz 6.4.1.4. Żółta kartka).
 		      \item
 		            Zawodnicy, którzy otrzymali czerwoną kartkę, schodzą z~boiska.
 		            Zastępujący ich zawodnicy rezerwowi trafiają na ławkę kar, po
-		            zapewnieniu, że każda drużyna ma w~grze obrońcę (patrz 6.4.1.5.
+		            upewnieniu się, że każda drużyna ma w~grze obrońcę (patrz 6.4.1.5.
 		            Czerwona kartka).
 	      \end{enumerate}
 	\item
@@ -1179,8 +1146,8 @@ Aby przerwać grę:
 	\item
 	      Wszelkie zakłócenia gry z~zewnątrz zostają usunięte.
 	\item
-	      Wadliwe wyposażenie (np. piłki) musi zostać naprawiony, wymieniony lub
-	      usunięty z~gry (jeżeli nie jest niezbędny do dalszej gry).
+	      Wadliwe wyposażenie (np. piłki) musi zostać naprawione, wymienione lub
+	      usunięte z~gry (jeżeli nie jest niezbędne do dalszej gry).
 	\item
 	      Sędzia sygnalizuje, że niebawem nastąpi powrót do gry poleceniem „Na
 	      miotły!''
@@ -1210,7 +1177,7 @@ sędziego w~trakcie zatrzymania gry musi otrzymać żółtą kartkę.
 
 \subsubsection{Zatrzymanie gry przez głównego sędziego}
 
-Sędzia główny zatrzymuje grę, postępując według procedury opisanej w~punkcie 3.2.1. w~każdym z~poniższych przypadków:
+Sędzia główny zatrzymuje grę, postępując według procedury opisanej w~punkcie 3.2.1., w~każdym z~poniższych przypadków:
 
 \begin{enumerate}
 	\item Zawodnik popełnia faul, którego rezultatem jest przejęcie kafla.
@@ -1770,7 +1737,7 @@ się na boisku musi odbyć karę na ławce kar.
 	\item
 	      Obrońca znajdujący się na boisku, trener lub kapitan drużyny muszą
 	      poprosić sędziego głównego o~ogłoszenie przerwy poprzez wypowiedzenie
-	      słowa ``PRZERWA'', jak i~również poprzez pokazanie znaku `T' poprzez
+	      słowa ,,PRZERWA'', jak i~również poprzez pokazanie znaku `T' poprzez
 	      prostopadłe ułożenie dłoni.
 
 	      \begin{enumerate}
@@ -1827,7 +1794,7 @@ się na boisku musi odbyć karę na ławce kar.
 		            Zmiany w~trakcie trwania przerwy są niedozwolone.
 	      \end{enumerate}
 	\item
-	      Sędzia główny wygłasza komunikat ``Powrót na miotły!''
+	      Sędzia główny wygłasza komunikat ,,Powrót na miotły!''
 
 	      \begin{enumerate}
 		      \item
@@ -2228,17 +2195,17 @@ następujące zasady:
 	      boisko, ludzki znicz powinien wejść na obszar gry przez wznowieniem
 	      gry, a~szukający rozpoczynają grę na swoich liniach startowych.
 	\item
-	      Sędzia główny woła ``Miotły w~dół!''.
+	      Sędzia główny woła ,,Miotły w~dół!''.
 	\item
 	      Wszyscy zawodnicy rozpoczynający grę powinni pozostać w~miejscu z~miotłami na ziemi, zgodnie ze zwykłymi zasadami rozpoczęcia rozgrywki.
 	\item
-	      Sędzie główny woła ``Gotowi!''.
+	      Sędzie główny woła ,,Gotowi!''.
 	\item
-	      Sędzia główny woła ``Miotły w~górę!''.
+	      Sędzia główny woła ,,Miotły w~górę!''.
 
 	      \begin{enumerate}
 		      \item
-		            W momencie wybrzmienia dźwięku ``M'' w~``Miotły w~górę'' zawodnicy
+		            W momencie wybrzmienia dźwięku ,,M'' w~,,Miotły w~górę'' zawodnicy
 		            mogą rozpocząć grę.
 	      \end{enumerate}
 \end{enumerate}
@@ -2657,7 +2624,7 @@ według procedury określonej w~5.3. Procedura zbicia.
 	      zawodnika, zawodnik jest nadal zbity.
 	\item
 	      Jeżeli zawodnik został uderzony żywym tłuczkiem, jest on zbity, chyba
-	      że sędzia stwierdzi, że nie doszło do zbicia mówiąc ``czysto''.
+	      że sędzia stwierdzi, że nie doszło do zbicia mówiąc ,,czysto''.
 \end{enumerate}
 
 \subsubsection{Żywy tłuczek}
@@ -2865,7 +2832,7 @@ przeciwną.
 
 	      \begin{enumerate}
 		      \item
-		            Sędzia musi wyraźnie zaznaczyć (poprzez powiedzenie ``czysto''), że
+		            Sędzia musi wyraźnie zaznaczyć (poprzez powiedzenie ,,czysto''), że
 		            zawodnik został uderzony w~bratobójczym ogniu i~nie został zbity.
 		      \item
 		            Jeżeli sędzia tego nie zrobi, zawodnik zostaje zbity i~musi
@@ -3679,7 +3646,7 @@ może:
 
 	      \begin{enumerate}
 		      \item
-		            ``Nadmierna siła'' użyta jest wtedy, gdy zawodnik znacząco
+		            ,,Nadmierna siła'' użyta jest wtedy, gdy zawodnik znacząco
 		            przekroczy użycie siły potrzebne do ukończenia rozpoczętej czynności
 		            i~w związku z~tym stwarza zagrożenie dla przeciwnika.
 	      \end{enumerate}
@@ -4253,7 +4220,7 @@ Jest to objęcie przeciwnika i~przewrócenie go na ziemię.
 		            kontynuować ruch przewracania ze względu na pęd, nawet jeśli
 		            przewracany zawodnik utraci piłkę.
 		      \item
-		            Sędzia musi zawołać ``bez piłki'' w~momencie, w~którym piłka
+		            Sędzia musi zawołać ,,bez piłki'' w~momencie, w~którym piłka
 		            zostaje wypuszczona.
 		      \item
 		            Dalsze kontynuowanie przewrócenia jest niedozwolone.
@@ -4313,14 +4280,14 @@ bez zatrzymania gry:
 
 \begin{enumerate}
 	\item
-	      Sędzia sygnalizuje, że piłka podlega ``stracie'' poprzez wskazanie,
+	      Sędzia sygnalizuje, że piłka podlega ,,stracie'' poprzez wskazanie,
 	      który typ piłki należy przekazać której drużynie.
 
 	      \begin{enumerate}
 		      \item
-		            Należy to uczynić poprzez stwierdzenie ``strata'', wskazanie typu
+		            Należy to uczynić poprzez stwierdzenie ,,strata'', wskazanie typu
 		            piłki oraz wskazanie drużyny jej nazwą bądź kolorem; na przykład:
-		            ``strata kafla na rzecz drużyny czerwonej'' lub ``strata tłuczka na
+		            ,,strata kafla na rzecz drużyny czerwonej'' lub ,,strata tłuczka na
 		            rzecz drużyny zielonej.''
 	      \end{enumerate}
 	\item
@@ -4366,7 +4333,7 @@ bez zatrzymania gry:
 		            piłki.
 		      \item
 		            Jeżeli przekazywany jest tłuczek, pałkarz może odmówić przejęcia
-		            tłuczka mówiąc ``odmawiam'', lub odstąpić jego tłuczek i~odzyskać
+		            tłuczka mówiąc ,,odmawiam'', lub odstąpić jego tłuczek i~odzyskać
 		            przekazywany tłuczek. Zawodnik musi jednak stosować się do zasad
 		            dotyczących tłuczków.
 	      \end{enumerate}
@@ -4631,12 +4598,12 @@ nie zostają zaliczone.
 
 \paragraph{Faule przed rozpoczęciem gry}
 Jeśli przed komendą
-``Miotły w~górę'' zawodnik popełni faul, który skutkowałby pewnym
+,,Miotły w~górę'' zawodnik popełni faul, który skutkowałby pewnym
 czasem kary, kara zostaje wymierzona na początku gry.
 
 \begin{enumerate}
 	\item Zawodnik, który popełnił faul (lub zastępujący go rezerwowy w~przypadku czerwonej kartki) zaczyna grę na ławce kar, a~jego drużyna
-	      zaczyna grę z~mniej niż sześcioma zawodnikami na komendę ``Miotły w~górę''.
+	      zaczyna grę z~mniej niż sześcioma zawodnikami na komendę ,,Miotły w~górę''.
 
 	\item Czas kary zawodnika rozpoczyna się w~momencie rozpoczęcia meczu przez
 	      sędziego głównego.
@@ -4658,7 +4625,7 @@ stwierdzony po zakończeniu gry:
 \paragraph{Nie ma szkody, nie ma faula}
 W przypadku drobnego
 wykroczenia, które nie dało przewagi żadnej z~drużyn, sędzia może
-zadecydować, że ``nie ma szkody, nie ma faulu'', oraz ostrzec słownie
+zadecydować, że ,,nie ma szkody, nie ma faulu'', oraz ostrzec słownie
 zawodników zamiast stwierdzać faul.
 
 \paragraph{Ostrzeżenia}
@@ -5511,7 +5478,7 @@ zostają uderzeni innym tłuczkiem).
 
 \paragraph{Efekt zbicia}
 Pałkarze mogą rzucać, kopać lub w~dowolny inny sposób wprawiać tłuczki w~ruch w~celu przerwania akcji
-poprzez ``zbicie'' innych zawodników (patrz 5. Zbijanie).
+poprzez ,,zbicie'' innych zawodników (patrz 5. Zbijanie).
 
 \paragraph{Kopanie tłuczka:}
 
