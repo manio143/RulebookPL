@@ -20,7 +20,7 @@
 \hbadness=10000
 
 \usepackage{enumitem}
-\setenumerate[1]{leftmargin=4cm,label=\Alph*.}
+\setenumerate[1]{leftmargin=2.9cm,label=\Alph*.}
 \setenumerate[2]{label=\roman*.}
 \setenumerate[3]{label=\alph*.}
 \setenumerate[4]{label=\arabic*.}
@@ -47,12 +47,12 @@
 \titleformat{\section}{\normalfont\Large\bfseries}{\thesection.}{2ex}{#1}
 \titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection.}{1.5ex}{#1}
 \titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsection.}{1ex}{#1}
-\titleformat{\paragraph}[block]{\normalfont\normalsize}{}{0pt}{\uline{\theparagraph\hspace*{1ex}#1}} %
+\titleformat{\paragraph}[block]{\normalfont\normalsize}{}{0pt}{\uline{\theparagraph.\hspace*{1ex}#1}} %
 
 %custom spacing
 % \titlespacing*{\subsection}{0.5cm}{0pt}{0pt}
-\titlespacing*{\subsubsection}{1.5cm}{0pt}{0pt}
-\titlespacing*{\paragraph}{2.8cm}{0pt}{0pt}
+\titlespacing*{\subsubsection}{1.3cm}{0pt}{0pt}
+\titlespacing*{\paragraph}{2cm}{0pt}{0pt}
 
 % Indent subsubsections
 \newenvironment{indentpar}[1]%
@@ -72,12 +72,12 @@
 \LetLtxMacro{\oldsubsubsection}{\subsubsection}
 \renewcommand{\subsubsection}[1]{
   \oldsubsubsection{#1}%
-  \leftskip1.5cm
+  \leftskip1.3cm
 }
 \LetLtxMacro{\oldparagraph}{\paragraph}
 \renewcommand{\paragraph}[1]{
   \oldparagraph{#1}%
-  \leftskip2.8cm
+  \leftskip2cm
 }
 
 % Custom subparagraphs
