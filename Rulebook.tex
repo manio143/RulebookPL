@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 
 \usepackage{polski}
 \usepackage[polish]{babel}
@@ -22,7 +22,8 @@
 \hbadness=10000
 
 \usepackage{enumitem}
-\setenumerate[1]{leftmargin=2.9cm,label=\Alph*.}
+%\setenumerate[1]{leftmargin=2.9cm,label=\Alph*.}
+\setenumerate[1]{leftmargin=1.2cm,label=\Alph*.}
 \setenumerate[2]{label=\roman*.}
 \setenumerate[3]{label=\alph*.}
 \setenumerate[4]{label=\arabic*.}
@@ -52,8 +53,8 @@
 
 %custom spacing
 % \titlespacing*{\subsection}{0.5cm}{0pt}{0pt}
-\titlespacing*{\subsubsection}{1.3cm}{0pt}{0pt}
-\titlespacing*{\paragraph}{2cm}{0pt}{0pt}
+%\titlespacing*{\subsubsection}{1.3cm}{0pt}{0pt}
+%\titlespacing*{\paragraph}{2cm}{0pt}{0pt}
 
 % Indent subsubsections
 \newenvironment{indentpar}[1]%
@@ -69,16 +70,16 @@
 %   \oldsubsection{#1}%
 %   \leftskip0.5cm
 % }
-\LetLtxMacro{\oldsubsubsection}{\subsubsection}
-\renewcommand{\subsubsection}[1]{
-  \oldsubsubsection{#1}%
-  \leftskip1.3cm
-}
-\LetLtxMacro{\oldparagraph}{\paragraph}
-\renewcommand{\paragraph}[1]{
-  \oldparagraph{#1}%
-  \leftskip2cm
-}
+% \LetLtxMacro{\oldsubsubsection}{\subsubsection}
+% \renewcommand{\subsubsection}[1]{
+%   \oldsubsubsection{#1}%
+%   \leftskip1.3cm
+% }
+% \LetLtxMacro{\oldparagraph}{\paragraph}
+% \renewcommand{\paragraph}[1]{
+%   \oldparagraph{#1}%
+%   \leftskip2cm
+% }
 
 % Custom subparagraphs
 \definecolor{darkyellow}{RGB}{244,213,9}
