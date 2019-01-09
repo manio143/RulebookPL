@@ -27,6 +27,13 @@
 \definecolor{darkgreen}{RGB}{28,135,12}
 \definecolor{darkishgreen}{RGB}{35,165,14}
 
+\usepackage{fancyhdr}
+\lhead{}
+\rhead{}
+\chead{\textsc{\textcolor{darkgreen}{PLQ Rulebook 2018-2020}}}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
 \usepackage{enumitem}
 %\setenumerate[1]{leftmargin=2.9cm,label=\Alph*.}
 \setenumerate[1]{leftmargin=1.2cm,label=\textbf{\textcolor{darkgreen}{\Alph*.}}}
@@ -109,13 +116,15 @@
 
 \title{Zasady gry w~quidditcha}
 \author{Polska Liga Quidditcha}
-\date{Sezon 2018 - 2019}
+\date{Sezon 2018 - 2020}
 
 \begin{document}
 
 \maketitle
 
 \setlength{\parskip}{0ex}
+
+\pagestyle{fancy}
 
 \tableofcontents
 
