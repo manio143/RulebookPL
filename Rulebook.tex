@@ -6,7 +6,8 @@
 \usepackage[utf8]{inputenc}
 
 %font
-\usepackage[sfdefault]{roboto} %% option 'sfdefault' activates Sans as the default text font
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault}
 \usepackage[T1]{fontenc}
 
 \usepackage{color}
@@ -24,10 +25,11 @@
 %colors
 \definecolor{darkyellow}{RGB}{244,213,9}
 \definecolor{darkgreen}{RGB}{28,135,12}
+\definecolor{darkishgreen}{RGB}{35,165,14}
 
 \usepackage{enumitem}
 %\setenumerate[1]{leftmargin=2.9cm,label=\Alph*.}
-\setenumerate[1]{leftmargin=1.2cm,label=\textcolor{darkgreen}{\Alph*.}}
+\setenumerate[1]{leftmargin=1.2cm,label=\textbf{\textcolor{darkgreen}{\Alph*.}}}
 \setenumerate[2]{label=\textbf{\roman*.}}
 \setenumerate[3]{label=\textbf{\alph*.}}
 \setenumerate[4]{label=\textbf{\arabic*.}}
@@ -50,8 +52,8 @@
 
 \usepackage[explicit]{titlesec}
 \usepackage{ulem}
-\titleformat{\section}{\normalfont\Large\bfseries}{\thesection.}{2ex}{#1}
-\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection.}{1.5ex}{#1}
+\titleformat{\section}[block]{\center\normalfont\LARGE\bfseries}{\thesection.}{2ex}{#1}
+\titleformat{\subsection}{\normalfont\Large\bfseries}{\textcolor{darkgreen}{\thesubsection.}}{1.5ex}{\textcolor{darkgreen}{\textsc{#1}}}
 \titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsection.}{1ex}{#1}
 \titleformat{\paragraph}[block]{\normalfont\normalsize}{}{0pt}{\uline{\theparagraph.\hspace*{1ex}#1}} %
 
