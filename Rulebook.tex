@@ -96,10 +96,10 @@
 % }
 
 % Custom subparagraphs
-\newcommand\redcard[1]{\bgroup\textcolor{darkgreen}{\textbf{Kara: }}\bgroup\textcolor{red}{\textbf{Czerwona Kartka}} -- #1}
-\newcommand\yellowcard[1]{\bgroup\textcolor{darkgreen}{\textbf{Kara: }}\bgroup\textcolor{darkyellow}{\textbf{Żółta Kartka}} -- #1}
-\newcommand\bluecard[1]{\bgroup\textcolor{darkgreen}{\textbf{Kara: }}\bgroup\textcolor{blue}{\textbf{Niebieska Kartka}} -- #1}
-\newcommand\penaltyd[2]{\bgroup\textcolor{darkgreen}{\textbf{Kara: #1}} -- #2}
+\newcommand\redcard[1]{\textcolor{darkgreen}{\textbf{Kara: }}\textcolor{red}{\textbf{Czerwona Kartka}} -- #1}
+\newcommand\yellowcard[1]{\textcolor{darkgreen}{\textbf{Kara: }}\textcolor{darkyellow}{\textbf{Żółta Kartka}} -- #1}
+\newcommand\bluecard[1]{\textcolor{darkgreen}{\textbf{Kara: }}\textcolor{blue}{\textbf{Niebieska Kartka}} -- #1}
+\newcommand\penaltyd[2]{\textcolor{darkgreen}{\textbf{Kara: #1}} -- #2}
 
 \usepackage{geometry}
 
@@ -108,6 +108,8 @@
 	\includegraphics[width=\paperwidth]{#1}
 	\restoregeometry
 }
+
+\setlength{\headheight}{13.6pt} %header
 
 \setlength{\parindent}{0pt} % brak wcięć
 \setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
