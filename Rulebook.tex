@@ -14,6 +14,8 @@
 
 \usepackage{graphicx}
 
+\usepackage{hyperref}
+
 \usepackage{pdfpages}
 
 %justify - no hyphens
@@ -78,22 +80,18 @@
   }
   {\end{list}}
 
+\LetLtxMacro{\oldsubsection}{\subsection}
+\renewcommand{\subsection}[1]{
+  \oldsubsection{#1}%
+  \label{\thesubsection}
+}
+\LetLtxMacro{\oldsubsubsection}{\subsubsection}
+\renewcommand{\subsubsection}[1]{
+  \oldsubsubsection{#1}%
+  \label{\thesubsubsection}
+}
 
-% \LetLtxMacro{\oldsubsection}{\subsection}
-% \renewcommand{\subsection}[1]{
-%   \oldsubsection{#1}%
-%   \leftskip0.5cm
-% }
-% \LetLtxMacro{\oldsubsubsection}{\subsubsection}
-% \renewcommand{\subsubsection}[1]{
-%   \oldsubsubsection{#1}%
-%   \leftskip1.3cm
-% }
-% \LetLtxMacro{\oldparagraph}{\paragraph}
-% \renewcommand{\paragraph}[1]{
-%   \oldparagraph{#1}%
-%   \leftskip2cm
-% }
+\newcommand{\myref}[1]{\ref{#1}. \nameref{#1}}
 
 % Custom subparagraphs
 \newcommand\redcard[1]{\textcolor{darkgreen}{\textbf{Kara: }}\textcolor{red}{\textbf{Czerwona Kartka}} -- #1}
@@ -358,17 +356,17 @@ Zawodnicy mogą wymienić się pozycjami przez przeprowadzenie procedury zmiany 
 \begin{enumerate}
   \item Zmiany mogą być przeprowadzane tylko kiedy gra nie jest wstrzymana, z poniższymi wyjątkami:
   \begin{enumerate}
-    \item Zmiana zawodnika wyrzuconego z boiska (patrz 9.1.6. Wyrzucenie) %TODO ref
-    \item Zmiana zawodnika kontuzjowanego (patrz 1.3.4. Zmiana z powodu kontuzji) %TODO ref
-    \item Obrońca zamienia się pozycją z innym zawodnikiem kiedy idzie do strefy kar (patrz 9.4.2.) %TODO ref
-    \item Zamiana zawodnika z rezerwowym, który popełnił faul (patrz 9.4.5.) %TODO ref
-    \item Poprawianie niewłaściwego zestawu zawodników po otrzymaniu kary (patrz 1.2.4.) %TODO ref
+    \item Zmiana zawodnika wyrzuconego z boiska (patrz \myref{9.1.6}).
+    \item Zmiana zawodnika kontuzjowanego (patrz \myref{1.3.4})
+    \item Obrońca zamienia się pozycją z innym zawodnikiem kiedy idzie do strefy kar (patrz \myref{9.4.2}).
+    \item Zamiana zawodnika z rezerwowym, który popełnił faul (patrz \myref{9.4.5}).
+    \item Poprawianie niewłaściwego zestawu zawodników po otrzymaniu kary (patrz \myref{1.2.4}).
   \end{enumerate}
 \end{enumerate}
 
 \subsubsection{Zmiana z powodu kontuzji}
 \begin{enumerate}
-  \item Jeśli zawodnik dozna kontuzji ale gra nie została wstrzymana, to aby się zmienić musi przejść procedurę zmiany (patrz 1.3.1.) %TODO ref
+  \item Jeśli zawodnik dozna kontuzji ale gra nie została wstrzymana, to aby się zmienić musi przejść procedurę zmiany (patrz \myref{1.3.1}).
   \item Gra musi zostać wstrzymana jeśli zawodnik krwawi lub leży i jest zbyt mocno kontuzjowany aby kontynuować grę lub się zmienić.
   \begin{enumerate}
     \item Gra powinna zostać wstrzymana natychmiast jeśli kontuzjowany zawodnik znajduje się w pobliżu akcji lub został poważnie kontuzjowany, włączając w to niepowierzchowne urazy głowy.
@@ -512,7 +510,7 @@ Strefa graczy to prostokąt, który po środku ma boisko.
     \item Zawodników w grze.
     \item Sędziów przypisanych do danej gry.
     \item Organizatorów turnieju, którzy otrzymali uprawnienia (na swoje ryzyko) od sędziego głównego lub dyrektora turnieju.
-    \item Personel drużyny zgodnie z opisem w 1.1.2 %TODO ref
+    \item Personel drużyny zgodnie z opisem w \myref{1.1.2}.
   \end{enumerate}
   \item Widzowie nie mogą wchodzić do strefy graczy.
 \end{enumerate}
@@ -524,19 +522,19 @@ Poszczególne części boiska i otaczającej strefy powinny być oznaczone w jas
 \begin{enumerate}
   \item Poniższe muszą być oznaczone:
   \begin{enumerate}
-    \item Granice boiska (2.1.1.) %TODO ref
-    \item Linia środkowa (2.1.2.) %TODO ref
-    \item Linie pola obrońcy (2.1.3.) %TODO ref
-    \item Pozycja piłki najbardziej oddalona od stołu \emph{scorekeepera} (2.1.6.) %TODO ref
+    \item Granice boiska (\myref{2.1.1}).
+    \item Linia środkowa (\myref{2.1.2}).
+    \item Linie pola obrońcy (\myref{2.1.3}).
+    \item Pozycja piłki najbardziej oddalona od stołu \emph{scorekeepera} (\myref{2.1.6}).
   \end{enumerate}
   \item Poniższe oznaczenia są opcjonalne, ale zalecane:
   \begin{enumerate}
-    \item Linie bramkowe (2.1.4.) %TODO ref
-    \item Strefy kar (2.1.5.) %TODO ref
-    \item Pozostałe pozycje piłek (2.1.6.) %TODO ref
-    \item Ławki drużyn (2.1.8.) %TODO ref
-    \item Strefa graczy (2.1.9.) %TODO ref
-    \item Pozycje pętli (2.2.3.) %TODO ref
+    \item Linie bramkowe (\myref{2.1.4}).
+    \item Strefy kar (\myref{2.1.5}).
+    \item Pozostałe pozycje piłek (\myref{2.1.6}).
+    \item Ławki drużyn (\myref{2.1.8}).
+    \item Strefa graczy (\myref{2.1.9}).
+    \item Pozycje pętli (\myref{2.2.3}).
     \begin{enumerate}
       \item Te oznaczenia nie mogą wpływać na stabilność pętli.
     \end{enumerate}
@@ -731,7 +729,7 @@ Opaski oznaczające pozycje zawodników muszą spełniać poniższe:
   \end{enumerate}
   \item Jeśli sędzia uzna opaskę zawodnika za niedopuszczalną, z dowolnego powodu, to musi on natychmiast naprawić sytuację.
   \begin{enumerate}
-    \item Jeśli z jakiegoś powodu nie jest to możliwe, stosowana jest procedura przypadkowego naruszenia sprzętu (patrz 2.5.7.). %TODO ref
+    \item Jeśli z jakiegoś powodu nie jest to możliwe, stosowana jest procedura przypadkowego naruszenia sprzętu (patrz \myref{2.5.7}).
   \end{enumerate}
 \end{enumerate}
 
@@ -778,7 +776,7 @@ Poniższe elementy określone są jako dodatkowy sprzęt i mają pewne ogranicze
   \item Ortezy -- muszą spełniać wymagania dla ochraniaczy.
   \begin{enumerate}
     \item Orteza może zawierać twarde elementy, ale muszą one być pokryte i przechodzić test "pukania".
-    \item Jeśli twarde elementy zostaną odsłonięte podczas gry, zawodnik musi opuścić boisko i naprawić problem (patrz 2.5.7.) %TODO ref
+    \item Jeśli twarde elementy zostaną odsłonięte podczas gry, zawodnik musi opuścić boisko i naprawić problem (patrz \myref{2.5.7})
     \item Sędziowie mogą zabronić ortez, które ich zdaniem będą stanowić zagrożenie dla osób na boisku.
   \end{enumerate}
   \item Wspomagacze atletyczne (np. na miejsca intymne) są dozwolone.
@@ -884,7 +882,7 @@ Aby rozpocząć grę:
     \item Zawodnicy mogą zimeniać ustawienie i opaski pozycji dopóki sędzia nie zawoła ,,Miotły w dół!''
     \item Zawodnik, który otrzyma kartkę przed rozpoczęciem meczu (lub rezerwowy w przypadku czerwonej kartki) musi rozpocząć grę w strefie kar.
   \end{enumerate}
-  \item Kafel i tłuczki muszą być umieszczone na określonych pozycjach (patrz 2.1.6.) %TODO ref
+  \item Kafel i tłuczki muszą być umieszczone na określonych pozycjach (patrz \myref{2.1.6}).
   \begin{enumerate}
     \item Kafel musi zostać umieszczony na jednej z pozycji piłek bliżej środka.
     \item Jeśli piłki poruszą się, muszą być umieszczone spowrotem na ich pozycjach przed zawołaniem ,,Miotły w górę!''
@@ -1031,9 +1029,9 @@ Aby wznowić grę:
       \item Sędzia główny może lekko opóźnić wstrzymanie gry, aby poczekać na zakończenie aktywnej gry pałkarzy.
     \end{enumerate}
     \item Sędzia główny powiadamia \emph{scorekeepera} o zgłoszeniu \emph{timeoutu}.
-    \item Po spełnieniu wszystkich kroków procedury zatrzymania (3.3.2.) rozpoczyna się jedno-minutowy \emph{timeout}. %TODO ref
+    \item Po spełnieniu wszystkich kroków procedury zatrzymania (\myref{3.3.2}) rozpoczyna się jedno-minutowy \emph{timeout}.
     \item Sędzia główny gwiżdże długi gwizd po upływie 45 sekund \emph{timeoutu}.
-    \item Po zakończeniu \emph{timeoutu} sędzia główny wznawia grę standardową procedurą (3.3.3.) %TODO ref
+    \item Po zakończeniu \emph{timeoutu} sędzia główny wznawia grę standardową procedurą (\myref{3.3.3}).
     \begin{enumerate}
       \item Każdy gracz, który nie wsiadł na miotłę na czas wznowienia gry, musi wrócić do pętli.
     \end{enumerate}
@@ -1100,7 +1098,7 @@ Następująca procedura ma miejsce aby przejść do dogrywki.
   \item Drużyny zamieniają się połowami boiska.
   \item Sędziowie resetują boisko.
   \item Sędzia główny daje drużynom około 3 minuty przerwy między pierwszym i drugim etapem gry.
-  \item Sędzia główny rozpoczyna grę zgodnie z procedurą rozpoczęcia (patrz 3.2.1.) %TODO ref
+  \item Sędzia główny rozpoczyna grę zgodnie z procedurą rozpoczęcia (patrz \myref{3.2.1}).
   \item Znicz musi znaleźć się na boisku przed upływem 30 sekund czasu gry dogrywki.
   \item Zanim szukający będą mogli wystartować za zniczem, obowiązuje ich 30 sekundowe uziemienie szukających.
   \begin{enumerate}
@@ -1126,7 +1124,7 @@ Następująca procedura ma miejsce aby przejść do drugiej dogrywki.
 \begin{enumerate}
   \item Drużyny nie zamieniają się połowami.
   \item Sędziowie od razu restartują boisko.
-  \item Sędzia główny rozpoczyna grę zgodnie z procedurą rozpoczęcia (patzr 3.2.1.) %TODO ref
+  \item Sędzia główny rozpoczyna grę zgodnie z procedurą rozpoczęcia (patrz \myref{3.2.1}).
   \item Znicz pozostaje na linii środkowej do zawołania ,,Miotły w górę!''
   \item Nie ma uziemienia szukających. Szukający startują z pola obrońcy z resztą drużyny.
   \item Druga dogrywka kończy się jeśli padnie bramka lub zostanie złapany znicz.
@@ -1178,7 +1176,7 @@ Następująca procedura ma miejsce aby przejść do drugiej dogrywki.
     \item Wszelkie ograniczenia nałożone na znicz przed odłożeniem gry, nadal muszą być stosowane.
   \end{enumerate}
   \item Sędzia główny woła ,,Miotły w dół!''
-  \item Zawodnicy pozostają na swoich pozycjach z miotłami płasko na ziemi, tak jak przy standardowej procedurze (3.2.1.) %TODO ref
+  \item Zawodnicy pozostają na swoich pozycjach z miotłami płasko na ziemi, tak jak przy standardowej procedurze (\myref{3.2.1}).
   \item Sędzia główny woła ,,Gotowi!''
   \item Sędzia główny woła ,,Miotły w górę!''
   \begin{enumerate}
@@ -1209,15 +1207,15 @@ Drużyna otrzymuje 10 punktów jeśli kafel przejdzie przez pętlę przeciwnika 
       \item Można zdobyć bramkę z obu stron pętli.
     \end{enumerate}
     \item Kafel nie był martwy.
-    \item Kafel nie był \emph{unscorable} (patrz 5.6.3.) %TODO ref
+    \item Kafel nie był \emph{unscorable} (patrz \myref{5.6.3}).
     \item Gol nie nastąpił po faulu skutkującym kartką, popełnionym przez zawodnika drużyny atakującej, zanim zawodnik ten został ukarany.
     \item Gol nie nastąpił po faulu skutkującym stratą piłki, popełnionym przez zawodnika drużyny atakującej, zanim piłka została przekazana.
     \item Zawodnik strzelający gola nie popełnił faulu skutkującego powrotem do pętli, kartką lub wyrzuceniem zanim otrzymał kafel lub w trakcie posiadania żywego kafla.
-    \item Pętla nie była przewrócona lub zniszczona (patrz 4.3.1.) %TODO ref
+    \item Pętla nie była przewrócona lub zniszczona (patrz \myref{4.3.1}).
   \end{enumerate}
   \item Kafel staje się martwy gdy zdobyto dobry gol.
   \item Sędzia główny musi potwierdzić dobry gol jednym długim gwizdem i podniesieniem obu rąk.
-  \item Dobre gole zdobyte po poprawnym złapaniu znicza nie mogą być zaliczone (patrz 4.4.3.) %TODO ref
+  \item Dobre gole zdobyte po poprawnym złapaniu znicza nie mogą być zaliczone (patrz \myref{4.4.3}).
 \end{enumerate}
 
 \subsubsection{\emph{Goaltending}}
@@ -1333,12 +1331,12 @@ Kiedy szukający złapie znicz i to złapanie zostanie potwierdzone jako dobre z
   \begin{enumerate}
     \item Szukający oderwał ogonek zniczowy od znicza i był jedyną osobą go posiadającą w chwili oderwania.
     \item Ogonek zniczowy był poprawnie przymocowany do spodenek znicza przed złapaniem.
-    \item Znicz nie był \emph{down} w czasie złapania (patrz 8.4.1.) %TODO ref
+    \item Znicz nie był \emph{down} w czasie złapania (patrz \myref{8.4.1}).
     \item Łapiący szukający nie popełnił faulu, który skutkuje powrotem do pętli, otrzymaniem kartki lub wyrzuceniem, tuż przed lub w trakcie złapania.
     \item Złapanie nie miało miejsca między faulem skutkującym otrzymanie kartki popełnionym przez członka drużyny łapiącej oraz zatrzymaniem gry, kiedy osoba ta została ukarana.
     \item Żaden sędzia ani zawodnik drużyny łapiącej nie wpadł na znicz w taki sposób, że ułatwiłoby to złapanie.
     \begin{enumerate}
-      \item Jeśli wpadnięcie było legalną akcją szukającego opisaną w 6.3.1.A. to powinno być zignorowane. %TODO ref
+      \item Jeśli wpadnięcie było legalną akcją szukającego opisaną w \ref{6.3.1}.A. \nameref{6.3.1} to powinno być zignorowane.
     \end{enumerate}
     \item Szukający nie był zbity w momencie złapania.
     \item Obaj szukający nie złapali znicza w tym samym momencie.
@@ -1377,7 +1375,7 @@ W nielicznych sytuacjach, drużyna może odrzucić swoje poprawne złapanie.
   \item Nie można odrzucić złapania, chyba że nastąpiło jedno z poniższych:
   \begin{enumerate}
     \item Złapanie nastąpiło między zdobyciem bramki, a potwierdzeniem gola przez sędziego.
-    \item Złapanie nastąpiło po określeniu przez sędziego, że gol był dobry lub niedobry i przed oficjalną zmianą decyzji zgodnie z 10.2.4. %TODO ref
+    \item Złapanie nastąpiło po określeniu przez sędziego, że gol był dobry lub niedobry i przed oficjalną zmianą decyzji zgodnie z \myref{10.2.4}.
   \end{enumerate}
   \item Nie można odrzucić złapania, chyba że zmiana wyniku decyduje o zakończeniu etapu gry remisem.
   \item Jeśli odrzucono złapanie, gra jest wznawiana tak jakby złapanie nie było poprawne.
@@ -1417,14 +1415,14 @@ Jeśli zawodnik zejdzie z moitły podczas gry, gracz jest natychmiastowo zbity i
       \item Włączamy w to uderzenie we włosy, ubranie i sprzęt zawodnika, poza piłkami.
       \item Poniżsi zawodnicy nie są zbici jeśli nawet dostaną żywym tłuczkiem od przeciwnika:
       \begin{enumerate}
-        \item Chroniony obrońca (patrz 7.2.2.) %TODO ref
-        \item Pałkarz z immunitetem (patrz 5.5.2.) %TODO ref
-        \item Zawodnicy na zewnątrz boiska, wprowadzający piłkę do wewnątrz. (patrz 7.5.4.) %TODO ref
+        \item Chroniony obrońca (patrz \myref{7.2.2}).
+        \item Pałkarz z immunitetem (patrz \myref{5.5.2}).
+        \item Zawodnicy na zewnątrz boiska, wprowadzający piłkę do wewnątrz. (patrz \myref{7.5.4}).
       \end{enumerate}
-      \item Pałkarze bez immunitetu mogą opóźnić zejście z miotły na czas próby złapania tłuczka, który w nich trafił, dopóki nie stanie się on martwy (patrz 5.4.3.). %TODO ref
+      \item Pałkarze bez immunitetu mogą opóźnić zejście z miotły na czas próby złapania tłuczka, który w nich trafił, dopóki nie stanie się on martwy (patrz \myref{5.4.3}).
     \end{enumerate}
   \end{enumerate}
-  \item Jak tylko zawodnik zostanie zbity musi przejść procedurę zbicia (patrz 5.3.1.). %TODO ref
+  \item Jak tylko zawodnik zostanie zbity musi przejść procedurę zbicia (patrz \myref{5.3.1}).
   \begin{enumerate}
     \item Zawodnicy nie mogą świadomie ignorować zbić.
   \end{enumerate}
@@ -1482,7 +1480,7 @@ Jeśli zawodnik jest uderzony tłuczkiem, który nie może go zbić, sędzia mus
     \item Jeśli początkowo sędzia krzyknął ,,safe'' lub ,,czysto'' ale potem zmienił decyzję na ,,zbity'', zawodnik nie dostaje kary pod warunkiem, że zareaguje na zawołanie ,,zbity'' zejściem z miotły.
     \item Jeśli żaden sędzia nie zawołał ,,safe'' lub ,,czysto'' i ostateczna decyzja to ,,zbity'', to oznacza, że zawodnik świadomie ignoruje zbicie.
     \begin{enumerate}
-      \item Jeśli sędzia stwierdzi, że zawodnik nie był świadomy, że dostał tłuczkiem, to można to potraktować jako niezauważone zbicie (patrz 5.3.4.). %TODO ref
+      \item Jeśli sędzia stwierdzi, że zawodnik nie był świadomy, że dostał tłuczkiem, to można to potraktować jako niezauważone zbicie (patrz \myref{5.3.4}).
       \begin{enumerate}
         \item To że zawodnik był przekonany, że sędzia zawoła za chwilę ,,safe'' lub ,,czysto'' nie jest brane pod uwagę przy wyznaczaniu kary.
       \end{enumerate}
@@ -1499,7 +1497,7 @@ Zbity zawodnik pozostaje zbity dopóki nie ukończy poniższej procedury, w kole
 \begin{enumerate}
   \item Pozbądź się posiadania wszelkich piłek przez upuszczenie ich oraz zejdź z miotły.
   \begin{enumerate}
-    \item Zawodnik nie może podać, poturlać lub kopnąć piłki, chyba że kończy naturalny ruch (patrz 5.6.2.) %TODO ref
+    \item Zawodnik nie może podać, poturlać lub kopnąć piłki, chyba że kończy naturalny ruch (patrz \myref{5.6.2}).
     \item Upuszczony tak tłuczek jest martwy.
     \item Upuszczony tak kafel nie może zdobyć gola.
   \end{enumerate}
@@ -1519,7 +1517,7 @@ Zbity zawodnik pozostaje zbity dopóki nie ukończy poniższej procedury, w kole
 Zbici zawodnicy nie mogą brać udziału w grze, więc:
 \begin{enumerate}
   \item Nie mogą rozgrywać.
-  \item Nie mogą nadawać ruchu lub rozgrywać piłkami, chyba że kończąc naturalny ruch (patrz 5.6.2.) %TODO ref
+  \item Nie mogą nadawać ruchu lub rozgrywać piłkami, chyba że kończąc naturalny ruch (patrz \myref{5.6.2}).
   \begin{enumerate}
     \item Jeśli zawodnik nada ruch piłce tuż po zbiciu to należy to uznać jako naruszenie naturalnego ruchu.
   \end{enumerate}
@@ -1585,19 +1583,19 @@ Każdą próbę odbicia lub celowego nadania ruchu żywemu tłuczkowi, w sposób
 \begin{enumerate}
   \item Pałkarze mogą trzepnąć lub próbować zmienić tor lotu żywego tłuczka.
   \begin{enumerate}
-    \item Uderzony pałkarz nie może trzepnąć żadnego tłuczka, chyba że jest to element próby złapania go (patrz 5.4.3.). %TODO ref
+    \item Uderzony pałkarz nie może trzepnąć żadnego tłuczka, chyba że jest to element próby złapania go (patrz \myref{5.4.3}).
     \item Pałkarz posiadający tłuczek nie może trzepnąć innego tłuczka.
     \begin{enumerate}
-      \item Ta zasada nie zabrania odbijania żywego tłuczka trzymanym, martwym tłuczkiem (patrz 5.4.1.).
+      \item Ta zasada nie zabrania odbijania żywego tłuczka trzymanym, martwym tłuczkiem (patrz \myref{5.4.1}).
     \end{enumerate}
     \item Jeśli tłuczek był żywy to pozostaje żywy dla drużyny, która go początkowo ożywiła.
     \begin{enumerate}
-      \item Jeśli przeciwna drużyna ożywiła tłuczek, to trzepiący pałkarz staje się uderzonym pałkarzem (patrz 5.4.3.). %TODO ref
+      \item Jeśli przeciwna drużyna ożywiła tłuczek, to trzepiący pałkarz staje się uderzonym pałkarzem (patrz \myref{5.4.3}).
     \end{enumerate}
   \end{enumerate}
   \item Ściagający, obrońcy i szukający nie mogą trzepnąć żadnego tłuczka.
   \begin{enumerate}
-    \item Ta zasada nie zabrania odbijania żywego tłuczka trzymanym kaflem (patrz 5.4.1.). %TODO ref
+    \item Ta zasada nie zabrania odbijania żywego tłuczka trzymanym kaflem (patrz \myref{5.4.1}).
   \end{enumerate}
 \end{enumerate}
 
@@ -1609,7 +1607,7 @@ Pałkarz, który nie miał immunitetu, staje się uderzonym pałkarzem w momenci
   \item Uderzony pałkarz nie może ożywić tłuczka.
   \item Uderzony pałkarz musi upuścić wszelkie posiadane tłuczki.
   \begin{enumerate}
-    \item Zawodnik nie może podać, poturlać lub kopnąć piłki, chyba że kończy naturalny ruch (patrz 5.6.2.) %TODO ref
+    \item Zawodnik nie może podać, poturlać lub kopnąć piłki, chyba że kończy naturalny ruch (patrz \myref{5.6.2}).
     \item Niewypuszczenie tłuczka jest naruszeniem tej zasady.
   \end{enumerate}
   \item Uderzony pałkarz musi próbować złapać tłuczek, którym został uderzony lub od razu rozpoczać procedurę zbicia.
@@ -1751,7 +1749,7 @@ Poniższe formy kontaktu są zawsze nielegalne, chyba że sędzia uzna, że był
   \item Wskoczenie lub wejście na dowolnego zawodnika.
   \item Celowe podniesienie lub trzymanie w powietrzu dowolnego zawodnika.
   \item Łapanie za miotłę lub ubranie przeciwnika.
-  \item Próba skradzenia kafla, kontaktowanie lub inna interakcja z chronionym obrońcą, który jest w samodzielnym posiadaniu kafla (patrz 7.2.) %TODO ref
+  \item Próba skradzenia kafla, kontaktowanie lub inna interakcja z chronionym obrońcą, który jest w samodzielnym posiadaniu kafla (patrz \myref{7.2}).
 \end{enumerate}
 
 \penaltyd{Standardowa kara za kontakt}{Nielegalny kontakt fizyczny.}
@@ -1903,7 +1901,7 @@ Podczas pchania, blokowania ciałem, szarży lub obejmowania, zawodnik nie może
     \item Przepychania się o pozycję.
     \item Podczas próby odebrania piłki.
   \end{enumerate}
-  \item Kontakt rozpoczęty w ten sposób nie pozwala na kontynuowanie kontntaktu w sposób wymieniony w 6.1.9. %TODO ref
+  \item Kontakt rozpoczęty w ten sposób nie pozwala na kontynuowanie kontntaktu w sposób wymieniony w \myref{6.1.9}.
 \end{enumerate}
 
 \subsubsection{Poprawianie nielegalnego kontaktu}
@@ -1934,8 +1932,8 @@ Wyjątkowo nadmierny kontakt jest zabroniony. Następujące są zawsze wyjątkow
   \item Uderzenie lub próba uderzenie dowolnej osoby, włączając w to kopnięcie kolanem, łokciem, głową.
   \item Celowy kontakt z głową, szyją lub kroczem dowolnej osoby.
   \item Celowy kontakt z sędzią, poza zniczem.
-  \item Szarżowanie na bezbronnego łapacza (patrz 6.1.7.) %TODO ref
-  \item Przewracanie bezbronnego łapacza (patrz 6.1.7.) %TODO ref
+  \item Szarżowanie na bezbronnego łapacza (patrz \myref{6.1.7}).
+  \item Przewracanie bezbronnego łapacza (patrz \myref{6.1.7}).
 \end{enumerate}
 
 \penaltyd{Wyrzucenie}{Wyjątkowo nadmierny kontakt przeciwko zawodnikowi ze swojej drużyny.}
@@ -1949,7 +1947,7 @@ Blokowanie ciałem zachodzi wtedy, kiedy po zetknięciu ciałem (lub rękoma je�
 \begin{enumerate}
   \item Nielegalne jest blokowanie ciałem używając głowy, nóg lub stóp.
   \item Nielagalne jest wystawianie łokcia w kierunku przeciwnika podczas blokowania ciałem.
-  \item Nielegalne jest blokowanie ciałem, jeśli kontakt został zainicjowany od tyłu (patrz 6.1.9.) %TODO ref
+  \item Nielegalne jest blokowanie ciałem, jeśli kontakt został zainicjowany od tyłu (patrz \myref{6.1.9}).
 \end{enumerate}
 
 \penaltyd{Standardowa kara za kontakt}{Nielegalne blokowanie ciałem.}
@@ -1981,7 +1979,7 @@ Szarża to wejście w kontakt z przeciwnikiem z użyciem siły, używając ciał
     \item Kontakt ramię w ramię jest dozwolony.
   \end{enumerate}
   \item Nielegalne jest aby stopy osoby szarżującej opuściły ziemię w całości podczas głównego przyłożenia siły.
-  \item Nielegalne jest szarżowanie jeśli kontakt został zainicjowany od tyłu (patrz 6.1.9.). %TODO ref
+  \item Nielegalne jest szarżowanie jeśli kontakt został zainicjowany od tyłu (patrz \myref{6.1.9}).
 \end{enumerate}
 
 \penaltyd{Standardowa kara za kontakt}{Nielegalna szarża.}
@@ -1997,7 +1995,7 @@ Objęcie polega na otoczeniu dowolnej części ciała przeciwnika ręką (włąc
     \item Sędzia musi krzyknąć ,,ball out'' w momencie wypuszczenia piłki.
     \item Kiedy zawodnik jest świadomy, że przeciwnik nie ma piłki to nie może kontynuować kontaktu, poza dokończeniem ruchu w wyniku poprzednio rozpoczętego pędu.
   \end{enumerate}
-  \item Nielegalne jest obejmowanie po zainicjowaniu kontaktu od tyłu (patrz 6.1.9.). %TODO ref
+  \item Nielegalne jest obejmowanie po zainicjowaniu kontaktu od tyłu (patrz \myref{6.1.9}).
   \item Chwytanie jest formą objęcia, które polega na złapaniu części ciała przeciwnika zamkniętą dłonią.
   \begin{enumerate}
     \item Nielegalne jest chwytanie miotły lub ubrania przeciwnika.
@@ -2016,7 +2014,7 @@ Standardowe zasady kontaktu między zawodnikami tyczą się również szukający
 \begin{enumerate}
   \item Następujące interakcje szukającego na zniczu są legalne:
   \begin{enumerate}
-    \item Blokowanie ciałem znicza (patrz 6.2.1.) %TODO ref
+    \item Blokowanie ciałem znicza (patrz \myref{6.2.1}).
     \item Pchanie lub przesuwanie rąk znicza.
     \item Sięganie wokół lub od góry znicza jedną lub dwiema rękoma.
     \begin{enumerate}
@@ -2045,7 +2043,7 @@ Standardowe zasady kontaktu między zawodnikami tyczą się również szukający
     \begin{enumerate}
       \item Pomniejszy, niezamierzony kontakt nie powinien być karany.
     \end{enumerate}
-    \item Wyjątkowo nadmierny kontakt ze zniczem (patrz 6.1.13) %TODO ref
+    \item Wyjątkowo nadmierny kontakt ze zniczem (patrz \myref{6.1.13}).
   \end{enumerate}
   \item Jeśli ramiona znicza są przytulone do ciała, to powinny być traktowane jako część ciała.
 \end{enumerate}
@@ -2131,7 +2129,7 @@ Niesportowe zachowanie, które nie jest skierowane do nikogo lub jest skierowane
     \item Powtarzające się użycie wulgarnych słów.
     \item Wyjątkowo nadmierne niesportowe zachowanie.
   \end{enumerate}
-  \item Kary w tej sekcji zastępują kary w 6.5.1. %TODO ref
+  \item Kary w tej sekcji zastępują kary w \myref{6.5.1}.
 \end{enumerate}
 
 \bluecard{Powtarzające się użycie wulgarnych słów}
@@ -2222,7 +2220,7 @@ Zawodnicy nie mogą posiadać, dotykać, kopać, rzucać lub inaczej używać pi
     \end{enumerate}
   \item Jeśli sędzia stwierdzi, że zawodnik nie był wystarczająco świadomy, że tłuczek był martwy lub ożywiony przez zawodnika tej samej drużyny i zagranie po za tym było poprawne, to nie ma kary.
   \end{enumerate}
-  \item Zawodnicy mogą legalnie posiadać martwy kafel w celu zwrócenia go do poprzednio broniącego obrońcy po bramce (patrz 4.2.1.) %TODO ref
+  \item Zawodnicy mogą legalnie posiadać martwy kafel w celu zwrócenia go do poprzednio broniącego obrońcy po bramce (patrz \myref{4.2.1}).
   \item Jaka kolwiek inna zamierzona interakcja z piłką nie związaną z pozycją zawodnika to interakcja z piłką innej pozycji.
   \item Niezamierzone i nielegalne działanie na piłce nie związane z pozycją zawodnika, które znacząco wpłynęło na pozycję lub trajektorię piłki to przypadkowa interakcja z piłką innej pozycji.
   \item Celowe zablokowanie bramki przez popełnienie interakcji z piłką innej pozycji to celowe nielegalne blokowanie bramki.
@@ -2289,7 +2287,7 @@ Obrońca w swoim polu obrońcy, poza sytuacją opisaną w punkcie B, jest chroni
   \item Chroniony obrońca ma następujące przywileje:
   \begin{enumerate}
     \item Chroniony obrońca może kopnąć kafel dowolną ilość razy w swoim polu obrońcy.
-    \item Kiedy chroniony obrońca posiada kafla, przeciwnicy nie mogą wejść z nim w kontakt lub próbować zabrać mu kafla (patrz 6.1.1.) %TODO ref
+    \item Kiedy chroniony obrońca posiada kafla, przeciwnicy nie mogą wejść z nim w kontakt lub próbować zabrać mu kafla (patrz \myref{6.1.1}).
     \begin{enumerate}
       \item Samodzielne posiadanie kafla musi nastąpić zanim immunitet od wymienionych akcji wejdzie w życie.
     \end{enumerate}
@@ -2297,7 +2295,7 @@ Obrońca w swoim polu obrońcy, poza sytuacją opisaną w punkcie B, jest chroni
     \begin{enumerate}
       \item Nie ma kary dla pałkarzy za rzucanie w zawodników z immunitetem.
     \end{enumerate}
-    \item Jeśli chroniony obrońca broni bramki i w związku z tym kafel wyleci poza granice boiska, obrońca dostaje go w posiadanie, a nie drużyna przeciwna (patrz 7.5.5.). %TODO ref
+    \item Jeśli chroniony obrońca broni bramki i w związku z tym kafel wyleci poza granice boiska, obrońca dostaje go w posiadanie, a nie drużyna przeciwna (patrz \myref{7.5.5}).
   \end{enumerate}
   \item Kiedy dowolny zawodnik z drużyny obrońcy posiada kafel poza polem obrońcy:
   \begin{enumerate}
@@ -2500,7 +2498,7 @@ Drużyny są częściowo ograniczone w cofaniu kafla w stronę swoich pętli.
     \item Ta zasada nie zabrania zrobienia jednego kroku w inną stronę w celu wykonania rzutu.
   \end{enumerate}
   \item Tłuczek wprowadzony przez rzut jest martwy.
-  \item Kafel wprowadzony przez rzut jest \emph{unscorable} (patrz 5.6.3.). %TODO ref
+  \item Kafel wprowadzony przez rzut jest \emph{unscorable} (patrz \myref{5.6.3}).
   \item Jeśli procedura zostanie naruszona, to zawodnik, który dostanie piłkę w wyniku straty (z drużyny, która nie wprowadzała piłki), nie musi wprowadzać piłki do wewnątrz (i powtarzać procedury).
 \end{enumerate}
 
@@ -2551,7 +2549,7 @@ Zadaniem znicza jest uniemożliwienie złapania piłeczki zniczowej przez które
 \begin{enumerate}
   \item Znicz musi mieć shorty lub spodnie z przyczepioną piłeczką zniczową.
   \begin{enumerate}
-    \item Spodenki oraz piłeczka muszą spełniać wymagania opisane w rozdziale 2.3.3. Znicz. %TODO ref
+    \item Spodenki oraz piłeczka muszą spełniać wymagania opisane w rozdziale \myref{2.3.3}.
   \end{enumerate}
   \item Znicz musi mieć koszulkę, która wyraźnie różni się od koszulek drużyn.
   \item Sugerowane jest aby spodenki znicza były w całości zółte lub złote.
@@ -2579,7 +2577,7 @@ Po tym jak znicz został wypuszczony na boisko, nie może on celowo boiska opuś
     \item Po wypuszczeniu znicz musi pozostawać między liniami pól obrońcy każdej z drużyn.
     \item Po 23 minucie gry, znicz musi pozostawać w odległości 1.5m od linii środkowej.
     \item Po 28 minucie gry, znicz może używać tylko jedej ręki.
-    \item Po 33 minucie gry, znicz musi pozostawać w odległości 1.5m od pozycji piłki najdalej od stołu \emph{scorekeepera} (patrz 2.1.6.). %TODO ref
+    \item Po 33 minucie gry, znicz musi pozostawać w odległości 1.5m od pozycji piłki najdalej od stołu \emph{scorekeepera} (patrz \myref{2.1.6}).
   \end{enumerate}
   \item Znicz może przyjąć dodatkowe ograniczenia, ale nie można go o nie poprosić/nakazać (to się tyczy również organizatorów i sędziów).
   \item Złapanie nie może zostać niezaliczone ze względu na to, że znicz nie przestrzegał ograniczeń.
@@ -2604,7 +2602,7 @@ Znicz nie może:
   \item Przebywać na stronie boiska jednej z drużyn przez dłuższy czas.
   \item Przebywać w odległości do 2m od granicy boiska przez dłuższy czas.
   \item Celowo opuszczać boisko.
-  \item Celowo próbować być \emph{down}, chyba że z powodu kontuzji, nie bycia w stanie dalej grać, unikania niebezpiecznej sytuacji, poprawiania sprzętu lub bycia o to poproszonym przez sędziego (patrz 8.4.1.). %TODO ref
+  \item Celowo próbować być \emph{down}, chyba że z powodu kontuzji, nie bycia w stanie dalej grać, unikania niebezpiecznej sytuacji, poprawiania sprzętu lub bycia o to poproszonym przez sędziego (patrz \myref{8.4.1}).
   \item Celowo dotykać piłek, w tym zasłaniać ogonek zniczowy.
   \item Celowo ciągnąć szukającego za ubranie, opaskę lub wyposażenie, inne niż miotła.
   \item Nie słuchać się poleceń sędziego głównego.
@@ -2614,7 +2612,7 @@ Znicz nie może:
 \subsubsection{Złamanie standardów przez znicza}
 \begin{enumerate}
   \item Sędzia główny może usunąć znicza z boiska z powodu kontuzji, złamania standardów opisanych powyżej lub za bycie zbyt agresywnym lub nierozważnym.
-  \item Sędzia ostrzega znicza jeśli ten złamie standard wymieniony w 8.3.1. %TODO ref
+  \item Sędzia ostrzega znicza jeśli ten złamie standard wymieniony w \myref{8.3.1}.
   \begin{enumerate}
     \item Istotne złamianie standardu może spoowodować usunięcie znicza, bez uprzedniego ostrzeżenia.
   \end{enumerate}
@@ -2639,12 +2637,12 @@ Znicz może się poruszać podczas wstrzymania gry, aczkolwiek:
       \item Dotykanie ziemi przez ogonek zniczowy nie powoduje, że znicz jest \emph{down}.
     \end{enumerate}
     \item Dowolna część znicza dotyka ziemi na zewnątrz boiska.
-    \item Ubranie znicza musi zostać poprawione, zgodnie z opisem w 8.4.2. %TODO ref
+    \item Ubranie znicza musi zostać poprawione, zgodnie z opisem w \myref{8.4.2}.
     \item Gra jest wznowiona, po wstrzymaniu.
   \end{enumerate}
   \item Kiedy znicz jest \emph{down}, nie można go złapać, niezależnie czy stał się \emph{down} celowo, czy przypadkowo.
   \begin{enumerate}
-    \item Znicz jest \emph{down} dopóki nie skończy się jego trzy-sekundowy \emph{head start} (patrz 8.4.3.). %TODO ref
+    \item Znicz jest \emph{down} dopóki nie skończy się jego trzy-sekundowy \emph{head start} (patrz \myref{8.4.3}).
   \end{enumerate}
 \end{enumerate}
 
@@ -2751,7 +2749,7 @@ Jeśli faul skutkuje kartką:
     \end{enumerate}
     \item Zawodnik, który otrzymał czerwoną kartkę, zostaje wyrzucony, a zawodnik rezerwowy jest wysłany do strefy kar.
     \begin{enumerate}
-      \item Wszystkie wymagania i procedury związane z wyrzuconymi zawodnikami muszą być przestrzegane (patrz 9.1.6.) %TODO ref
+      \item Wszystkie wymagania i procedury związane z wyrzuconymi zawodnikami muszą być przestrzegane (patrz \myref{9.1.6}).
     \end{enumerate}
   \end{enumerate}
   \item Kartki skutukują następującymi stratami:
@@ -2799,7 +2797,7 @@ Jeśli kara skutkuje wyrzuceniem zawodnika:
 \penaltyd{Poddanie gry}{Stwarzanie zagrożenia przez wyrzuconego zawodnika}
 
 \subsubsection{Poddanie gry}
-Jeśli faul skutkuje poddaniem gry, faulująca drużyna poddaje grę (patrz 3.6.1.). %TODO ref
+Jeśli faul skutkuje poddaniem gry, faulująca drużyna poddaje grę (patrz \myref{3.6.1}).
 \begin{enumerate}
   \item Jeśli obie drużyny popełniły faul sktukujący poddaniem gry w tym samym zagraniu lub sytuacji, następuje ogłoszenie podwójnego poddania.
 \end{enumerate}
@@ -2922,7 +2920,7 @@ Jeśli zawodnik otrzymał kartkę zanim gra się rozpoczęła:
     \item Jeśli zawodnik otrzyma kartkę podczas odbywania kary za kogoś:
     \begin{enumerate}
       \item Inny zamiennik musi odbyć pozostały czas kary za tego kogoś.
-      \item Kara naruszającego zasady zawodnika powinna zostać potraktowana jak faul rezerwowego (patrz 9.2.3.) %TODO ref
+      \item Kara naruszającego zasady zawodnika powinna zostać potraktowana jak faul rezerwowego (patrz \myref{9.2.3}).
     \end{enumerate}
   \end{enumerate}
 \end{enumerate}
@@ -3037,7 +3035,7 @@ Jeśli sędzia główny stwierdzi, że wstrzymanie gry z powodu faulu spowodowa�
 \subsubsection{Restart po przywileju}
 Gra wstrzymana po ogłoszonym przywileju jest wznawiana w następujący sposób:
 \begin{enumerate}
-  \item Jeśli niefaulująca drużyna strzeliła gol, gra jest restartowana standardowo jak po golu (patrz 4.2.). %TODO ref
+  \item Jeśli niefaulująca drużyna strzeliła gol, gra jest restartowana standardowo jak po golu (patrz \myref{4.2}).
   \item Jeśli pierwotnie faulowana drużyna nie zdobyła gola przed minięciem przywileju:
   \begin{enumerate}
     \item Osoba posiadająca kafel w momencie faulu (lub jej zamiennik) wraca na miejsce znacznika przywileju i dostaje w ręce kafel, przed wznowieniem gry.
@@ -3160,10 +3158,10 @@ Zaleca się wyznaczenie \emph{timekeepera} oraz sędziów bramkowych na każdą 
   \begin{enumerate}
     \item Śledzeniu czas gry.
     \item Śledzeniu czasu kar i wypuszczaniu zawodników ze strefy kar, po tym jak ich czas kary upłynął.
-    \item Wyraźnym ogłoszeniu upłynięcia 17 minut czasu gry (patrz 3.3.4.) %TODO ref
+    \item Wyraźnym ogłoszeniu upłynięcia 17 minut czasu gry (patrz \myref{3.3.4}).
     \item Zajęcie się zniczem i szukającymi, gdy zgłoszą się do stolika, oraz wypuszczeniu ich na boisko w odpowiednim czasie.
     \item Obserwowaniu czy szukający nie popełniają falstartu.
-    \item Ogłaszanie pozostałego czasu w dogrywce oraz przestrzeganie dodatkowych zasad dogrywki (patrz 3.5.3.) %TODO ref
+    \item Ogłaszanie pozostałego czasu w dogrywce oraz przestrzeganie dodatkowych zasad dogrywki (patrz \myref{3.5.3}).
   \end{enumerate}
   \item Zegar z czasem gry nie musi być widoczny dla zawodników na boisku, ale jeśli jest to musi:
   \begin{enumerate}
