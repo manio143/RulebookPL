@@ -1,7 +1,7 @@
 # Quidditch Rulebook PL
 Niniejsze repozytorium dotyczycy polskiego tłumaczenia zasad gry w quidditcha, rozwijanego przez Polską Ligę Quidditcha na podstawie oficjalnego Rulebooka wydawanego przez International Quidditch Association.
 
-Obecna wersja Rulebooka to RB2016/2018.
+Obecna wersja Rulebooka to RB2018/2020.
 
 ## Co jest w tym repozytorium?
 Źródło, z którego tworzony jest plik PDF zawierający Zasaday gry w quidditcha, znajduje się w pliku `Rulebook.tex`.
