@@ -18,6 +18,8 @@
 
 \usepackage{pdfpages}
 
+\usepackage{tocloft}
+
 %justify - no hyphens
 \tolerance=1000
 \emergencystretch=\maxdimen
@@ -93,11 +95,32 @@
 
 \newcommand{\myref}[1]{\ref{#1}. \nameref{#1}}
 
+\newlistof{bcc}{lbc}{\Large\textcolor{blue}{\textbf{Niebieska Kartka}}}
+\newlistof{ycc}{lyc}{\Large\textcolor{darkyellow}{\textbf{Żółta Kartka}}}
+\newlistof{rcc}{lrc}{\Large\textcolor{red}{\textbf{Czerwona Kartka}}}
+\newlistof{pdc}{lpd}{\Large\textcolor{darkgreen}{\textbf{Pozostałe kary}}}
+
 % Custom subparagraphs
-\newcommand\redcard[1]{\textcolor{darkgreen}{\textbf{Kara: }}\textcolor{red}{\textbf{Czerwona Kartka}} -- #1}
-\newcommand\yellowcard[1]{\textcolor{darkgreen}{\textbf{Kara: }}\textcolor{darkyellow}{\textbf{Żółta Kartka}} -- #1}
-\newcommand\bluecard[1]{\textcolor{darkgreen}{\textbf{Kara: }}\textcolor{blue}{\textbf{Niebieska Kartka}} -- #1}
-\newcommand\penaltyd[2]{\textcolor{darkgreen}{\textbf{Kara: #1}} -- #2}
+\newcommand{\redcard}[1]{%
+  \refstepcounter{rcc}
+  \textcolor{darkgreen}{\textbf{Kara: }}\textcolor{red}{\textbf{Czerwona Kartka}} -- #1
+  \addcontentsline{lrc}{rcc}{\numberline{\thesubsubsection} \hspace{3ex}#1}
+}
+\newcommand\yellowcard[1]{%
+  \refstepcounter{ycc}
+  \textcolor{darkgreen}{\textbf{Kara: }}\textcolor{darkyellow}{\textbf{Żółta Kartka}} -- #1
+  \addcontentsline{lyc}{ycc}{\numberline{\thesubsubsection} \hspace{3ex}#1}
+}
+\newcommand\bluecard[1]{%
+  \refstepcounter{bcc}
+  \textcolor{darkgreen}{\textbf{Kara: }}\textcolor{blue}{\textbf{Niebieska Kartka}} -- #1
+  \addcontentsline{lbc}{bcc}{\numberline{\thesubsubsection} \hspace{3ex}#1}
+}
+\newcommand\penaltyd[2]{%
+  \refstepcounter{pdc}
+  \textcolor{darkgreen}{\textbf{Kara: #1}} -- #2
+  \addcontentsline{lpd}{pdc}{\numberline{\thesubsubsection} \hspace{3ex}#1 -- #2}
+}
 
 \usepackage{geometry}
 
@@ -3311,6 +3334,16 @@ Zawodnicy i personel drużyny nie mogą używać poleceń ani sygnałów sędzi�
 \textbf{A-49 Znicz} – W sumie jest Znicz (człowiek) i znicz (piłka). Szukający starają się złapać znicz, przez zabranie piłeczki Zniczowi, co skutkuje 30 punktami i kończy grę.\\
 \textbf{A-50 Żywy kafel} – Kafel, którym można strzelić gola. Kafel jest ożywiony przez sędziego głównego, na dźwięk "M" w "Miotły w górę", krótki gwizdek po przerwaniu gry, i przez obrońcę zdobywającego posiadanie kafla na swojej połowie boiska po stracie gola.\\
 \textbf{A-51 Żywy tłuczek} – Tłuczek, który został rzucony, kopnięty lub w inny sposób wprawiony w ruch przez grającego pałkarza, który nie był zbity. Żywy tłuczek wywołuje konieczność przeprowadzenia procedury zbicia przez przeciwników, z którymi wejdzie w kontakt (patrz 5.5.2. Żywy tłuczek). \\
+
+\psection{DODATEK B: Kary}
+
+\listofbcc
+
+\listofycc
+
+\listofrcc
+
+\listofpdc
 
 \newpage
 \addcontentsline{toc}{section}{DODATEK C: Sygnały Sędziego}
