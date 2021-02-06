@@ -263,10 +263,7 @@ Strefa zmian to prostokąt 19m na 2,75m poza boiskiem graniczący z polem obroń
 ### Ławki drużyn
 Ławka drużyny to prostokąt 19m na 2,75m przylegający dłuższym bokiem do strefy zmian drużyny i dotykający granicy strefy gracza.
 
-{
-  \centering
-  \includegraphics[width=\textwidth]{pitch_side.png}
-}
+![Bok boiska](pitch_side.png)
 
 ### Strefa graczy
 Strefa graczy to prostokąt, który po środku ma boisko.
