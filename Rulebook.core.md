@@ -75,7 +75,7 @@ coachów, to personel drużyny.
     * Obrońcy muszą nosić zieloną opaskę na czole.
     * Pozostali ścigający muszą nosić białą opaskę na czole.
     * Ścigający mogą używać kafla na każdy legalny sposób.
-    * 
+    * Obrońcy i ścigający traktowani są jako osobne pozycje na potrzeby zmian
 * Drużyna ma dwóch pałkarzy w grze.
     * Pałkarze muszą nosić czarną opaskę na czole.
     * Pałkarze mogą używać tłuczków na każdy legalny sposób.
@@ -2522,5 +2522,5 @@ Zawodnicy i personel drużyny nie mogą używać poleceń ani sygnałów sędzi�
 
 \bluecard{Nielegalne używanie słów lub gestów, które są poleceniami lub sygnałami sędziów}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQzNzQ5NDJdfQ==
+eyJoaXN0b3J5IjpbLTM3MTIwNzU0MV19
 -->
