@@ -72,8 +72,7 @@ coachów, to personel drużyny.
 ### Pozycje
 
 * Drużyna ma jednego obrońcę w grze.
-    * Obrońcy muszą nosić zieloną opaskę na czole.
-    * Obrońcy mogą używać kafla na każdy legalny sposób.
+
 * Drużyna ma trzech ścigających w grze.
     * Ścigający muszą nosić białą opaskę na czole.
     * Ścigający mogą używać kafla na każdy legalny sposób.
@@ -2522,3 +2521,6 @@ Sędzia główny może zmienić decyzji o tym czy był gol w dowolnym momencie z
 Zawodnicy i personel drużyny nie mogą używać poleceń ani sygnałów sędziów, zarówno słownych jak i gestów.
 
 \bluecard{Nielegalne używanie słów lub gestów, które są poleceniami lub sygnałami sędziów}
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTAyNzQ1Mzg1XX0=
+-->
