@@ -71,11 +71,11 @@ coachów, to personel drużyny.
 
 ### Pozycje
 
-* Drużyna ma jednego obrońcę w grze.
-
-* Drużyna ma trzech ścigających w grze.
-    * Ścigający muszą nosić białą opaskę na czole.
+* Drużyna ma czterech ścigających w grze, z czego jeden z nich jest obrońcą.
+    * Obrońcy muszą nosić zieloną opaskę na czole.
+    * Pozostali ścigający muszą nosić białą opaskę na czole.
     * Ścigający mogą używać kafla na każdy legalny sposób.
+    * 
 * Drużyna ma dwóch pałkarzy w grze.
     * Pałkarze muszą nosić czarną opaskę na czole.
     * Pałkarze mogą używać tłuczków na każdy legalny sposób.
@@ -2522,5 +2522,5 @@ Zawodnicy i personel drużyny nie mogą używać poleceń ani sygnałów sędzi�
 
 \bluecard{Nielegalne używanie słów lub gestów, które są poleceniami lub sygnałami sędziów}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyNzQ1Mzg1XX0=
+eyJoaXN0b3J5IjpbLTE3MDQzNzQ5NDJdfQ==
 -->
