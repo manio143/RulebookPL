@@ -27,8 +27,6 @@ _speaking captain_ podczas gry.
     nielegalnie na boisku, liczy się to jako wtargnięcie na
     boisko.
   
-
-
 \bluecard{Wtargnięcie na boisko}
 
 ### Personel drużyny
@@ -38,8 +36,9 @@ coachów, to personel drużyny.
 * Organizatorzy turnieju mogą ograniczyć liczbę
   członków personelu drużyny, którzy mogą przebywać
   wewnątrz strefy graczy.
-    * Ograniczenie musi pozwolić na conajmniej trzech
+    * Ograniczenie musi pozwolić na co najmniej trzech
     członków personelu drużyny.
+    * Sędziowie mogą nakazać każdej osobie, aby wstrzymała się od rozmawiania z nimi.
 * Personel drużyny nie może wejść do gry.
 * Jeśli członek personelu drużyny zrobi coś co
   skutkowałoby karą dla zawodnika rezerwowego, to ten
@@ -51,8 +50,6 @@ coachów, to personel drużyny.
     nielegalnie na boisku, liczy się to jako wtargnięcie
     na boisko.
   
-
-
 \bluecard{Wtargnięcie na boisko}
 
 ## Roster i zawodnicy
@@ -61,11 +58,10 @@ coachów, to personel drużyny.
 
 * Drużyna składa się z minimum siedmiu i maksymalnie
   21 zawodników.
-    * Drużyna musi mieć siedmiu zdolnych do gry zawodników, aby rozpocząć lub kontynuować grę.
-        * Jeśli drużyna nie będzia miała conajmniej siedmiu zdolnych do gry zawodników w dowolnym momencie gry, taka drużyna musi się poddać.
-    
-  
-
+    * Drużyna musi mieć siedmiu zdolnych do gry zawodników, aby rozpocząć lub kontynuować grę, również podczas uziemienia szukających.
+        * Podczas dogrywki, drużyna może kontynuować grę mając co najmniej sześciu zdolnych doo gry zawodników.
+        * Jeśli drużyna nie ma wystarczająco zdolnych do gry zawodników w dowolnym momencie gry, taka drużyna musi się poddać.
+        * Jeśli kontuzja zawodnika ma spowodować poddanie, a medyk na miejscu określi, że zawodnik może wrócić do gry po minucie leczenia, sędzia główny powinien poczekać podczas zatrzymania aż zawodnik wróci, aniżeli deklarować poddanie gry.
 
 \penaltyd{Poddanie się}{Drużyna nie posiada 7 zawodników zdolnych do gry}
 
@@ -93,17 +89,9 @@ coachów, to personel drużyny.
 
 ### Zasada gender
 
-* Drużyna może mieć conajwyżej czterech zawodników identyfikujących się z daną płcią w grze, w tym samym czasie.
+* Drużyna może mieć co najwyżej czterech zawodników identyfikujących się z daną płcią w grze, w tym samym czasie.
     * Zawodnik przebywający w strefie kar uznawany jest jako w grze.
 * Płeć z jaką zawodnik się identyfikuje uznawana jest za płeć tego zawodnika.
-* Jeśli drużyna nie może wystawić pełnego zestawu zawodników, bo nie spełniłaby zasady gender, to może kontynuować grę z mniejszą ilością zawodników na boisku.
-    * Drużyna nie może rozpocząć gry, jeśli nie spełnia wymogów pełnego zestawu zawodników.
-    * Posiadanie jednego obrońcy, jednego pałkarza i jednego ścigającego w grze jest obowiązkowe, nawet jeśli drużyna wystawia mniej niż siedmiu zawodników.
-        * Wliczamy w to zawodników w strefie kar.
-        * Po zakończeniu uziemienia szukających, posiadanie jednego szukającego jest również obowiązkowe.
-    * Jeśli drużyna odzyska możliwość wystawienia pełnego zestawu zawodników to musi to zrobić.
-        * W tym przypadku zawodnik wchodzi na boisko z ławki rezerwowych.
-    
 
 \yellowcard{(_Speaking captain_) Nieprzestrzeganie wymogów zestawu zawodników w grze}
 
@@ -127,7 +115,7 @@ Aby wymienić zawodnika z rezerwowym kiedy gra nie jest wstrzymana muszą nastą
 * Wchodzący na boisko zawodnik dostaję karę jeśli niewłaściwie przeprowadzono zmianę.
 * Jeśli zawodnik wejdzie na boisko po niewłaściwym przeprowadzeniu zmiany, ale jeszcze nie wejdzie w interakcję z grą, sędzia powinien nakazać mu powtórzenie procedury.
     * Jeśli zawodnik wejdzie w interakcję z grą przed decyzją sędziego lub przed powtórzeniem procedury, musi być ukarany za nielegalną zmianę.
-    * Zawodnik, który wielokrotnie nieprzestrzega procedury zmiany, musi być ukarany za nielegalną zmianę.
+    * Zawodnik, który wielokrotnie nie przestrzega procedury zmiany, musi być ukarany za nielegalną zmianę.
 
 \penaltyd{Powtórz procedurę}{Niewłaściwe przeprowadzenie zmiany}
 
@@ -153,10 +141,10 @@ Zawodnicy mogą wymienić się pozycjami przez przeprowadzenie procedury zmiany 
 ### Zmiana z powodu kontuzji
 
 * Jeśli zawodnik dozna kontuzji ale gra nie została wstrzymana, to aby się zmienić musi przejść procedurę zmiany (patrz \myref{1.3.1}).
-* Gra musi zostać wstrzymana jeśli zawodnik krwawi lub leży i jest zbyt mocno kontuzjowany aby kontynuować grę lub się zmienić.
+* Gra musi zostać wstrzymana jeśli zawodnik na boisku krwawi lub leży i jest zbyt mocno kontuzjowany aby kontynuować grę lub się zmienić.
     * Gra powinna zostać wstrzymana natychmiast jeśli kontuzjowany zawodnik znajduje się w pobliżu akcji lub został poważnie kontuzjowany, włączając w to niepowierzchowne urazy głowy.
     * Jeśli kontuzja nie jest poważna, a zawodnik nie przeszkadza w dalszym rozegraniu akcji, sędzia główny powinien pozwolić grze na kontynuację, dopóki jej zatrzymanie nie będzie powodowało przewagi dla którejś z drużyn lub gra zbliży się do kontuzjowanego zawodnika.
-* Jeśli gra została wstrzymana i zawodnik jest kontuzjowany:
+* Jeśli gra została wstrzymana, a zawodnik jest kontuzjowany:
     * Kontuzjowany zawodnik może opuścić boisko i zostać zastąpionym przez zawodnika rezerwowego.
         * Jeśli gra została wstrzymana z powodu kontuzji zawodnika, to musi on opuścić boisko.
         * Jeśli zawodnik krwawi, musi opuścić boisko.
@@ -164,22 +152,11 @@ Zawodnicy mogą wymienić się pozycjami przez przeprowadzenie procedury zmiany 
         * Miotła kontuzjowanego zawodnika pozostaje na boisku tam gdzie była gdy gra została wstrzymana.
     * Kontuzjowany zawodnik, który opuszcza boisko musi być zastąpiony dowolnym rezerwowym zdolnym do gry.
         * Podczas wstrzymania gry, rezerwowy zamienia zawodnika w miejscu oznaczonym przez jego miotłę.
-        * Jeśli nie ma żadnych rezerwowych, spełniających zasadę gender, drużyna może grać o jednego zawodnika mniej.
-            * Jeśli to by oznaczało, że na danej pozycji nie ma żadnego zawodnika, to inny zawodnik musi zająć pozycję i miejsce na boisku kontuzjowanego zawodnika.
+        * Zmieniający zawodnik wchodzi w posiadanie piłki, którą posiadał kontuzjowany zawodnik, kiedy gra zostanie wznowiona.
         * Jeśli zawodnik jest zmuszony przez zasadę do opuszczenia boiska, ale ma lekką kontuzję i może grać dalej, a nie ma stosownych rezerwowych, to zawodnik ten może wziąć miotłę i kontynuować grę od granicy strefy zmian.
 * Zawodnik nie może symulować kontuzji.
 
-
 \yellowcard{Symulowanie kontuzji}
-
-### Zmiany między etapami gry
-Drużyny mogą robić dowolnie wiele zmian między etapami gry nie wykonując procedury zmiany.
-
-* Zawodnik przebywający w strefie kar nie może zostać zmieniony między etapami gry.
-* Jeśli zawodnik otrzyma kartkę za faul popełniony po tym jak sędzia główny oznajmił koniec etapu gry, to ta kara powinna zostać potraktowana jako kara dla zawodnika rezerwowego, a _speaking captain_ może wybrać pozycję, na której faulujący zawodnik odbędzie karę.
-
-
-\yellowcard{(_Speaking captain_) Nielegalna zmiana między etapami gry}
 
 ## Strefa zmian i ławka drużyny
 
@@ -190,30 +167,25 @@ Drużyny mogą robić dowolnie wiele zmian między etapami gry nie wykonując pr
     * Jeśli drużyna wielokrotnie tłumi się przy granicy boiska, sędziowie mogą nakazać rezerwowym pozostanie tylko na ławce drużyny, o ile zaraz taki zawodnik nie będzie się zmieniał.
 * Wszelkiego rodzaju sprzęt, który nie jest niezbędny do gry, musi pozostać na ławce drużyny.
     * Wszelkie dodatkowe piłki drużyny mogą znajdować się na ławce, ale muszą być schowane w torbie lub innym pojemniku.
-  
-
 
 ### Opuszczanie strefy zmian, ławki lub strefy graczy
 
-* Jeden zawodnik rezerwowy lub członek personelu drużyny może opuścić strefę zmian lub ławkę drużyny, aby sprawdzić czas lub wynik, ale nie może przeszkadzać _timekeeperowi_ i _scorekeeperowi_ w ich obowiązkach, ani wejść na boisko.
+* Pojedynczy zawodnik rezerwowy lub członek personelu drużyny może opuścić strefę zmian lub ławkę drużyny, aby sprawdzić czas lub wynik, ale nie może przeszkadzać _timekeeperowi_ i _scorekeeperowi_ w ich obowiązkach, ani wejść na boisko.
 * _Speaking captain_ może opuścić strefę graczy, aby porozumieć się z organizatorami turnieju.
 * Każdy kto potrzebuje pomocy medyków może opuścić strefę graczy, aby ją otrzymać.
     * Każdy zawodnik, który opuści w ten sposób strefę graczy, może wrócić do gry jeśli medycy uznają, że może.
-    * Jeśli zajdzie taka potrzeba, to _speaking captain_ może wyznaczyć osobę, która opuści strefę graczy, aby pomóc kontuzjowanemu zawodnikowi.
+    * Jeśli zajdzie taka potrzeba, _speaking captain_ może wyznaczyć osobę, która opuści strefę graczy, aby pomóc kontuzjowanemu zawodnikowi.
     * W przypadku urazu głowy zawodnika, sędzia główny może nakazać mu opuszczenie strefy gry, aby zasięgnąć pomocy medyków.
 * Celowe nielegalne opuszczenie strefy zmian lub ławki drużyny, mające na celu obejście zasad to nielegalne obejście.
 
-
-\bluecard{Nielegalne obejście}
+\bluecard{Nielegalne obejście zasad}
 
 ### Przeszkadzanie przy liniach bocznych
 Zawodnicy rezerwowi nie mogą przeszkadzać grze przy liniach bocznych.
 
-* Rezerwowy przeszkadza przy linii bocznej jeśli bezpośrednio oddziaływuje na grę i zachodzi jedno z poniższych:
+* Rezerwowy przeszkadza przy linii bocznej jeśli bezpośrednio oddziałuje na grę i zachodzi jedno z poniższych:
     * Rezerwowy jest nielegalnie i celowo poza strefą zmian i ławką drużyny.
     * Rezerwowy nie usiłował odsunąć się, aby uniknąć interakcji z grą.
-  
-
 
 \bluecard{Przeszkadzanie przy liniach bocznych}
 
