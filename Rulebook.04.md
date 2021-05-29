@@ -32,25 +32,25 @@ Drużyna otrzymuje 10 punktów jeśli kafel przejdzie przez pętlę przeciwnika 
 ## Restartowanie po golu
 
 ### Martwy kafel
-Po zdobyciu gola, zanim gra kaflem jest zrestartowana, kafel jest martwy.
+Po zdobyciu gola, zanim gra kaflem jest wznowiona, kafel jest martwy.
 
-* Dowolny ścigający z drużyny, która przed chwilą się broniła, może podać martwy kafel do swojego obrońcy, znajdującego się w swoim polu obrońcy, ale nie może z kaflem zrobić nic innego.
+* Dowolny zawodnik z drużyny, która przed chwilą się broniła, może podać martwy kafel do swojego obrońcy, znajdującego się w swoim polu obrońcy, ale nie może z kaflem zrobić nic innego.
     * Rezerwowi mogą podać w ten sam sposób kafel do obrońcy, ale nie mogą opuścić strefy zmian lub ławki drużyny.
-* Zawodnicy poprzednio atakującej drużyny nie mogą dotknąć kafla, chyba że obrońca poprzednio broniącej się drużyny o niego poprosi.
+* Zawodnicy poprzednio atakującej drużyny nie mogą dotknąć kafla, chyba że obrońca poprzednio broniącej się drużyny poprosi o podanie go.
     * Poprzednio atakująca drużyna może odmówić podania kafla.
 * Zawodnicy nie mogą być ukarani za grę jakby kafel był żywy przed potwierdzeniem bramki przez sędziego.
-    * Ta zasada nie będzie brana pod uwagę jeśli sędzia stwierdzi, że zawodnik miał na celu opóźnienie restartu gry kaflowej.
+    * Ta zasada nie będzie brana pod uwagę jeśli sędzia stwierdzi, że zawodnik miał na celu opóźnienie wznowienia gry kaflowej.
 * Poprzednio broniący się obrońca może poprosić sędziego o podanie kafla.
-* Jeśli kara skutkuje stratą martwego kafla na rzecz poprzednio atakującej drużyny, to kafel stanie się żywy w momencie zrestartowania gry po przekazaniu kafla.
+* Jeśli kara skutkuje stratą martwego kafla na rzecz poprzednio atakującej drużyny, to kafel stanie się żywy w momencie wznowienia gry po przekazaniu kafla.
 
 
 \bluecard{Celowa, nielegalna interakcja z martwym kaflem}
 
-### Restartowanie obrońcy
-Jeśli obrońca drużyny, która przed chwilą się broniła, jest pierwszą osobą posiadającą martwego kafla na swojej połowie, kafel staje się żywy, a gra kaflowa została zrestartowana.
+### Wznawianie gry przez obrońcę
+Jeśli obrońca drużyny, która przed chwilą się broniła, jest pierwszą osobą posiadającą martwego kafla na swojej połowie, kafel staje się żywy, a gra kaflowa została wznowiona.
 
 * Jeśli ktokolwiek inny posiada kafla pierwszy, obrońca musi rozpocząć grę ze swojego pola obrońcy.
-* Sędzia główny musi zagwizdać krótko w momencie kiedy gra jest zrestartowana przez posiadanie kafla przez obrońcę.
+* Sędzia główny musi zagwizdać krótko w momencie kiedy gra jest wznowiona przez posiadanie kafla przez obrońcę.
 
 
 ## Zepsute lub przewrócone pętle
@@ -59,7 +59,7 @@ Jeśli obrońca drużyny, która przed chwilą się broniła, jest pierwszą oso
 Nie można zdobyć bramki przez pętlę, która jest przewrócona lub zepsuta.
 
 * Jeśli pętla jest w trakcie psucia się lub przewracania kiedy przeleci przez nią kafel, to gol jest zaliczony.
-    * Przewracająca się pętla przewróciła się w pełni jeśli obręcz dotknęła ziemi lub przestała się przewracać ale jest przekrzywiona.
+    * Przewracająca się pętla zostaje uznana za przewróconą jeśli obręcz dotknęła ziemi lub pętla przestała się przewracać ale jest przekrzywiona, również kiedy zatrzyma się na ciele zawodnika.
 * Jeśli obręcz się obróci i nie jest w linii z linią pętli, to nadal można przez nią zdobyć gola.
     * Obręcze powinny być obrócone do poprawnej pozycji, gdy gra odsunie się od pętli.
 * Pętla jest zepsuta, gdy słup lub obręcz pęknie lub obręcz spadnie ze słupa.
@@ -70,10 +70,10 @@ Nie można zdobyć bramki przez pętlę, która jest przewrócona lub zepsuta.
 ### Procedura zepsutej pętli
 Kiedy pętla się zepsuje, gra jest kontynuowana.
 
-* Jeśli pętla się zespuje oraz występuje jedno z poniższych, gra musi zostać zatrzymana.
+* Jeśli pętla się zepsuje oraz występuje jedno z poniższych, gra musi zostać zatrzymana.
     * Zepsuta pętla stanowi zagrożenie dla zawodników.
     * Zepsuta pętla potrzebuje dodatkowych części lub potrzeba dużej ilości czasu aby ją naprawić, a jest to pętla po stronie atakującej drużyny.
-        * Sędzia główny może poczekać na spowolnienie gry, aby zatrzymać grę.
+        * Sędzia główny może poczekać na spowolnienie gry, aby zatrzymać grę w tym przypadku.
     * Wszystkie trzy pętlę ulegną zepsuciu.
 * Wszelkie popsute pętle muszą być naprawione podczas wstrzymania gry.
 * Jeśli gra nie będzie wstrzymana, pętla musi zostać naprawiona kiedy gra się odsunie w inną część boiska.
@@ -82,7 +82,7 @@ Kiedy pętla się zepsuje, gra jest kontynuowana.
 
 ### Psucie i poprawianie pętli
 
-* Zawodnicy nie mogą poprawiać pętli przeciwnika.
+* Zawodnicy nie mogą poprawiać pętli przeciwnika podczas ataku.
 * Zawodnicy nie mogą lekkomyślnie lub wielokrotnie psuć pętli.
     * Ta zasada nie jest brana pod uwagę w poniższych sytuacjach:
         * Pętla została popsuta rzuconą piłką.
@@ -106,7 +106,7 @@ Kiedy pętla się zepsuje, gra jest kontynuowana.
 ## Złapanie znicza
 
 ### Złapanie znicza
-Kiedy szukający złapie znicz i to złapanie zostanie potwierdzone jako dobre złapanie, jego drużyna dostaje 30 punktów oraz dany etap gry zostaje zakończony.
+Kiedy szukający złapie znicz i to złapanie zostanie potwierdzone jako dobre złapanie, jego drużyna dostaje 30 punktów.
 
 * Złapanie znicza jest potwierdzone jeśli zachodzą wszystkie poniżej:
     * Szukający oderwał ogonek zniczowy od znicza i był jedyną osobą go posiadającą w chwili oderwania.
@@ -114,6 +114,7 @@ Kiedy szukający złapie znicz i to złapanie zostanie potwierdzone jako dobre z
     * Znicz nie był _down_ w czasie złapania (patrz \myref{8.4.1}).
     * Łapiący szukający nie popełnił faulu, który skutkuje powrotem do pętli, otrzymaniem kartki lub usunięciem z boiska, tuż przed lub w trakcie złapania.
     * Złapanie nie miało miejsca między faulem skutkującym otrzymaniem kartki popełnionym przez członka drużyny łapiącej oraz zatrzymaniem gry, kiedy osoba ta została ukarana.
+    * Złapanie nie miało miejsca między popełnieniem przeszkodzenia w zdobyciu trzeciego tłuczka przez drużynę łapiącą, a ukaraniem za to.
     * Żaden sędzia ani zawodnik drużyny łapiącej nie wpadł na znicza w taki sposób, że ułatwiłoby to złapanie.
         * Jeśli wpadnięcie było legalną akcją szukającego opisaną w \ref{6.3.1}.A. \nameref{6.3.1} to powinno być zignorowane.
     * Szukający nie był zbity w momencie złapania.
@@ -125,31 +126,17 @@ Kiedy szukający złapie znicz i to złapanie zostanie potwierdzone jako dobre z
 ### Sygnalizowanie dobrego złapania
 
 * Jeśli sędzia główny lub sędzia zniczowy uważa, że złapanie mogło być dobre, gra musi zostać wstrzymana.
-* Jeśli złapanie jest potwierdzone, łapiąca drużyna otrzymuje 30 punktów, a sędzia główny kończy etap gry.
+* Jeśli złapanie jest potwierdzone, łapiąca drużyna otrzymuje 30 punktów, a sędzia główny kończy grę lub przechodzi do dogrywki (patrz \myref{3.5.1}).
 
 
 ### Zagrania w bardzo krótkim czasie
 
 * Kiedy poprawne złapanie znicza i albo faul popełniony przez łapiącą drużynę albo dobry gol, zdobyty przez dowolną z drużyn, wystąpią w krótkim czasie jeden po drugim, to sędzia główny musi określić co zdarzyło się najpierw, w oparciu o dostępne informacje.
     * Tylko słowa sędziów mogą być dopuszczone jako informacje.
-    * Jeśli gol był dobry, ale nastąpił po poprawnym złapaniu znicza, to nie może być zaliczony.
-    * Jeśli w drugiej dogrywce dobry gol nastąpił przed poprawnym złapaniem, to złapanie nie może być zaliczone.
+    * Jeśli gol był dobry, ale nastąpił po poprawnym złapaniu znicza, to nie może zostać użyty do stwierdzenia czy zakończyć grę, czy przejść do dogrywki.
+        * Jeśli złapanie znicza kończy grę, gol nie zostaje zaliczony.
+        * Jeśli gra przechodzi do dogrywki, gol zostaje zaliczony po tym jak określono wynik docelowy. Gol zostaje uznany jak gdyby został strzelony podczas dogrywki.
     * Jeśli poprawne złapanie odbyło się przed faulem, to musi się ono liczyć.
     * Jeśli nie ma żadnych informacji, i tylko wtedy, sędzia główny może określić zdarzenia jako jednoczesne.
         * Jeśli faul negujący złapanie i poprawne złapanie występują jednocześnie, to złapanie nie może być zaliczone.
-        * Jeśli dobry gol i poprawne złapanie występują jednocześnie, to oba muszą być zaliczone.
-            * Jeśli zdarzy się to w drugiej dogrywce, to wygrywa drużyna, która złapała znicz.
-      
-    
-  
-
-
-### Odrzucenie złapania znicza
-W nielicznych sytuacjach, drużyna może odrzucić swoje poprawne złapanie.
-
-* Nie można odrzucić złapania, chyba że nastąpiło jedno z poniższych:
-    * Złapanie nastąpiło między zdobyciem bramki, a potwierdzeniem gola przez sędziego.
-    * Złapanie nastąpiło po określeniu przez sędziego, że gol był dobry lub niedobry i przed oficjalną zmianą decyzji zgodnie z \myref{10.2.4}.
-* Nie można odrzucić złapania, chyba że zmiana wyniku decyduje o zakończeniu etapu gry remisem.
-* Jeśli odrzucono złapanie, gra jest wznawiana tak jakby złapanie nie było poprawne.
-
+        * Jeśli dobry gol i poprawne złapanie występują jednocześnie, to gol jest uznany jak gdyby wystąpił przed złapaniem.
