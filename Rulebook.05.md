@@ -68,7 +68,7 @@ Zawodnik nie może zostać zbity przez tłuczek ożywiony przez siebie lub osob�
 ### Zawołanie ,,safe''
 Jeśli zawodnik jest uderzony tłuczkiem, który nie może go zbić, sędzia musi zawołać ,,safe'' (z ang. bezpieczny) lub ,,czysto''. W przeciwnym wypadku zawodnik jest zbity.
 
-* Uderzony zawodnik powinien od razu zejść z miotły i rozpocząć procedurę zbicia (chyba że jest to pałkarz próbujący złapać tłuczek).
+* Uderzony zawodnik powinien od razu zejść z miotły i rozpocząć procedurę zbicia (chyba że jest to uderzony pałkarz próbujący złapać tłuczek).
     * Jeśli zawodnik został uderzony tłuczkiem i sędzia nie zawołał ,,safe'' lub ,,czysto'', to zawodnik ten jest zbity.
 * Jeśli zawodnik zejdzie z miotły w wyniku uderzenia tłuczkiem, ale sędzia zawoła ,,safe'' lub ,,czysto'', zawodnik może z powrotem wejść na miotłę i kontynuować grę.
     * Jeśli zawodnik nie wejdzie od razu z powrotem na miotłę, to musi w pełni przejść procedurę zbicia.
@@ -78,9 +78,7 @@ Jeśli zawodnik jest uderzony tłuczkiem, który nie może go zbić, sędzia mus
     * Jeśli żaden sędzia nie zawołał ,,safe'' lub ,,czysto'' i ostateczna decyzja to ,,zbity'', to oznacza, że zawodnik świadomie ignoruje zbicie.
         * Jeśli sędzia stwierdzi, że zawodnik nie był świadomy, że dostał tłuczkiem, to można to potraktować jako niezauważone zbicie (patrz \myref{5.3.4}).
             * To że zawodnik był przekonany, że sędzia zawoła za chwilę ,,safe'' lub ,,czysto'' nie jest brane pod uwagę przy wyznaczaniu kary.
-      
-    
-  
+
 
 
 \yellowcard{Świadome ignorowanie zbić}
@@ -97,7 +95,7 @@ Zbity zawodnik pozostaje zbity dopóki nie ukończy poniższej procedury, w kole
 * Dotknij jednej z pętli w swoim polu obrońcy.
     * Należy dotknąć obręczy lub słupa, nie podstawki.
     * Należy dotknąć pętlę częścią ciała, nie miotłą.
-* Ponownie dosiądź miotły przed opuszczeniem okolicy pęlti.
+* Ponownie dosiądź miotły przed opuszczeniem okolicy pętli.
 
 
 \penaltyd{Powtórz procedurę}{Nieprawidłowe przeprowadzenie procedury zbicia}
@@ -121,7 +119,7 @@ Zbici zawodnicy nie mogą brać udziału w grze, więc:
 
 * Zbity zawodnik nie może wszcząć kontaktu fizycznego, poza kontaktem przypadkowym.
     * Jeśli zawodnik jest w finalnym ruchu rozpoczęcia kontaktu zanim zostaje zbity, to może dokończyć ten ruch, jeśli nie był w stanie go zatrzymać.
-        * Zawodnik musi natychmiast zaprzestać ataku.
+        * Zawodnik musi natychmiast zaprzestać ataku, zgodnie z 5.3.3.B.
         * Jeśli zawodnik zrobi kilka kroków od momentu zbicia i rozpoczęcia kontaktu, to ten kontakt jest nielegalny.
 * Jeśli zawodnik jest już w kontakcie z przeciwnikiem kiedy jest zbity, to musi natychmiast zaprzestać kontaktu w bezpieczny sposób i z jak najmniejszym skutkiem dla przeciwnika, na ile to możliwe.
 
@@ -134,10 +132,9 @@ Jeśli zawodnik niecelowo kontynuuje grę po zejściu z miotły lub uderzeniu t�
 * Sędzia powinien słownie i gestem poinformować zawodnika o tym, że został zbity.
 * Sędzia może zatrzymać grę, aby poinformować zawodnika o tym, że był zbity.
     * W takim wypadku piłka posiadana przez tego zawodnika musi zostać przekazana przeciwnej drużynie.
-* Jeśli zawodnik oddziaływuje na grę będąc nieświadomym, że był zbity lub spadł z miotły, powinien zostać ukarany.
-    * Jeśli zawodnik rozpocznie legalny konktakt, nie wiedząc, że był zbity, jest karany za ten kontakt wyłącznie karą za nieświadomość bycia zbitym.
-    * Jeśli zawodnik zaraz po zbiciu nada ruch piłce naruszając zasadę naturalnego ruchu, nie jest karany za nieświadomość bycia zbitym.
-  
+* Jeśli zawodnik oddziałuje na grę będąc nieświadomym, że był zbity lub spadł z miotły, powinien zostać ukarany.
+    * Jeśli zawodnik rozpocznie legalny kontakt, nie wiedząc, że był zbity, jest karany za ten kontakt wyłącznie karą za nieświadomość bycia zbitym.
+    * Jeśli zawodnik zaraz po zbiciu nada ruch piłce naruszając zasadę naturalnego ruchu, nie jest karany za nieświadomość bycia zbitym (patrz \myref{5.6.2}).
 
 
 \bluecard{Oddziaływanie na grę nie wiedząc że jest się zbitym}
@@ -149,10 +146,9 @@ Zawodnik posiadający piłkę może spróbować zablokować lub odbić nadlatuj�
 
 * Trzymana piłka może zostać użyta do odbicia nadlatującego tłuczka.
 * Odbicie lub zablokowanie nie zmienia stanu tłuczka, nadal jest żywy lub martwy.
-* Nie można używać martwego kafla do interakcji z tluczkiem.
+* Nie można używać martwego kafla do interakcji z tłuczkiem.
 * Zawodnicy nie mogą celowo użyć trzymanej piłki aby dotknąć martwego tłuczka lub tłuczka ożywionego przez swoją drużynę.
-    * Jeśli sędzia stwierdzi, że zawodnik nie był świadomy, że tłuczek był martwy lub ożywiony przez swoją drużynę, i poza tym zagranie było legalne, to nie ma kary.
-  
+    * Jeśli sędzia stwierdzi, że zawodnik nie był świadomy, że tłuczek był martwy lub ożywiony przez swoją drużynę, i poza tym zagranie było legalne, to nie będzie karany.
 
 
 \bluecard{Nielegalne odbicie}
@@ -170,6 +166,8 @@ Każdą próbę odbicia lub celowego nadania ruchu żywemu tłuczkowi, w sposób
         * Jeśli przeciwna drużyna ożywiła tłuczek, to trzepiący pałkarz staje się uderzonym pałkarzem (patrz \myref{5.4.3}).
 * Ścigający, obrońcy i szukający nie mogą trzepnąć żadnego tłuczka.
     * Ta zasada nie zabrania odbijania żywego tłuczka trzymanym kaflem (patrz \myref{5.4.1}).
+    * Ta zasada nie zabrania osłaniania (patrz \ref{7.1.2}.B \nameref{7.1.2}).
+* Jeśli zawodnik wielokrotnie nielegalnie wykonuje trzepnięcie tłuczka, nie można zawołać ,,nie ma szkody, nie ma faulu''.
   
 
 
@@ -181,10 +179,10 @@ Pałkarz, który nie miał immunitetu, staje się uderzonym pałkarzem w momenci
 * Uderzony pałkarz nie może ożywić tłuczka.
 * Uderzony pałkarz musi upuścić wszelkie posiadane tłuczki.
     * Zawodnik nie może podać, poturlać lub kopnąć piłki, chyba że kończy naturalny ruch (patrz \myref{5.6.2}).
-    * Niewypuszczenie tłuczka jest naruszeniem tej zasady.
-* Uderzony pałkarz musi próbować złapać tłuczek, którym został uderzony lub od razu rozpoczać procedurę zbicia.
+    * Niewypuszczenie tłuczka jest naruszeniem zasad uderzonego pałkarza.
+* Uderzony pałkarz musi próbować złapać tłuczek, którym został uderzony lub od razu rozpocząć procedurę zbicia.
     * Pałkarz może podbić tłuczek próbując go złapać.
-    * Po pierwszym uderzeniu, wszelkie próby zmiany kierunku lotu tłuczka, w sposób inny niż próbowanie go złapać, popełnione przez uderzonego pałkarza są naruszeniem tej zasady.
+    * Po pierwszym uderzeniu, wszelkie próby zmiany kierunku lotu tłuczka, w sposób inny niż próbowanie go złapać, popełnione przez uderzonego pałkarza są naruszeniem zasad uderzonego pałkarza.
 * Jeśli uderzony pałkarz zrobi cokolwiek innego niż akcje określone w punktach A-C, to jest on karany zgodnie z zasadami dla zbitego zawodnika.
 * Jeśli uderzony pałkarz złapie tłuczek zanim stanie się on martwy, to pałkarz ten nie jest zbity.
     * Uderzony pałkarz musi złapać wszystkie tłuczki, ożywione przez przeciwników, które w niego uderzyły, aby nie być zbitym.
@@ -207,10 +205,12 @@ Kiedy jedna drużyna posiada dwa tłuczki, a pozostały tłuczek leży martwy na
         * Zawodnik drużyny posiadającej weźmie lub przesunie trzeci tłuczek.
         * Zawodnik drużyny posiadającej uniemożliwia lub opóźnia przeciwnikom dojście do trzeciego tłuczka, celowo lub wielokrotnie wchodząc im w drogę.
     * Dwa tłuczki przekazane drugiej drużynie za przeszkodzenia w zdobyciu trzeciego tłuczka są wybierane przez sędziego, ale powinny zawierać trzeci tłuczek.
+    * Gra musi zostać zatrzymana w celu ukarania za przeszkadzanie w zdobyciu trzeciego tłuczka.
+        * Sędziowie mogą opóźnić zatrzymanie gry na bazie przywileju korzyści lub opóźnionej kary.
   
 
 
-\penaltyd{Powrót do pętli i strata dwóch tłuczków}{Przeszkadzanie w zdobyciu trzeciego tłuczka}
+\penaltyd{Powrót do pętli, strata kafla i strata dwóch tłuczków}{Przeszkadzanie w zdobyciu trzeciego tłuczka}
 
 ### Zgłaszanie immunitetu
 Kiedy mamy sytuację z trzecim tłuczkiem, pałkarz drużyny bez tłuczków może podnieść rękę ponad ramię, pięść zamknięta, aby zgłosić immunitet od bycia zbitym przez żywe tłuczki.
@@ -219,7 +219,7 @@ Kiedy mamy sytuację z trzecim tłuczkiem, pałkarz drużyny bez tłuczków moż
     * Pozostały tłuczek jest nadal żywy.
     * Trzeci tłuczek był wypuszczony przez zgłaszającego zawodnika bez próby zbicia przeciwnika.
     * Obaj pałkarze w drużynie zgłaszają immunitet.
-        * Jeśli tak się stanie, to jeden z pałkarzy musi opuścić rękę, aby uniknąć kary.
+        * Jeśli tak się stanie, to jeden z pałkarzy musi opuścić rękę, aby uniknąć kary. Jeśli żaden nie opuści ręki to karany jest tylko jeden.
 * Nielegalne jest zgłoszenie immunitetu jeśli nie ma trzeciego tłuczka, chyba że przeciwna drużyna ma dwa tłuczki, a pozostały jest żywy.
     * Jeśli zgłoszenie immunitetu było niecelowo nielegalne i nie miało wpływu na grę, zawodnik może być ukarany za niewłaściwe zgłoszenie immunitetu.
 * Pałkarz nie ma immunitetu od tłuczków, które były ożywione zanim zgłosił immunitet.
