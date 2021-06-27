@@ -151,9 +151,9 @@ Zawodnik posiadający piłkę może spróbować zablokować lub odbić nadlatuj�
     * Jeśli sędzia stwierdzi, że zawodnik nie był świadomy, że tłuczek był martwy lub ożywiony przez swoją drużynę, i poza tym zagranie było legalne, to nie będzie karany.
 
 
-\bluecard{Nielegalne odbicie}
+\bluecard{Nielegalne odbicie tłuczka}
 
-\bluecard{Nielegalny blok}
+\bluecard{Nielegalne blokowanie tłuczka}
 
 ### Trzepnięcie tłuczka
 Każdą próbę odbicia lub celowego nadania ruchu żywemu tłuczkowi, w sposób inny niż przy użyciu innej piłki, nazwiemy trzepnięciem tłuczka.
