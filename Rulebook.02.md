@@ -1,4 +1,5 @@
-![Boisko](pitch.png)
+![Linie na boisku](boisko_linie_20.png)
+![Wymiary boiska](boisko_wymiary_20.png)
 
 # Sprzęt i wymiary boiska
 
@@ -10,7 +11,7 @@ Boisko składa się z czterech granic, które tworzą prostokąt 33m na 60m.
 * Linie granic długości 33m to linie końcowe.
 * Linie granic długości 60m to linie boczne.
     * Linia boczna najbliższej stołu _scorekeepera_ to ,,linia boczna _scorekeepera_''.
-  
+    * Linia boczna najdalej od stołu _scorekeepera_ to ,,linia boczna startowa''.
 
 
 ### Linia środkowa
@@ -22,6 +23,20 @@ Są dwie linie wyznaczające pola obrońców, równoległe do linii końcowych, 
 ### Linie bramkowe
 Są dwie linie bramkowe, równoległe do linii końcowych, łączące linie boczne i usytuowane 16,5 metra od linii środkowej, po obu jej stronach.
 
+### Linia startowa ścigających
+Linia startowa ścigających znajduje się 8,25 metra od linii bocznej startowej i mierzy 2 metry po obu stronach linii środkowej, do której jest prostopadła.
+
+### Strefa rozpoczynających
+Strefa rozpoczynających jest szeroka na 4 metry, rozciągająca się od linii startowej ścigających, przez linię boczną startową, aż po granicę strefy graczy.
+
+* Jeśli strefa rozpoczynających jest oznaczona na boisku to znaczniki powinny znajdować się wyłącznie przy linii bocznej startowej, poza boiskiem.
+
+### Strefy zmian
+Strefa zmian to prostokąt 19m na 2,75m poza boiskiem, przylegający dłuższym bokiem do pola obrońcy drużyny po stronie linii bocznej _scorekeepera_.
+
+### Ławki drużyn
+Ławka drużyny to prostokąt 19m na 2,75m przylegający dłuższym bokiem do strefy zmian drużyny i dotykający granicy strefy graczy.
+
 ### Strefy kar
 Każda drużyna ma strefę kar poza boiskiem.
 
@@ -29,19 +44,13 @@ Każda drużyna ma strefę kar poza boiskiem.
 
 
 ### Pozycje piłek
-Na linii środkowej są oznaczone cztery pozycje piłek.
+Na boisku znajdują się cztery pozycje piłek.
 
-* Pierwsze dwie piłki są położone 2,75m po obu stronach linii środkowej.
-* Kolejne dwie piłki są położone 8,25m po obu stronach linii środkowej.
+* Tłuczek umiejscowiony na środku linii pola obrońcy każdej z drużyn.
+* Tłuczek umiejscowiony na przecięciu linii środkowej i linii startowej ścigających.
+* Kafel umiejscowiony na środku linii środkowej.  
 
 
-### Strefy zmian
-Strefa zmian to prostokąt 19m na 2,75m poza boiskiem graniczący z polem obrońcy drużyny po stronie linii bocznej _scorekeepera_.
-
-### Ławki drużyn
-Ławka drużyny to prostokąt 19m na 2,75m przylegający dłuższym bokiem do strefy zmian drużyny i dotykający granicy strefy gracza.
-
-![Bok boiska](pitch_side.png)
 
 ### Strefa graczy
 Strefa graczy to prostokąt, który po środku ma boisko.
@@ -64,13 +73,14 @@ Poszczególne części boiska i otaczającej strefy powinny być oznaczone w jas
     * Granice boiska (\myref{2.1.1}).
     * Linia środkowa (\myref{2.1.2}).
     * Linie pól obrońców (\myref{2.1.3}).
-    * Pozycja piłki najbardziej oddalona od stołu _scorekeepera_ (\myref{2.1.6}).
+    * Linia startowa ścigających (\myref{2.1.5}).
 * Poniższe oznaczenia są opcjonalne, ale zalecane:
     * Linie bramkowe (\myref{2.1.4}).
-    * Strefy kar (\myref{2.1.5}).
-    * Pozostałe pozycje piłek (\myref{2.1.6}).
+    * Strefa rozpoczynających (\myref{2.1.6}).
     * Ławki drużyn (\myref{2.1.8}).
-    * Strefa graczy (\myref{2.1.9}).
+    * Strefy kar (\myref{2.1.9}).
+    * Pozostałe pozycje piłek (\myref{2.1.10}).
+    * Strefa graczy (\myref{2.1.11}).
     * Pozycje pętli (\myref{2.2.3}).
         * Te oznaczenia nie mogą wpływać na stabilność pętli.
     
@@ -81,7 +91,7 @@ Poszczególne części boiska i otaczającej strefy powinny być oznaczone w jas
 
 ### Konstrukcja pętli
 
-* Każda pętla musi się składać ze słupa i okgrągłej obręczy na szczycie słupa. Materiał ich wykonania może być dowolny, poza metalem i cementem, i nie może stanowić zagrożenia dla zawodników.
+* Każda pętla musi się składać ze słupa i okrągłej obręczy na szczycie słupa. Materiał ich wykonania może być dowolny, poza metalem i cementem, i nie może stanowić zagrożenia dla zawodników.
 * Pętla może być umieszczona na podstawce, aby stała pionowo.
     * Niezależnie od wysokości podstawki, pętla musi mieć określoną wysokość.
     * Podstawka może zawierać metalowe mocowania, ale nie może być wykonana z metalu lub cementu.
@@ -91,21 +101,23 @@ Poszczególne części boiska i otaczającej strefy powinny być oznaczone w jas
 
 
 ### Kształt pętli
+Każdy zestaw pętli musi mieć obręcze przymocowane na szczycie słupków o trzech różnych wysokościach.
 
-* Każdy zestaw pętli ma trzy słupy o różnych wysokościach.
-    * Te wysokości to 0,91m, 1,37m, 1,83m.
+* Wymagane wysokości są mierzone od ziemi do najniższego punktu na zewnętrznej krawędzi obręczy.
+    * Niska pętla ma między 89, a 93 centymetry wysokości.
+    * Średnia pętla ma między 135, a 139 centymetry wysokości.
+    * Wysoka pętla ma między 181, a 185 centymetry wysokości.
 * Obręcz musi być zamocowana do szczytu każdego słupa.
     * Wewnętrzna średnica obręczy musi wynosić między 81cm, a 86cm.
-    * Mocowanie obręczy do słupa nie może spowodować, że słup będzie wyższy niż jego wymagana wysokość.
   
 
 
 ### Pozycje pętli
 
 * Trzy pętle są umieszczone na linii bramkowej.
-    * Najwyższa pętla (1,83m) musi być umieszczona na środku linii bramkowej.
+    * Najwyższa pętla musi być umieszczona na środku linii bramkowej.
     * Pozostałe dwie pętle umieszczane są na linii bramkowej w odległości 234cm po obu stronach najwyższej pętli.
-    * Patrząc na pętle ze środka boiska, mała pętla (0,91m) musi być po lewej stronie, a średnia (1,37m) po prawej stronie.
+    * Patrząc na pętle ze środka boiska, mała pętla musi być po lewej stronie, a średnia po prawej stronie.
 * Obręcze pętli muszą być ustawione wzdłuż linii bramkowej.
 
 
@@ -156,11 +168,15 @@ Jeśli piłka zostanie uszkodzona w trakcie gry (np. zejdzie z niej powietrze lu
 ### Przepisy dotyczące mioteł
 Każdy zawodnik w grze musi mieć miotłę. Miotła spełnia poniższe:
 
-* Składa się z plastikowej rurki.
-    * Ta rurka ma długość między 81cm i 107cm.
+* Składa się ze sztywnej plastikowej rurki.
+    * Ta rurka ma długość między 98cm i 102cm.
+    * Ta rurka ma zewnętrzną średnicę między 25mm, a 35mm.
+        * Jeśli na końce rurki nałożone są zatyczki, średnica zatyczek może lekko przekroczyć 35mm.
 * Nie może mieć drzazg ani ostrych elementów.
     * Jeśli miotła jest pusta w środku, to oba końce muszą zostać zakryte (np. zaklejone).
 * Nie może być przyczepiona do ciała, ubrań lub innego sprzętu zawodnika.
+* Nie może być wzmocniona dodatkowym materiałem, w tym oklejona taśmą.
+    * Taśma wspomagająca chwytanie miotły może pokrywać co najwyżej pojedynczą sekcję do 20cm, mniej więcej w miejscu gdzie zawodnik trzymałby dłoń na miotle.
 
 
 ### Złamane miotły
@@ -218,7 +234,7 @@ Opaski oznaczające pozycje zawodników muszą spełniać poniższe:
     * Opaska musi być noszona na nakryciu głowy, a kolor nakrycia musi być wyraźnie różny od koloru opaski.
     * Nakrycie głowy, które przypomina opaskę i jest koloru opaski, może być użyte jako opaska.
         * Właściwa opaska nie może być noszona na takim nakryciu głowy.
-* Jeśli zawodnik zgubi opaskę w trakcie gry, może kontynuować grę bez niej. Kiedy następi dowolne z poniższych to musi założyć z powrotem opaskę.
+* Jeśli zawodnik zgubi opaskę w trakcie gry, może kontynuować grę bez niej. Kiedy nastąpi dowolne z poniższych to musi założyć z powrotem opaskę.
     * Zostanie zbity.
     * Gra zostanie wstrzymana.
     * Zdobyto bramkę.
@@ -238,7 +254,7 @@ Każdy zawodnik musi mieć z tyłu na koszulce liczbę z zakresu 0 do 99 włącz
     * Poprzedzające zera są pomijane przy określaniu numeru zawodnika.
     * Jeśli drużyna zostanie ukarana za posiadanie dwóch zawodników o tym samym numerze, _speaking captain_ musi wyznaczyć zawodnika, który zmieni swój numer.
         * Wyznaczony gracz, nie może brać udziału w grze dopóki na jego plecach nie wyznaczony zostanie nowy numer i numer ten zostanie przekazany _scorekeeperowi_.
-* Jeśli numer zawodnika dozna usterki podczas gry, tak że nie da się go rozpocznać:
+* Jeśli numer zawodnika dozna usterki podczas gry, tak że nie da się go rozpoznać:
     * Gra nie jest wstrzymana.
     * Sędzia informuje zawodnika o usterce.
     * Zawodnik musi naprawić numer podczas najbliższego wstrzymania gry lub zejściem z boiska na zmianę.
@@ -267,9 +283,10 @@ Poniższe elementy określone są jako dodatkowy sprzęt i mają pewne ogranicze
     * Okulary nie mogą być ze szkła, chyba że noszone są pod goglami.
     * Gogle z metalu, np. jak do lacrosse, nie są dozwolone.
 * Rękawice -- muszą spełniać wymagania dla ochraniaczy.
+* Nakrycie głowy -- czapki z poziomy pasami w kolorze dowolnej opaski są zabronione, nawet jeśli na czapce byłaby opaska.
 * Dodatkowy sprzęt na ramieniu -- tylko rękawy, rękawice i ortezy mogą być noszone na przedramieniu.
 * Specjalistyczny sprzęt -- osoby leczące kontuzje, potrzebujące specjalistycznego sprzętu muszą dostać pozwolenie aby go używać od zarządców ligi przed turniejem.
-* Każdy inny sprzęt musi być zaakceptowany przez sędziego głównego przed meczem. Sprzęt, który zostanie uznany przez sędziego za niebezpieczny lub niefair dla jednej z drużyn, będzie niedopuszczony.
+* Każdy inny sprzęt musi być zaakceptowany przez sędziego głównego przed meczem. Sprzęt, który zostanie uznany przez sędziego za niebezpieczny lub nie fair dla jednej z drużyn, będzie niedopuszczony.
 
 
 \bluecard{Nielegalne użycie dodatkowego sprzętu w grze}
@@ -309,7 +326,9 @@ Poniższe są zakazane i nie mogą być noszone przez zawodników w grze:
 * Urządzenia nagrywające dźwięk i wideo.
 * Biżuteria
     * Plastikowe substytuty kolczyków niewystające poza skórę są dozwolone.
+    * Zawodnicy ze znacząco rozciągniętymi przekłuciami mogą użyć twardych plastikowych wypełniaczy, które nie wystają poza skórę i w pełni pokrywają przekłucie.
+    * Jeśli biżuteria zawodnika nie wpłynęła na grę, zawodnik otrzymuje karę za noszenie zabronionej biżuterii zamiast za noszenie zakazanego sprzętu.
 * Substancje ułatwiające łapanie, które mogą zostać przeniesione na piłkę.
 
-
+\penaltyd{Usunięcie}{Noszenie zakazanej biżuterii}
 \redcard{Noszenie zakazanego sprzętu}
