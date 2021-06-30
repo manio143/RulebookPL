@@ -190,3 +190,4 @@ Zawodnicy rezerwowi nie mogą przeszkadzać grze przy liniach bocznych.
 \bluecard{Przeszkadzanie przy liniach bocznych}
 
 \redcard{Celowe przeszkadzanie przy liniach bocznych}
+

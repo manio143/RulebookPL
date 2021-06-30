@@ -34,3 +34,11 @@ Jeśli stwierdzisz, że samo czytanie/edytowanie pliku `Rulebook.tex` to dla cie
     pdflatex Rulebook.tex
 
 Wywołanym dwukrotnie (inaczej nie utworzy się spis treści).
+
+### Kompilowanie markdown do LaTeX
+
+```
+./compile_md_tex.sh
+```
+
+_Note: pliki *.md muszą na końcu mieć dwie puste linie._

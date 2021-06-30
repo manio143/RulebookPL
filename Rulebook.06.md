@@ -373,3 +373,4 @@ Za nielegalne uznawane są wszelkie nieczyste zagrania, włączając w to rażą
 Nielegalne jest symulowanie faulu.
 
 \yellowcard{Symulowanie faulu}
+

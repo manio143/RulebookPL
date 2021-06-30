@@ -1,5 +1,7 @@
-![Linie na boisku](boisko_linie_20.png)
-![Wymiary boiska](boisko_wymiary_20.png)
+
+\imageh{boisko-linie-20.png}{1.8cm}
+
+\imageh{boisko-wymiary-20.png}{1.8cm}
 
 # Sprzęt i wymiary boiska
 
@@ -332,3 +334,4 @@ Poniższe są zakazane i nie mogą być noszone przez zawodników w grze:
 
 \penaltyd{Usunięcie}{Noszenie zakazanej biżuterii}
 \redcard{Noszenie zakazanego sprzętu}
+

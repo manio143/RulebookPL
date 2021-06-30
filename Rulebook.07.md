@@ -150,7 +150,7 @@ Opóźnianie gry jest zdefiniowane jako opóźnianie rozpoczęcia gry, w dowolny
   
 
 
-\bluecard{(_starta piłki_) Opóźnianie gry}
+\bluecard{Opóźnianie gry (_strata piłki_)}
 
 ### Resetowanie kafla
 Drużyny są częściowo ograniczone w cofaniu kafla w stronę swoich pętli.

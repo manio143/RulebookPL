@@ -139,3 +139,4 @@ Sędzia główny może zmienić decyzji o tym czy był gol w dowolnym momencie z
 Zawodnicy i personel drużyny nie mogą używać poleceń ani sygnałów sędziów, zarówno słownych jak i gestów.
 
 \bluecard{Nielegalne używanie słów lub gestów, które są poleceniami lub sygnałami sędziów}
+

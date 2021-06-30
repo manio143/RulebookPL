@@ -114,3 +114,4 @@ Po tym jak znicz został określony jako _down_, szukający muszą:
 
 
 \penaltyd{Powrót do pętli}{Nielegalne gonienie znicza}
+

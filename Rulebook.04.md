@@ -140,3 +140,4 @@ Kiedy szukający złapie znicz i to złapanie zostanie potwierdzone jako dobre z
     * Jeśli nie ma żadnych informacji, i tylko wtedy, sędzia główny może określić zdarzenia jako jednoczesne.
         * Jeśli faul negujący złapanie i poprawne złapanie występują jednocześnie, to złapanie nie może być zaliczone.
         * Jeśli dobry gol i poprawne złapanie występują jednocześnie, to gol jest uznany jak gdyby wystąpił przed złapaniem.
+

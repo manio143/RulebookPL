@@ -1,0 +1,197 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{polski}
+\usepackage[polish]{babel}
+%\usepackage[none]{hyphenat} %no hyphen breaks
+\usepackage[utf8]{inputenc}
+
+%font
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\usepackage{color}
+
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+
+\usepackage{pdfpages}
+
+\usepackage{tocloft}
+
+%justify - no hyphens
+\tolerance=1000
+\emergencystretch=\maxdimen
+\hyphenpenalty=1000
+\hbadness=10000
+
+%colors
+\definecolor{darkyellow}{RGB}{244,213,9}
+\definecolor{darkgreen}{RGB}{28,135,12}
+\definecolor{darkishgreen}{RGB}{35,165,14}
+
+\hypersetup{
+    colorlinks,
+    linkcolor=darkgreen,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+\usepackage{fancyhdr}
+\lhead{}
+\rhead{}
+\chead{\textsc{\textcolor{darkgreen}{PLQ Rulebook 2018-2020}}}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\usepackage{enumitem}
+%\setenumerate[1]{leftmargin=2.9cm,label=\Alph*.}
+\setenumerate[1]{leftmargin=1.2cm,label=\textbf{\textcolor{darkgreen}{\Alph*.}}}
+\setenumerate[2]{label=\textbf{\roman*.}}
+\setenumerate[3]{label=\textbf{\alph*.}}
+\setenumerate[4]{label=\textbf{\arabic*.}}
+
+% Section numbering
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{2}
+
+\usepackage{letltxmacro}
+
+% Unnumbered sections included in ToC
+\newcommand{\psection}[1]{
+  \section*{#1}
+  \addcontentsline{toc}{section}{#1}
+}
+\newcommand{\psubsection}[1]{
+  \subsection*{#1}
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+\usepackage[explicit]{titlesec}
+\usepackage{ulem}
+\titleformat{\section}[block]{\center\normalfont\LARGE\bfseries}{\thesection.}{2ex}{#1}
+\titleformat{\subsection}{\normalfont\Large\bfseries}{\textcolor{darkgreen}{\thesubsection.}}{1.5ex}{\textcolor{darkgreen}{\textsc{#1}}}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsection.}{1ex}{#1}
+\titleformat{\paragraph}[block]{\normalfont\normalsize}{}{0pt}{\uline{\theparagraph.\hspace*{1ex}#1}} %
+
+%custom spacing
+\newcommand{\sectionbreak}{\clearpage} %section starts on new page
+% \titlespacing*{\subsection}{0.5cm}{0pt}{0pt}
+\titlespacing*{\subsubsection}{0pt}{0.5cm}{-0.1cm}
+%\titlespacing*{\paragraph}{2cm}{0pt}{0pt}
+
+% Indent subsubsections
+\newenvironment{indentpar}[1]%
+  {\begin{list}{}%
+          {\setlength{\leftmargin}{#1}}%
+          \item[]%
+  }
+  {\end{list}}
+
+\LetLtxMacro{\oldsubsection}{\subsection}
+\renewcommand{\subsection}[1]{
+  \oldsubsection{#1}%
+  \label{\thesubsection}
+}
+\LetLtxMacro{\oldsubsubsection}{\subsubsection}
+\renewcommand{\subsubsection}[1]{
+  \oldsubsubsection{#1}%
+  \label{\thesubsubsection}
+}
+
+\newcommand{\myref}[1]{\ref{#1}. \nameref{#1}}
+
+\newlistof{bcc}{lbc}{\Large\textcolor{blue}{\textbf{Niebieska Kartka}}}
+\newlistof{ycc}{lyc}{\Large\textcolor{darkyellow}{\textbf{Żółta Kartka}}}
+\newlistof{rcc}{lrc}{\Large\textcolor{red}{\textbf{Czerwona Kartka}}}
+\newlistof{pdc}{lpd}{\Large\textcolor{darkgreen}{\textbf{Pozostałe kary}}}
+
+% Custom subparagraphs
+\newcommand{\redcard}[1]{%
+  \refstepcounter{rcc}
+  \textcolor{darkgreen}{\textbf{Kara: }}\textcolor{red}{\textbf{Czerwona Kartka}} -- #1
+  \addcontentsline{lrc}{rcc}{\numberline{\thesubsubsection} \hspace{3ex}#1}
+}
+\newcommand\yellowcard[1]{%
+  \refstepcounter{ycc}
+  \textcolor{darkgreen}{\textbf{Kara: }}\textcolor{darkyellow}{\textbf{Żółta Kartka}} -- #1
+  \addcontentsline{lyc}{ycc}{\numberline{\thesubsubsection} \hspace{3ex}#1}
+}
+\newcommand\bluecard[1]{%
+  \refstepcounter{bcc}
+  \textcolor{darkgreen}{\textbf{Kara: }}\textcolor{blue}{\textbf{Niebieska Kartka}} -- #1
+  \addcontentsline{lbc}{bcc}{\numberline{\thesubsubsection} \hspace{3ex}#1}
+}
+\newcommand\penaltyd[2]{%
+  \refstepcounter{pdc}
+  \textcolor{darkgreen}{\textbf{Kara: #1}} -- #2
+  \addcontentsline{lpd}{pdc}{\numberline{\thesubsubsection} \hspace{3ex}#1 -- #2}
+}
+
+\usepackage{geometry}
+
+\newcommand\image[2]{
+	\newgeometry{left=0cm,top=#2}
+	\includegraphics[width=\paperwidth]{#1}
+	\restoregeometry
+}
+\newcommand\imageh[2]{
+	\newgeometry{left=#2,top=0cm}
+	\includegraphics[height=.8\paperheight]{#1}
+	\restoregeometry
+}
+
+\setlength{\headheight}{13.6pt} %header
+
+\setlength{\parindent}{0pt} % brak wcięć
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+\normalem %emphasis isn't underline
+\linespread{1.1} %interlinia
+
+\title{Zasady gry w~quidditcha}
+\author{Polska Liga Quidditcha}
+\date{Sezon 2020}
+
+\begin{document}
+
+\maketitle
+\clearpage
+
+\setlength{\parskip}{0ex}
+
+\pagestyle{fancy}
+
+\tableofcontents
+
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+\newpage
+
+\psection{Wstęp}
+
+Popularność quidditcha stale rośnie i~rozwija się on w~dynamiczną i~ambitną dyscyplinę sportową,
+wymagającą nie lada wysiłku fizycznego,
+złożonych strategii i~nielichych umiejętności.
+
+Każdego dnia treningi i mecze quidditcha odbywają się w 40 krajach na całym świecie.
+W ciągu ostatnich dwóch lat ten sport przeżył niesamowity skok w rozwoju, co oznacza,
+że zasady również muszą być rozwijane. Bazując na opiniach graczy, sędziów i trenerów
+dokonaliśmy odpowiednich modyfikacji, mających polepszyć przyszłość quidditcha.
+
+Rulebook został skondensowany, część zasad lepiej wyjaśniona, a niektóre elementy gry
+zmienione. Mamy nadzieję, że te zmiany pomogą ustalić poprawny kierunek dla sportu, aby gracze
+z całego świata byli podekscytowani quidditchem.
+
+To wydanie \emph{Zasad gry w~quidditcha} opiera się na Rulebooku 2020 wydanym przez IQA.
+
+Polska Liga Quidditcha dziękuje wszystkim zaangażowanym (w kolejności alfabetycznej) w stworzenie przekładu niniejszych \emph{Zasad} z języka angielskiego:
+\begin{center}
+	\begin{tabular}{c c}
+    Marian Dziubiak & TBD \\
+	\end{tabular}
+\end{center}
+
+%\image{team_poland}{6cm}
+\pagebreak
+
