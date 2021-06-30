@@ -137,7 +137,7 @@ Opóźnianie gry jest zdefiniowane jako opóźnianie rozpoczęcia gry, w dowolny
     * Chroniony obrońca musi bezpośrednio i od razu wyprowadzić kafel z pola obrońcy, spróbować podać lub upuścić kafel na ziemię.
     * Po golu, obrońca uprzednio broniącej się drużyny nie może zmienić się z zawodnikiem rezerwowym zanim nie ożywi kafla.
 * Zawodnik z kaflem musi iść do przodu (wzdłuż boiska) w tempie co najmniej normalnego chodu, dopóki nie przekroczy połowy boiska.
-    * Jeśli zawodnik nie porusza się prostopadle do linii połowy boiska, to musi iść na tyle szybko jakby szedł prostopadle do linii połowy boiska w tempie co najmniej normalnego chodu.
+    * Jeśli zawodnik nie porusza się prostopadle do linii środkowej, to musi iść na tyle szybko jakby szedł prostopadle do linii środkowej w tempie co najmniej normalnego chodu.
     * Jeśli zawodnik jest zatrzymany przez przeciwnika, może na chwilę przerwać ruch do przodu, ale musi w jasny sposób próbować znaleźć sposób by przejść przeciwnika.
         * Zawodnik z kaflem jest "zablokowany przez broniącego przeciwnika" jeśli ten przeciwnik jest między zawodnikiem, a swoją linią końcową oraz:
             * Przeciwnik jest ścigającym w odległości co najwyżej 2m od zawodnika.
@@ -157,7 +157,7 @@ Drużyny są częściowo ograniczone w cofaniu kafla w stronę swoich pętli.
 
 * Każda drużyna ma dwie ograniczające linie podczas swoich _drive_'ów, działające po całej szerokości boiska.
     * Linia pola obrońcy danej drużyny.
-    * Linia połowy boiska.
+    * Linia środkowa.
 * Uznaje się, że kafel przekroczył ograniczającą linię kiedy został przeniesiony, najpierw będąc w całości przed linią, następnie będąc w całości za linią.
     * Zawodnik posiadający kafel traktowany jest jako przedłużenie kafla w celu określenia przekroczenia linii ograniczającej.
     * Kafel nie musi dotykać ziemi po dowolnej stronie linii aby ją przekroczyć.

@@ -34,7 +34,7 @@ Na koniec spotkania przed grą wykonywany jest rzut monetą.
 Na wezwanie sędziego głównego, każda z drużyn wystawia rozpoczynających zawodników na linie startowe.
 
 * Każda drużyna wystawia jednego ścigającego i jednego pałkarza do ustawienia się na pozycjach w strefie rozpoczynających. Ci zawodnicy są wyznaczonymi rozpoczynającymi.
-* Wyznaczeni rozpoczynający ustawiają się wewnątrz strefy rozpoczynających, co najmniej 0.5m od linii połowy (mierząc od ramienia bliżej połowy).
+* Wyznaczeni rozpoczynający ustawiają się wewnątrz strefy rozpoczynających, co najmniej 0.5m od linii środkowej (mierząc od ramienia bliżej linii).
     * Ścigający rozpoczynają na linii startu ścigających, a pałkarze na linii bocznej.
     * Dla każdej piłki, o którą jest walka, rozpoczynający który został wyznaczony do wyboru pozycji jako pierwszy, wybiera preferowaną połowę i ustawia na niej się, kładąc miotłę na ziemi. Rozpoczynający z przeciwnej drużyny ustawia swoją miotłę na drugiej połowie.
 * Jeden ścigający z każdej drużyny ustawia się na linii bocznej na połowie przeciwnika, poza strefą rozpoczynających i co najmniej 1.5m od linii pola obrońcy, kładąc tam swoją miotłę.
@@ -75,7 +75,7 @@ Na wezwanie sędziego głównego, każda z drużyn wystawia rozpoczynających za
 
 ### Ograniczenia związane z rozpoczęciem
 
-* Piłki znajdujące się na linii połowy są ,,piłkami, o które jest walka''.
+* Piłki znajdujące się na linii środkowej są ,,piłkami, o które jest walka''.
     * Piłka pozostaje w tym stanie dopóki jest legalnie dotknięta lub nie ma żadnych wyznaczonych rozpoczynających do niej przypisanych.
     * Sędzia woła ,,wolna'' wskazując na piłkę jeśli uważa, że nie jest jasne, że o tą piłkę nikt już nie walczy.
 * Piłka, o którą jest walka, może być dotknięta tylko przez wyznaczonego rozpoczynającego.
@@ -84,7 +84,7 @@ Na wezwanie sędziego głównego, każda z drużyn wystawia rozpoczynających za
 * Jest to przeszkodzeniem wyznaczonemu rozpoczynającemu, jeśli zawodnik który nie jest wyznaczonym rozpoczynającym, wejdzie na drogę lub w kontakt z wyznaczonym rozpoczynającym.
 * Zawodnik przestaje być wyznaczonym rozpoczynającym jeśli zachodzi jedno z poniższych:
     * Przypisana mu piłka została legalnie dotknięta.
-    * Opuścił okolicę linii połowy.
+    * Opuścił okolicę linii środkowej.
     * Został zbity.
     * Dostał karę.
     * Przypisana piłka została stracona na rzecz drużyny przeciwnej (_turnover_).

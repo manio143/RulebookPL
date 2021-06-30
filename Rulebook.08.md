@@ -72,7 +72,7 @@ Po tym jak znicz został wypuszczony na boisko, nie może on celowo boiska opuś
     * Po wypuszczeniu znicz musi pozostawać między liniami pól obrońców.
     * Po 23 minucie gry, znicz musi pozostawać w odległości 1.5m od linii środkowej.
     * Po 28 minucie gry, znicz może używać tylko jednej ręki.
-    * Po 33 minucie gry, znicz musi pozostawać w odległości 1.5m od przecięcia linii połowy i linii startu ścigających (patrz \myref{2.1.5}).
+    * Po 33 minucie gry, znicz musi pozostawać w odległości 1.5m od przecięcia linii środkowej i linii startu ścigających (patrz \myref{2.1.5}).
 * Znicz może przyjąć dodatkowe ograniczenia, ale nie można go o nie poprosić/nakazać (to się tyczy również organizatorów i sędziów).
 * Złapanie nie może zostać niezaliczone ze względu na to, że znicz nie przestrzegał ograniczeń, chyba że łamał w znaczący sposób standardy na niekorzyść drużyny, która nie złapała.
 * Wielokrotne nieprzestrzeganie ograniczeń może być powodem wymiany znicza.
