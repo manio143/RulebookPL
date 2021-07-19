@@ -10,7 +10,7 @@
 * Tylko sędzia główny może bezpośrednio dać komuś kartkę.
     * Inni sędziowie mogą doradzić sędziemu głównemu w sprawie dania komuś kartki.
 * Sędzia główny może zastąpić dowolnego sędziego zamiennikiem, jeśli ten sędzia jest kontuzjowany lub, w opinii sędziego głównego, musi zostać odesłany.
-* Wszyscy pozostali sędziowie są podlegli sędziemu głównemu i jego decyzjom.
+* Wszczyscy pozostali sędziowie są podlegli sędziemu głównemu i jego decyzjom.
 
 
 ### Wyznaczanie dodatkowych sędziów
@@ -67,8 +67,8 @@ Zaleca się wyznaczenie _timekeepera_ oraz dwóch sędziów bramkowych na każd�
 ### _Scorekeeper_
 
 * _Scorekeeper_ skupia się głównie na:
-    * Śledzeniu wyników gry.
-    * Aktualizowaniu tablicy z wynikami.
+    * Śledzieniu wyników gry.
+    * Aktutalizowaniu tablicy z wynikami.
     * Zapisywaniu numeru zawodnika oraz przyczyny otrzymania kartki.
     * Ogłaszaniu wyniku w regularnych odstępach czasowych oraz na żądanie.
     * Ogłaszaniu i pokazywaniu wyniku docelowego podczas dogrywki.
@@ -83,6 +83,7 @@ Zaleca się wyznaczenie _timekeepera_ oraz dwóch sędziów bramkowych na każd�
     * Wyraźnym ogłoszeniu upłynięcia 17 minut czasu gry (patrz \myref{3.3.4}).
     * Zajęcie się zniczem i szukającymi, gdy zgłoszą się do stolika, oraz wypuszczeniu ich na boisko w odpowiednim czasie.
     * Obserwowaniu czy szukający nie popełniają falstartu.
+    * Ogłaszanie pozostałego czasu w dogrywce oraz przestrzeganie dodatkowych zasad dogrywki (patrz \myref{3.5.3}).
 * Zegar z czasem gry nie musi być widoczny dla zawodników na boisku, ale jeśli jest to musi:
     * Być wyłącznie i bezpośrednio kontrolowany przez _timekeepera_.
         * Jeśli jest kilka ekranów na boisku, wszystkie muszą być sterowane z jednego miejsca, żeby nie było różnic w tym co wyświetlają.
@@ -115,7 +116,7 @@ Decyzje muszą być bazowane wyłącznie na obserwacjach sędziów wyznaczonych 
 ### Zmiana decyzji podczas wstrzymanej gry
 Sędzia główny może zmieniać decyzje podjęte podczas wstrzymanej gry, przed rozpoczęciem gry.
 
-* Po tym jak sędzia główny zagwiżdże trzy razy na koniec gry, wszelkie decyzje o golach i złapaniu znicza są finalne i nie mogą zostać zmienione.
+* Po tym jak sędzia główny zagwiżdże trzy razy na koniec etapu gry, wszelkie decyzje o golach i złapaniu znicza w tym etapie są finalne i nie mogą zostać zmienione.
 
 
 ### Zmiana decyzji o golu
@@ -140,3 +141,6 @@ Zawodnicy i personel drużyny nie mogą używać poleceń ani sygnałów sędzi�
 
 \bluecard{Nielegalne używanie słów lub gestów, które są poleceniami lub sygnałami sędziów}
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE3NjcwOTU2MV19
+-->
