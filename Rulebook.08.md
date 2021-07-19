@@ -10,7 +10,45 @@ Zadaniem znicza jest uniemożliwienie złapania piłeczki zniczowej przez które
 * Znicz musi mieć shorty lub spodnie z przyczepioną piłeczką zniczową.
     * Spodenki oraz piłeczka muszą spełniać wymagania opisane w rozdziale \myref{2.3.3}.
 * Znicz musi mieć koszulkę, która wyraźnie różni się od koszulek drużyn.
-* Sugerowane jest aby spodenki znicza były w całości żółte lub złote.
+* Sugerowane jest aby spodenki znicza były w całości żzółte lub złote.
+
+
+## WymaganiaCzas znicza
+
+### ZachowaWypuszczenie znicza
+
+* Znicz nie może:
+
+* Inicjować kontakt z głową, szyją lub kroczem szukającego.
+    * Pomniejszy, przypadkowy kontakt z głową nie ma znaczenia.
+* Inicjować kontmusi zostać wypuszczony na boisko od stołu _scorekeepera_:
+    * Między 17 i 18 minutą czasu pierwszego etapu gry.
+    * Przed 30 sekundami czasu dogrywki.
+* Znicz zaczyna drugą dogrywkę od razu wypuszczony na środkowej linii boiska.
+
+
+### Pozostawanie na boisku
+Po tym jakt z nogami szukającego w lub poniżej kolan, chyba że kontakt z szukającym został jużnicz został wypuszczony na boisko, nie może on celowo boiska opuścić, do końca etapu gry.
+
+### Ograniczenia znicza
+
+* Poniższe ograniczenia na zniczu się kumulują oraz muszą być rozpoczętye w inny sposób.
+* Wchodzić w interakcję z zawodwyznaczonych momentach mierzonego czasu gry.
+    * Po wypuszczeniu znicz musi pozostawać między linikami innych pozycji niż szukający.
+* Grać lekkomyślnie lub niebezpiecznie.
+* Celowo robić komuś krzywdę.
+* Faworyzować jedną z drużyn.
+* Współpracować z szukającym, który broni znicza, dłużej niż kilka sekund.
+    * Szukający broni znicza kiedy wkłada więcej wysiłku w przeszkadzanie przeciwnemu szukającemu niż w próby złapania znicza.
+    * Znicz musi opuścić strefę, gdzie jest bronionpól obrońców.
+    * Po 23 minucie gry, znicz musi pozostawać w odległości 1.5m od linii środkowej.
+    * Po 28 minucie gry, znicz może używać tylko jedej ręki.
+    * Po 33 minucie gry, znicz musi pozostawać w odległości 1.5m od pozycji piłki najdalej od stołu _scorekeepera_ (patrz \myref{2.1.6}).
+* Znicz może przyjąć dodatkowe ograniczenia, ale nie można go o nie poprosić/nakazać (to się tyczy również organizatorów i sędziów).
+* Złapanie nie może zostać niezaliczone ze względu na to, że znicz nie przestrzegał ograniczeń.
+* Wielokrotne nieprzestrzeganie ograniczeń może być powodem wymiany znicza.
+* Jeśli gra przechodzi do kolejnego etapu, wszelkie ograniczenia znicza są anulowane do końca trwania gry, sopróbować zabrać miotłę, lub inaczej znacząco przeszkodzić szukającemu, który go próbuje bronić, w ciągu około 3 sekund od momentu kiedy znicz zorientuje się, że jest broniony.
+    * Jeśli znicz nie jest pewien czy jest broniony, to powinien uznać, że jest broniony. cz konieczności pozostawania między liniami pól obrońców.
 
 
 ## Wymagania znicza
@@ -25,10 +63,6 @@ Znicz nie może:
 * Grać lekkomyślnie lub niebezpiecznie.
 * Celowo robić komuś krzywdę.
 * Faworyzować jedną z drużyn.
-* Współpracować z szukającym, który broni znicza, dłużej niż kilka sekund.
-    * Szukający broni znicza kiedy wkłada więcej wysiłku w przeszkadzanie przeciwnemu szukającemu niż w próby złapania znicza.
-    * Znicz musi opuścić strefę, gdzie jest broniony, spróbować zabrać miotłę, lub inaczej znacząco przeszkodzić szukającemu, który go próbuje bronić, w ciągu około 3 sekund od momentu kiedy znicz zorientuje się, że jest broniony.
-    * Jeśli znicz nie jest pewien czy jest broniony, to powinien uznać, że jest broniony. 
 * Przebywać na stronie boiska jednej z drużyn przez dłuższy czas.
 * Przebywać w odległości do 2m od granicy boiska przez dłuższy czas.
 * Celowo opuszczać boisko.
@@ -45,8 +79,8 @@ Znicz nie może:
 ### Złamanie standardów przez znicza
 
 * Sędzia główny może usunąć znicza z boiska z powodu kontuzji, złamania standardów opisanych powyżej lub za bycie zbyt agresywnym lub nierozważnym.
-* Sędzia ostrzega znicza jeśli ten złamie standard wymieniony w \myref{8.2.1}.
-    * Istotne złamanie standardu może spowodować usunięcie znicza, bez uprzedniego ostrzeżenia.
+* Sędzia ostrzega znicza jeśli ten złamie standard wymieniony w \myref{8.23.1}.
+    * Istotne złamianie standardu może spoowodować usunięcie znicza, bez uprzedniego ostrzeżenia.
 * Jeśli znicz popełni istotne wykroczenie przeciwko jednemu szukającemu, gra musi zostać natychmiast wstrzymana, a wszelkie złapania przeciwnej drużyny zanim gra zostanie wstrzymana nie mogą zostać zatwierdzone.
 
 
@@ -115,3 +149,6 @@ Po tym jak znicz został określony jako _down_, szukający muszą:
 
 \penaltyd{Powrót do pętli}{Nielegalne gonienie znicza}
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg0MzQ5MDY1MV19
+-->
