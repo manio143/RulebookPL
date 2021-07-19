@@ -78,7 +78,9 @@ Jeśli zawodnik jest uderzony tłuczkiem, który nie może go zbić, sędzia mus
     * Jeśli żaden sędzia nie zawołał ,,safe'' lub ,,czysto'' i ostateczna decyzja to ,,zbity'', to oznacza, że zawodnik świadomie ignoruje zbicie.
         * Jeśli sędzia stwierdzi, że zawodnik nie był świadomy, że dostał tłuczkiem, to można to potraktować jako niezauważone zbicie (patrz \myref{5.3.4}).
             * To że zawodnik był przekonany, że sędzia zawoła za chwilę ,,safe'' lub ,,czysto'' nie jest brane pod uwagę przy wyznaczaniu kary.
-
+      
+    
+  
 
 
 \yellowcard{Świadome ignorowanie zbić}
@@ -95,7 +97,7 @@ Zbity zawodnik pozostaje zbity dopóki nie ukończy poniższej procedury, w kole
 * Dotknij jednej z pętli w swoim polu obrońcy.
     * Należy dotknąć obręczy lub słupa, nie podstawki.
     * Należy dotknąć pętlę częścią ciała, nie miotłą.
-* Ponownie dosiądź miotły przed opuszczeniem okolicy pętli.
+* Ponownie dosiądź miotły przed opuszczeniem okolicy pętlti.
 
 
 \penaltyd{Powtórz procedurę}{Nieprawidłowe przeprowadzenie procedury zbicia}
@@ -132,9 +134,10 @@ Jeśli zawodnik niecelowo kontynuuje grę po zejściu z miotły lub uderzeniu t�
 * Sędzia powinien słownie i gestem poinformować zawodnika o tym, że został zbity.
 * Sędzia może zatrzymać grę, aby poinformować zawodnika o tym, że był zbity.
     * W takim wypadku piłka posiadana przez tego zawodnika musi zostać przekazana przeciwnej drużynie.
-* Jeśli zawodnik oddziałuje na grę będąc nieświadomym, że był zbity lub spadł z miotły, powinien zostać ukarany.
-    * Jeśli zawodnik rozpocznie legalny kontakt, nie wiedząc, że był zbity, jest karany za ten kontakt wyłącznie karą za nieświadomość bycia zbitym.
-    * Jeśli zawodnik zaraz po zbiciu nada ruch piłce naruszając zasadę naturalnego ruchu, nie jest karany za nieświadomość bycia zbitym (patrz \myref{5.6.2}).
+* Jeśli zawodnik oddziaływuje na grę będąc nieświadomym, że był zbity lub spadł z miotły, powinien zostać ukarany.
+    * Jeśli zawodnik rozpocznie legalny konktakt, nie wiedząc, że był zbity, jest karany za ten kontakt wyłącznie karą za nieświadomość bycia zbitym.
+    * Jeśli zawodnik zaraz po zbiciu nada ruch piłce naruszając zasadę naturalnego ruchu, nie jest karany za nieświadomość bycia zbitym (patrz \myref{5.6.2})..
+  
 
 
 \bluecard{Oddziaływanie na grę nie wiedząc że jest się zbitym}
@@ -146,14 +149,15 @@ Zawodnik posiadający piłkę może spróbować zablokować lub odbić nadlatuj�
 
 * Trzymana piłka może zostać użyta do odbicia nadlatującego tłuczka.
 * Odbicie lub zablokowanie nie zmienia stanu tłuczka, nadal jest żywy lub martwy.
-* Nie można używać martwego kafla do interakcji z tłuczkiem.
+* Nie można używać martwego kafla do interakcji z tłluczkiem.
 * Zawodnicy nie mogą celowo użyć trzymanej piłki aby dotknąć martwego tłuczka lub tłuczka ożywionego przez swoją drużynę.
-    * Jeśli sędzia stwierdzi, że zawodnik nie był świadomy, że tłuczek był martwy lub ożywiony przez swoją drużynę, i poza tym zagranie było legalne, to nie będzie karany.
+    * Jeśli sędzia stwierdzi, że zawodnik nie był świadomy, że tłuczek był martwy lub ożywiony przez swoją drużynę, i poza tym zagranie było legalne, to nie będzie karany.ma kary.
+  
 
 
 \bluecard{Nielegalne odbicie tłuczka}
 
-\bluecard{Nielegalne blokowanie tłuczka}
+\bluecard{Nielegalney blokowanie tłuczka}
 
 ### Trzepnięcie tłuczka
 Każdą próbę odbicia lub celowego nadania ruchu żywemu tłuczkowi, w sposób inny niż przy użyciu innej piłki, nazwiemy trzepnięciem tłuczka.
@@ -179,10 +183,10 @@ Pałkarz, który nie miał immunitetu, staje się uderzonym pałkarzem w momenci
 * Uderzony pałkarz nie może ożywić tłuczka.
 * Uderzony pałkarz musi upuścić wszelkie posiadane tłuczki.
     * Zawodnik nie może podać, poturlać lub kopnąć piłki, chyba że kończy naturalny ruch (patrz \myref{5.6.2}).
-    * Niewypuszczenie tłuczka jest naruszeniem zasad uderzonego pałkarza.
-* Uderzony pałkarz musi próbować złapać tłuczek, którym został uderzony lub od razu rozpocząć procedurę zbicia.
+    * Niewypuszczenie tłuczka jest naruszeniem tej zasad uderzonego pałkarzay.
+* Uderzony pałkarz musi próbować złapać tłuczek, którym został uderzony lub od razu rozpocząać procedurę zbicia.
     * Pałkarz może podbić tłuczek próbując go złapać.
-    * Po pierwszym uderzeniu, wszelkie próby zmiany kierunku lotu tłuczka, w sposób inny niż próbowanie go złapać, popełnione przez uderzonego pałkarza są naruszeniem zasad uderzonego pałkarza.
+    * Po pierwszym uderzeniu, wszelkie próby zmiany kierunku lotu tłuczka, w sposób inny niż próbowanie go złapać, popełnione przez uderzonego pałkarza są naruszeniem tej zasad uderzonego pałkarzay.
 * Jeśli uderzony pałkarz zrobi cokolwiek innego niż akcje określone w punktach A-C, to jest on karany zgodnie z zasadami dla zbitego zawodnika.
 * Jeśli uderzony pałkarz złapie tłuczek zanim stanie się on martwy, to pałkarz ten nie jest zbity.
     * Uderzony pałkarz musi złapać wszystkie tłuczki, ożywione przez przeciwników, które w niego uderzyły, aby nie być zbitym.
@@ -275,3 +279,6 @@ Kafel wypuszczony w wyniku naturalnego ruchu, po zbiciu, jest nieaktywny.
     * Zostanie dotknięty przez zawodnika z tej samej drużyny, co rzucający, który gra kaflem i nie jest zbity.
     * Wejdzie w posiadanie dowolnego zawodnika.
   
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIxODU1MjAwMV19
+-->
