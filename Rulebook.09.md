@@ -13,7 +13,7 @@ Jeśli zawodnik popełni faul, który skutkuje powtórzeniem procedury, to zawod
 
 
 ### Powrót do pętli
-Jeśli zawodnik popełni faul, który karany jest powrotem do pętli:
+Jeśli zawodnik popełni faul, który karany jestze powrotem do pętli:
 
 * Gra zazwyczaj nie powinna być zatrzymywana.
 * Sędzia informuje zawodnika o naruszeniu i nakazuje ,,do pętli''.
@@ -65,11 +65,11 @@ Jeśli faul skutkuje kartką:
         * Zawodnik odbywający karę nie może być zmieniony z zawodnikiem rezerwowym, chyba że jest kontuzjowany lub usunięty z boiska.
     * Zawodnik, który otrzymał czerwoną kartkę, zostaje usunięty z boiska, a zawodnik rezerwowy jest wysłany do strefy kar.
         * Wszystkie wymagania i procedury związane z usuniętymi z boiska zawodnikami muszą być przestrzegane (patrz \myref{9.1.6}).
-* Kartki skutkują następującymi stratami:
+* Kartki skutukują następującymi stratami:
     * Każda piłka jaką posiadał zawodnik od momentu faulu do wstrzymania gry, musi zostać stracona na rzecz przeciwnej drużyny. Włączamy w to piłki, które nie mogły zostać przejęte przez faulowaną drużynę z powodu faulu.
     * Jeśli opóźniona kara skutkuje kartką i faulowana drużyna straciła kafel w czasie od momentu faulu do wstrzymania gry, to kafel jest im przekazany.
     * W przypadku żółtej lub czerwonej kartki, jeśli faulowana drużyna nie posiada kafla, to jest on jej przekazany.
-* Jeśli zawodnik dostaje drugą żółtą kartkę, to po pokazaniu żółtej kartki zawodnik zostaje usunięty z boiska. Zamiennik odbywa za niego czas kary.
+* Jeśli zawodnik dostaje drugą żółtą kartkę, to po pokazaniu żółtej kartki zawodnik zostaje usunięty z boiska. Zamiennik odbywa za , sędzia pokazuje równiegoż czaserwoną karytkę.
 * Gra jest wznowiona.
 
 
@@ -79,13 +79,16 @@ Jeśli kara skutkuje usunięciem zawodnika z boiska:
 * Usunięty z boiska zawodnik musi opuścić strefę graczy i nie może powrócić do końca meczu.
 * Jeśli zawodnik odmówi opuszczenia strefy graczy:
     * Drużyna zawodnika, musi pomóc mu w opuszczeniu strefy graczy.
-    * Jeśli zawodnik się opiera lub zaczyna być niebezpieczny, sędzia główny może zakończyć grę ze skutkiem poddania się drużyny zawodnika.
+    * Jeśli zawodnik się opiera lub zaczyna być niebezpieczny, sędzia główny może zakończyć grę ze skutukiem poddania się drużyny zawodnika.
 * Sędzia może zażądać aby zawodnik oddalił się od boiska.
 * Usunięty z boiska zawodnik nie może wrócić do strefy graczy ani komunikować się z kimkolwiek w strefie graczy.
     * Ta zasada nie zabrania mu kibicować.
 * Jeśli usunięty z boiska zawodnik był aktywny w grze, drużyna wyznacza zawodnika rezerwowego na jego miejsce.
+    * Jeśli usunięty z boiska zawodnik nie miał nadanego czasu kary i nie ma zawodnika rezerwowego, który spełniałby zasadę gener, to drużyna może grać jednego zawodnika mniej.
+        * Jeśli oznaczałoby to pozycję bez żadnego zawodnika, to zawodnik innej pozycji musi zmienić opaskę i przejść na miejsce gdzie był usunięty z boiska zawodnik.
 * Jeśli usunięty z boiska zawodnik miał nadal czas kary do odbycia, to zawodnik go zastępujący musi odbyć pozostały czas kary w strefie kary.
     * Jeśli usunięty z boiska zawodnik nie był aktywnie w grze, to _speaking captain_ wyznacza zawodnika na boisku, który zejdzie do strefy kar i odbędzie czas kary za usuniętego z boiska zawodnika.
+    * Jeśli zawodnik otrzymał czerwoną kartkę, podczas gdy odbywał czas kary za poprzedni faul, to poprzedni czas kary jest umorzony i zamiennik odbywa tylko dwie minuty kary.
   
 
 
@@ -98,7 +101,7 @@ Jeśli kara skutkuje usunięciem zawodnika z boiska:
 ### Poddanie gry
 Jeśli faul skutkuje poddaniem gry, faulująca drużyna poddaje grę (patrz \myref{3.6.1}).
 
-* Jeśli obie drużyny popełniły faul skutkujący poddaniem gry w tym samym zagraniu lub sytuacji, następuje ogłoszenie podwójnego poddania.
+* Jeśli obie drużyny popełniły faul skutukujący poddaniem gry w tym samym zagraniu lub sytuacji, następuje ogłoszenie podwójnego poddania.
 
 
 ### Standardowa kara za kontakt
@@ -136,7 +139,8 @@ W niektórych sytuacjach, kiedy zawodnik rezerwowy lub personel drużyny popełn
 * Jeśli wiele niezwiązanych naruszeń zostanie popełnionych przez rezerwowych lub personel, powinny być one traktowane jako oddzielne sytuacje na rzecz tej zasady.
     * Jeśli powodowałoby to kilka kar dla _Speaking captain_ to odbywa on tylko jedną najcięższą (lub jego zamiennik w przypadku czerwonej), a pozostałe czasy kar są odbywane przez zawodników ściągniętych z boiska.
         * Zawodnik ściągnięty z boiska nie ma przypisanej kartki, jedynie odbywa czas kary.
-        * Jeśli _speaking captain_ dostaje w ten sposób dwie żółte kartki, to zostaje usunięty z boiska.
+        * Jeśli _speaking captain_ dostaje w ten sposób dwie żółte kartki, to zdostaje usunięty z boiskarównież czerwoną.
+            * Jeśli nie miał wcześniej żółtej kartki, to jego zamiennik odbywa karę tylko za czerwoną kartkę, a czas kary za dwie żółte kartki nie jest odzielnie egzekwowany.
       
     
   
@@ -171,12 +175,16 @@ Jeśli zawodnik otrzymał kartkę zanim gra się rozpoczęła:
 * Faulująca drużyna rozpoczyna grę z jedną osobą mniej na linii startowej. Faulujący zawodnik, lub jego zamiennik w przypadku czerwonej kartki, zaczyna w strefie kar.
 * Czas kary zawodnika zaczyna się wraz z zawołaniem ,,Miotły w górę''.
 
+
 ### Kary dla szukających podczas uziemienia szukających
 Jeśli szukający otrzyma kartkę podczas uziemienia szukających:
 
 * Szukający jest wysłany do strefy kar.
 * Czas kary rozpoczyna się po zakończeniu uziemienia szukających.
-* Zdobycie bramki nie może wypuścić szukającego ze strefy kar zanim nie rozpocznie się jego czas kary.
+* Zdobycie bramki nie może wypuścić szukającego ze strefy kar zanim nie rozpoFaule po zakończeniu etapu gry
+
+* Zawodnik, który został ukarany kartką za faul, który popełnił przed sygnałem sędziego o zakończeniu etapu, gdy etap zakończył się remisem, odbywa swój czas kary w następnym etapie jako zawodnik tej samej pozycji, na której grał.
+* Zawodnik, który został ukarany kartką za faul, który popełnił po sygnale sędziego o zakończenie się jego czas kary.
 
 ### Faule po zakończeniu gry
 Jeśli zawodnik popełnił faul po zakończeniu gry, kara jest zapisana w dokumentacji meczu.
@@ -188,23 +196,44 @@ Jeśli zawodnik popełnił faul po zakończeniu gry, kara jest zapisana w dokume
 
 * Kartki skutkują jedną lub dwiema minutami kary dla ukaranej osoby.
     * Kiedy wszystkie kary zawodnika się skończyły, jest on wypuszczony ze strefy kar.
-    * Jeśli zawodnik odsiaduje czas za kilka kar, to odsiaduje czas kolejnych kar w kolejności w jakiej był nimi ukarany.
-    * Dwu-minutowa kara kończy się po tym jak zawodnik spędził pełne dwie minuty czasu gry w strefie kar.
-    * Jedno-minutowa kara kończy się jeśli zawodnik spędził minutę czasu gry w strefie kar, lub przeciwna drużyna zdobyła punkty w dowolny sposób.
-        * Pojedyńcze zdobycie punktów kończy jedną karę zawodnika odsiadującego najmniejszą pozostałą ilość jedno-minutowych kar.
-        * Jeśli dwóch zawodników ma tyle samo pozostałych jedno-minutowych kar, to kończona jest kara z najmniejszym pozostałym czasem.
-        * Jeśli dwóch zawodników ma tyle samo pozostałych jedno-minutowych kar i tyle samo czasu im pozostało to sędzia decyduje, któremu zawodnikowi kończy się jedna kara.
-    * Jeśli faulowana drużyna zdobędzie punkty przed zatrzymaniem gry i nałożeniem jedno-minutowej kary, oraz żadna trwająca kara nie byłaby zakończona tymi punktami, to nałożona kara od razu się kończy.
-        * Jeśli nakładane jest więcej niż jedna jedno-minutowa kara, to tylko jedna z nich jest od razu skończona.
+    * Jeśli zawodnik odsiaduje czas za kilka kar, to odsiadujeu etapu, gdy etap zakończył się remisem, odbywa swój czas kary w następnym etapie jako zawodnik pozycji wybranej przez _speaking captain_.
+* Jeśli zawodnik został ukarany za faul po zakończeniu meczu, to informacja o kartce musi pojawić się na scorecardzie.
+* Kiedy faul został popełniony po złapaniu i przed potwierdzeniem złapania, złapanie nie może negować czasu kolejnych kar w kolejności w jakiej był nimi ukarany.
+    * Dwu-minutowa kara kończy się po tym jak zawodnik spędził pełne dwieary, ani kara nie może negować złapania.
+
+
+## Strefa kar
+
+### Czas kary
+
+* Niebieskie i żółte kartki skutkują minutyą czasu gry w strefie kar.
+    * Jedno-minutowa kara kończy się jeśli zawodnik spędził minutę czasu gry w strefie kar, lub dla karanego zawodnika, chyba że drużyna przeciwna zdobędzie punkty w tym czasie.
+    * Kiedy przeciwna drużyna zdobyłaędzie punkty, w dowolny sposób, zawodnik z najmniejszą pozostałą ilością czasu za niebieską lub żółtą kartkę zostaje wypuszczony ze strefy kar.
+        * Pojedyńncze zdobycie punktów kończy jedną karę zawodnika odsiadującego najmniejszą pozostałą ilość jedno-minutowych może skutkować wypuszczeniem tylko jednego zawodnikar.
+            * Jeśli dwóch zawodników z tej samej drużyny ma tyleaki samo pozostałych jedno-minutowych czas kary, to kończona jest kara z najmniejszym pozostałym czasem.
+sędzia główny określa, który zostanie wypuszczony pierwszy.
+            * Jeśli dwóch zawodników ma tyle samo pozostałych jedno-minutowych kar i tyle samo czasu im pozostało to sędzia decyduje, któremu zawodnikowi kończy się jedna kara odbywa karę za kilka kartek, to punkty przeciwnika liczą się do jego wypuszczenia tylko jeśli żaden z innych zawodników z jego drużyny nie ma mniej pozostałego czasu kary.
+        * Samobój liczy się jako zdobycie punktów przez drużynę, która te punkty dostaje.
+    * Jeśli faulowana drużyna zdobędzie punkty przed zamiędzy momentem faulu, a wstrzymaniem gry, i nałożeniem jedno-minutowej kary, oraz żadna trwająca kara nie byłaby zakończona tymi punktami, to nałożona kara od razu się kończy.
+        * Jeśli nakładane jest więcej niż jedna jedno-minutoważaden zawodnik nie byłby wypuszczony ze względu na gol, karany zawodnik nie odbywa kary w strefie kar.
+        * Jeśli sędzia pokazał kilka niebieskich lub żółtych karatek, to tylko jedna z nich jest od razu skończona.
         * Jeśli zawodnik karany był tylko jedną jedno-minutową karą i została ona skończona, to nie przenosi się on do strefy kar.
-    * Jeśli zawodnik opuści strefę kar z dowolnego powodu, czas spędzony poza strefą kar nie jest liczony na rzecz tej kary.
+    * Jeśli zawodnik opuści strefę kar z dowolnego powodu, czas spędzony pozaczas kary jednej, wybranej przez sędziego, osoby jest anulowany.
+        * Jeśli zawodnik otrzymuje kilka kartek na raz za faule przed wstrzymaniem gry, to idzie do strefy kar i odbywa o jedną karę mniej.
+* Czerwona kartka skutkuje pełnymi dwiema minutami czasu gry w strefąie kar nie jest liczony na rzecz tej kary.
         * Jeśli zdobycie punktów skończyłoby karę zawodnika, który niepoprawnie opuścił strefę kar, to kara nie jest skończona, dopóki zawodnik nie powróci do strefy kar.
-* Czerwona kartka skutkuje dwu-minutową karą w strefie kar dla zamiennika.
+* Cdla zamiennika.
+    * Punkty przeciwnika nie mogą spowodować wypuszczenia tego zawodnika.
+* Nakładający się czas kary:
+    * Jeśli zawodnik dostaje czerwoną kartkę, jest usunięty z boiska, a wszelkie jego pozostałe kary są anulowane i zamiennik odbywa tylko karę za czerwoną kartkę.
+    * Jeśli osoba dostanie kilka kartek podczas jednego zatrzymania gry, bez czerwonaej kartka skutkuje dwu-minutową karą w strefie kar dla zamiennika.
 * Niebieskie i żółte kartki skutkują jedno-minutową karą dla faulującego zawodnika.
-* Jeśli osoba, odsiadująca karę za popełniony przez nią faul, otrzyma niebieską lub żółtą kartkę, to muszą spędzić dodatkową minutę w strefie kar.
-* Jeśli osoba, odsiadująca karę jako zamiennik, otrzyma kartkę:
-    * Inny zamiennik zostaje wyznaczony do dokończenia pierwotnej kary.
-    * Faulujący zawodnik traktowany jest zgodnie z zasadami kar dla zamienników (patrz \myref{9.2.3}).
+i, to odbywa po minucie kary za każdą kartkę lub dopóki przeciwna drużyna nie zdobędzie punktów tyle razy ile kartek, którekolwiek nastąpi pierwsze.
+    * Jeśli osoba, odsiadubywająca karę za popełniony przez nią faul, otrzyma niebieską lub żółtą kartkę, to muszą spędzić dodatkową minutę w strefie w strefie kar za własną karę otrzyma kolejną kartkę, nie czerwoną, to dodaje jej się minutę czasu kary lub dodatkowe zdobycie punktów przez przeciwnikar.
+    * Jeśli osoba, odsiadująca karę jako zamiennik, otrzyma kartkę:
+    * Inny zamiennik zostaje wyznaczony do dokończenia pierwotnej karyzawodnik otrzyma kartkę podczas odbywania kary za kogoś:
+        * Inny zamiennik musi odbyć pozostały czas kary za tego kogoś.
+     * Faulujący zawodnik    * Kara naruszającego zasady zawodnika powinna zostać potraktowanya jest zgodnie z zasadami kar dla zamiennikówak faul rezerwowego (patrz \myref{9.2.3}).
     
   
 
@@ -248,7 +277,7 @@ Gra jest wstrzymana podczas gdy zawodnik, członek personelu lub zawodnik rezerw
 
 ### Mierzenie czasu kar
 
-* Czas kary rozpoczyna się w momencie zagwizdania przez sędziego głównego na wznowienie gry.
+* Czas kary rozpoczyna się w momencie zagwizdania przez sędziego głównego na wznowienierestart gry.
 * W momencie upłynięcia czasu kary zawodnika, _timekeeper_ musi go wypuścić ze strefy kar.
     * Zawodnik nie jest wtedy na miotle i musi przeprowadzić procedurę zbicia.
     * Zawodnik w strefie kar może wrócić na boisko w momencie kiedy czas jego kary upłynie.
@@ -261,10 +290,11 @@ Jeśli zawodnik rezerwowy lub członek personelu drużyny otrzyma kartkę, druż
 * _Speaking captain_ wyznacza zawodnika w grze, który nie odbywa kary.
     * Jeśli więcej osób z ławki dostaje kartki, to odpowiednio więcej zawodników należy ściągnąć z boiska.
     * Wyznaczony zawodnik nie może być obrońcą, chyba że nie ma już innych zawodników, których ściągnięcie z boiska nie naruszyłoby zasady gender. %Chyba chodzi o to, że bierzemy pod uwagę gender zamiennika
-* Jeśli zawodnik rezerwowy otrzymujący kartkę nie jest usunięty z boiska, to dochodzi do zamiany między nim i wyznaczonym zawodnikiem.
+* Jeśli zawodnik rezerwowy otrzymujący kartkę nie jest usunięty z boiskaEeee?
+* Jeśli zawodnik rezerwowy otrzyma niebieską lub żółtą kartkę, to dochodzi do zamiany międzyz nim i wyznaczonymego zawodnikiema.
     * Faulujący zawodnik przechodzi do strefy kar.
     * Wyznaczony zawodnik wraca na ławkę i może wejść do gry przez standardową procedurę zmiany.
-* Jeśli zawodnik rezerwowy zostaje usunięty z boiska, to wyznaczony zawodnik przechodzi do strefy kar odbyć karę.
+* Jeśli zawodnik rezerwowy otrzymał czerwoną kartkę, zostaje usunięty z boiska, toa wyznaczony zawodnik przechodzi do strefy kar odbyć karęna pełne dwie minuty.
 * Jeśli członek personelu drużyny otrzymuje kartkę, wyznaczony zawodnik przechodzi do strefy kar i odbywa karę.
     * Jeśli członek personelu nie został usunięty z boiska, musi dołączyć do wyznaczonego zawodnika w strefie kar.
         * Po odbyciu kary, zawodnika wraca na boisko, a członek personelu na ławkę drużyny.
@@ -280,7 +310,7 @@ Jeśli wszyscy zawodnicy w grze danej drużyny znajdują się w strefie kar, ta 
 
 \penaltyd{Poddanie się}{Posiadanie wszystkich zawodników w strefie kar}
 
-## Przywilej korzyści
+## Przywilej korzyści (przewaga)
 
 ### Ogłaszanie przywileju
 Jeśli sędzia główny stwierdzi, że wstrzymanie gry z powodu faulu spowodowałoby przewagę dla drużyny faulującej, może on opóźnić wstrzymanie gry przez ogłoszenie przywileju.
@@ -294,7 +324,7 @@ Jeśli sędzia główny stwierdzi, że wstrzymanie gry z powodu faulu spowodowa�
         * Faulowana drużyna nie atakuje aktywnie aby strzelić.
         * Faulowana drużyna popełni oddzielny faul.
         * Zostanie złapany znicz.
-* Kiedy przywilej się skończy, sędzia musi wstrzymać grę i rozdać odpowiednie kary.
+* Kiedy przywilej się skończy, sędzia musi wstrzymać grę i rozdzać odpowiednie kary.
     * Jeśli drużyna, która się broniła podczas przywileju, nie zostanie ukarana, gra zostaje wznowiona tak, jakby przywilej nie był ogłaszany.
   
 
@@ -306,7 +336,7 @@ Gra wstrzymana po ogłoszonym przywileju jest wznawiana w następujący sposób:
 * Jeśli pierwotnie faulowana drużyna nie zdobyła gola przed upłynięciem przywileju:
     * Osoba posiadająca kafel w momencie faulu (lub jej zamiennik) wraca na miejsce znacznika przywileju i dostaje w ręce kafel, przed wznowieniem gry.
         * Jeśli ten zawodnik był zbity, wraca na miejsce znacznika jako zdolny do gry zawodnik.
-        * Jeśli ten zawodnik popełnił faul skutkujący powrotem do pętli podczas przywileju lub został wysłany do strefy kar, inny zdolny do gry kaflem zawodnik tej drużyny, będący najbliżej znacznika przywileju, przechodzi na to miejsce i otrzymuje kafel.
+        * Jeśli ten zawodnik popełnił faul, skutkujący powrotem do pętli, podczas przywileju lub został wysłany do strefy kar, inny zdolny do gry kaflem zawodnik tej drużyny, będący najbliżej znacznika przywileju, przechodzi na to miejsce i otrzymuje kafel.
         * Jeśli kafel został stracony na rzecz pierwotnie faulującej drużyny, żaden z zawodników nie idzie na miejsce znacznika.
     * Pozostali zawodnicy zostają tam gdzie się zatrzymali i jeśli byli zbici, to zbici pozostają.
     * Gra zostaje wznowiona przez sędziego głównego.
@@ -319,7 +349,7 @@ Gra wstrzymana po ogłoszonym przywileju jest wznawiana w następujący sposób:
 Wszystkie niebieskie, żółte i czerwone kartki, oraz kary za bronienie trzeciego tłuczka, zgłoszone przez sędziów innych niż sędzia główny są opóźnionymi karami.
 
 * Jeśli sędzia główny również widzi i zgłasza faul, to nie jest to opóźniona kara.
-* Jeśli gra zostaje wstrzymana w związku z tą procedurą, ale nikt nie jest ukarany, to nie było to opóźnioną karą.
+* Jeśli gra zostaje wstrzymana w związku z tą procedurą, ale nikt nie jest użadne kartki nie są pokarzanye, to nie było to opóźnioną karą.
 
 
 ### Zgłaszanie opóźnionej kary
@@ -331,7 +361,7 @@ Wszystkie niebieskie, żółte i czerwone kartki, oraz kary za bronienie trzecie
     * Sędzia główny może pozwolić grze na kontynuację w ramach przywileju korzyści, chyba że faulowanie jest kontynuowane bądź się pogarsza.
         * Jeśli sędzia główny kontynuuje grę jako przywilej korzyści, podnosi swoją własną rękę.
 * Jeśli kolejny faul zostanie popełniony przez dowolną z drużyn, sędzia główny powinien wstrzymać grę i ogłosić obie kary od razu.
-* Po rozdaniu wszystkich kar, gra jest wznawiana.
+* Po rozdzaniu wszystkich kar, gra jest wznawiana.
 
 ## Alternatywne wznowienie po karze
 
@@ -350,3 +380,6 @@ Po ukarania kartką lub za bronienie trzeciego tłuczka, ścigający posiadając
     * Wszelkie kartki i kary za naruszenie trzeciego tłuczka zostały nałożone podczas tego zatrzymania gry na drużynę tego zawodnika.
 
     
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTM3NDAxMjEwXX0=
+-->
