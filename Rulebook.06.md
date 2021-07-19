@@ -5,7 +5,7 @@
 ### Nielegalny kontakt fizyczny
 Poniższe formy kontaktu są zawsze nielegalne, chyba że sędzia uzna, że był on przypadkowy:
 
-* Celowe kontaktowanie zawodnika innej pozycji.
+* Celowe kontaktowanie zawodnika innej pozycji, oprócz kontaktu między ścigającymi i obrońcami.
 * Celowe kontaktowanie znicza (z wyłączeniem szukających).
 * Kopnięcie przeciwnika.
 * Kontakt głową z użyciem siły.
@@ -26,7 +26,7 @@ Blokiem nazywamy kontakt, w którym zawodnik ustawia się w legalnej pozycji na 
 
 * Blok uznaje się za ustawiony kiedy blokujący zawodnik ustawi się na przewidywanej drodze przeciwnika.
 * Wszystkie bloki muszą przebiegać według poniższych zasad, niezależnie od tego, czy któryś z zawodników ma piłkę:
-    * Nielegalne jest blokowanie zawodnika innej pozycji.
+    * Nielegalne jest blokowanie zawodnika innej pozycji, z wyłączeniem interakcji między obrońcami i ścigającymi.
     * Nielegalne jest wystawienie pojedynczego punktu ciała, np. łokcia lub ramienia, podczas bloku, aby przeciwnik na niego nabiegł.
     * Jeśli zawodnik inicjuje kontakt, a nie wbiegnięto na niego, nie jest to blok.
     * Stopy zawodnika nie muszą być ustawione na ziemi, aby zagranie było legalne.
@@ -75,8 +75,8 @@ Zawodnicy mogą robić wślizgi i nurkować. Nielegalne jest jednak:
 ### Przeskakiwanie
 Skakanie lub nurkowanie w pełni przez inną osobę to przeskakiwanie.
 
-* Nielegalne jest przeskakiwanie lub próba przeskoczenia osoby, która nie dotyka ziemi częścią ciała inną niż stopami.
-    * Jeśli przeskakujący zawodnik był zmuszony do nielegalnego przeskoku ze względu na działania osoby, nad którą przeskoczył, aby uniknąć bardziej niebezpiecznej sytuacji, to taki przeskok nie powinien być karany.
+* Nieleagalne jest przeskakiwanie lub próba przeskoczenia osoby, która nie dotyka ziemi częścią ciała inną niż stopami.
+    * Jeśli przeskakujący zawodnik był zmuszony do nielegalnego przeskoku ze względu na działania osoby, nad którą przeszkoczył, aby uniknąć bardziej niebezpiecznej sytuacji, to taki przeskok nie powinien być karany.
 * Jeśli zawodnik podskoczy, aby sięgnąć nad osobę, włączając w to próbę rzutu lub złapania znicza, i wyląduje na ziemi po tej samej stronie, po której skoczył, nie jest to przeskakiwanie.
     * Jeśli zawodnik spróbuje przeskoczyć, ale mu się nie uda, jest to próba przeskakiwania.
 * Jeśli zawodnik wyskoczy, nie próbując przeskoczyć, ale upadnie na drugą osobę, ponieważ doznał kontaktu w powietrzu, nie jest to przeskakiwanie.
@@ -98,7 +98,7 @@ Skakanie lub nurkowanie w pełni przez inną osobę to przeskakiwanie.
 Zawodnik, który jest w trakcie łapania lecącej w powietrzu piłki, jest bezbronnym łapaczem.
 
 * Łapiący zawodnik nie musi oderwać stóp od ziemi, żeby być bezbronnym.
-* Łapiący zawodnik będący w powietrzu pozostaje bezbronny, dopóki jego nogi nie zaabsorbowały wstrząsu lądowania na ziemi, po tym jak samodzielnie posiadł piłkę lub przestał próbować ją złapać.
+* Łapiący zawodnik będący w powietrzu pozostaje bezbronny, dopóki jego nogi nie zaabsorbowały wstrząsu lądowania na ziemi, po tym jak samodzielnienie stoi stabilnie po zdobyciu samodzielnego, pełnego posiadłania piłkęi lub dopóki nie przestałnie próbować ją złapać.
 * Nie można popychać, obejmować lub przewracać bezbronnego łapacza ani szarżować na niego.
 * Zawodnik, który zdaniem sędziego podrzucił piłkę do siebie samego, aby wymusić faul przeciwnika, nie będzie uznany za bezbronnego łapacza dla tego rzutu.
 * Przypadkowy kontakt powstały w skutek próby wpłynięcia na piłkę nie powinien być karany pod tą zasadą.
@@ -190,7 +190,7 @@ Szczególnie rażąco nielegalny kontakt jest zabroniony. Następujące są zaws
 Blokowanie ciałem zachodzi wtedy, kiedy po zetknięciu ciałem (lub rękoma, jeśli są przy ciele) bez użycia siły, zawodnik przykłada siłę, przepychając przeciwnika.
 
 * Nielegalne jest blokowanie ciałem przy użyciu głowy, nóg lub stóp.
-* Nielegalne jest wystawianie łokcia w kierunku przeciwnika podczas blokowania ciałem.
+* Nieleagalne jest wystawianie łokcia w kierunku przeciwnika podczas blokowania ciałem.
 * Nielegalne jest blokowanie ciałem, jeśli kontakt został zainicjowany od tyłu (patrz \myref{6.1.9}).
 
 
@@ -261,7 +261,7 @@ Standardowe zasady kontaktu między zawodnikami tyczą się również szukający
         * Jeśli ruch, który byłby szarżą, nie kończy się kontaktem na nogi, pas lub tułów znicza, nie jest on określany jako szarża.
     * Pchanie nóg, pasa lub tułów znicza.
     * Chwytanie lub przytrzymywanie rąk znicza.
-    * Przeskakiwanie lub próba przeskoczenia nad zniczem, kiedy ten nie dotyka ziemi dowolną częścią ciała inną niż stopy.
+    * Przeskakiwanie lub próba przeskoczenia nad zniczem, kiedy ten nie dotyka ziemi dowolną częśscią ciała inną niż stopy.
     * Przewracanie lub próba przewrócenia znicza.
     * Chwytanie znicza za ubranie.
         * Jeśli szukający od razu wypuści ubranie, nie będzie to karane.
@@ -277,7 +277,7 @@ Standardowe zasady kontaktu między zawodnikami tyczą się również szukający
 ## Pierwszeństwo
 
 ### Pierwszeństwo między zawodnikami różnych pozycji
-Zawodnicy grający na różnych pozycjach nie mogą wchodzić w fizyczne interakcje między sobą. Do takich sytuacji zastosowanie mają poniższe zasady:
+Zawodnicy grający na różnych pozycjach nie mogą wchodzić w fizyczne interakcje między sobą  (z wyjątkiem obrońców i ścigających). Do takich sytuacji zastosowanie mają poniższe zasady:
 
 * Pierwszeństwo w przypadku zawodników różnych pozycji (od największego priorytetu do najmniejszego):
     * Stojący zawodnik z piłką.
@@ -374,3 +374,6 @@ Nielegalne jest symulowanie faulu.
 
 \yellowcard{Symulowanie faulu}
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQwMzM2MDc3Ml19
+-->
